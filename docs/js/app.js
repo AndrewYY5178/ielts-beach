@@ -392,7 +392,7 @@ class App {
 
   _registerSW() {
     if (!('serviceWorker' in navigator)) return;
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('sw.js')
       .then(reg => console.log('[App] SW registered:', reg.scope))
       .catch(err => console.warn('[App] SW registration failed:', err));
   }
