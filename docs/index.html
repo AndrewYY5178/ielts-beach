@@ -108,7 +108,7 @@
 
     <!-- GAME SCREEN -->
     <div id="screen-game" class="screen hidden">
-      <div class="game-header">
+      <div class="game-top-bar">
         <button id="btn-game-back" class="btn-icon" aria-label="Back to menu">&#10005;</button>
         <div class="game-score">
           <span class="score-known" id="game-known">0</span>
@@ -118,41 +118,44 @@
         <div class="game-progress-bar">
           <div class="game-progress-fill" id="game-progress-fill"></div>
         </div>
+        <div class="game-timer">
+          <svg class="timer-ring" viewBox="0 0 60 60">
+            <circle class="timer-ring-bg" cx="30" cy="30" r="26"/>
+            <circle class="timer-ring-fill" id="timer-ring-fill" cx="30" cy="30" r="26"/>
+          </svg>
+          <span class="timer-text" id="timer-text">10</span>
+        </div>
+      </div>
+
+      <!-- Gesture guide (subtle, top) -->
+      <div class="gesture-guide" id="gesture-guide">
+        <span class="gesture-item">&#8593; know</span>
+        <span class="gesture-item">&#8595; review</span>
+        <span class="gesture-item">&#8592; undo</span>
       </div>
 
       <div class="game-card-area" id="game-card-area">
-        <!-- Gesture hints -->
-        <div class="gesture-hints" id="gesture-hints">
-          <div class="hint hint-up">&#8593; know</div>
-          <div class="hint hint-down">&#8595; unknown</div>
-          <div class="hint hint-left">&#8592; undo</div>
-          <div class="hint hint-double">double-tap fav</div>
-        </div>
-
         <!-- Sentence Card -->
         <div class="sentence-card" id="sentence-card">
-          <div class="card-timer">
-            <svg class="timer-ring" viewBox="0 0 60 60">
-              <circle class="timer-ring-bg" cx="30" cy="30" r="26"/>
-              <circle class="timer-ring-fill" id="timer-ring-fill" cx="30" cy="30" r="26"/>
-            </svg>
-            <span class="timer-text" id="timer-text">10</span>
-          </div>
-          <div class="card-content">
-            <p class="sentence-text" id="sentence-text"></p>
-            <div class="word-badge" id="word-badge"></div>
-          </div>
-          <div class="card-hint-text">
-            <span class="key-hint" id="key-hints"></span>
-          </div>
+          <p class="sentence-text" id="sentence-text"></p>
         </div>
 
-        <!-- Action Toast -->
-        <div class="action-toast" id="action-toast"></div>
-
-        <!-- Heart animation container -->
-        <div class="heart-burst" id="heart-burst"></div>
+        <!-- Word info below card -->
+        <div class="word-info" id="word-info">
+          <span class="word-badge" id="word-badge"></span>
+        </div>
       </div>
+
+      <!-- Keyboard hints (bottom) -->
+      <div class="keyboard-hints" id="keyboard-hints">
+        <span class="key-hint" id="key-hints"></span>
+      </div>
+
+      <!-- Action Toast -->
+      <div class="action-toast" id="action-toast"></div>
+
+      <!-- Heart animation container -->
+      <div class="heart-burst" id="heart-burst"></div>
     </div>
 
     <!-- REVIEW SCREEN -->

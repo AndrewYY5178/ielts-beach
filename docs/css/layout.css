@@ -33,6 +33,7 @@
   transition: opacity var(--transition-normal);
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  background: var(--paper);  /* solid bg prevents lower screens from showing through */
 }
 
 .screen.hidden { display: none; }

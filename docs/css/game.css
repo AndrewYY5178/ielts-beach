@@ -1,34 +1,40 @@
-/* game.css — Game screen */
+/* game.css — Game screen: clean vertical layout */
 
-.game-header {
+#screen-game.screen-active {
+  display: flex;
+  flex-direction: column;
+}
+
+/* === Top bar === */
+.game-top-bar {
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  padding-bottom: var(--space-md);
-  margin-bottom: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
   border-bottom: 1px solid var(--rule);
+  flex-shrink: 0;
 }
 
 .game-score {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 3px;
   font-family: var(--font-mono);
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
+  min-width: 56px;
 }
 
-.score-known { color: var(--accent); }
+.score-known  { color: var(--accent); }
 .score-divider { color: var(--ink-muted); }
 .score-unknown { color: var(--danger); }
 
 .game-progress-bar {
   flex: 1;
-  height: 4px;
-  background: rgba(255,255,255,0.06);
+  height: 3px;
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 2px;
   overflow: hidden;
-  margin-left: var(--space-sm);
 }
 
 .game-progress-fill {
@@ -38,79 +44,12 @@
   transition: width 0.3s ease;
 }
 
-.game-card-area {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+/* Timer in top bar */
+.game-timer {
   position: relative;
-  min-height: 0;
-}
-
-/* Gesture hints */
-.gesture-hints {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  z-index: 2;
-}
-
-.gesture-hints.visible { opacity: 1; }
-
-.hint {
-  position: absolute;
-  font-family: var(--font-body);
-  font-size: 13px;
-  color: var(--ink-light);
-  padding: 6px 14px;
-  background: var(--glass-bg);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--radius-full);
-}
-
-.hint-up    { top: 20px; }
-.hint-down  { bottom: 20px; }
-.hint-left  { left: 20px; top: 50%; transform: translateY(-50%); }
-.hint-double { right: 20px; top: 50%; transform: translateY(-50%); }
-
-/* Sentence card */
-.sentence-card {
-  position: relative;
-  width: 100%;
-  max-width: 380px;
-  padding: var(--space-xl) var(--space-xl) var(--space-lg);
-  background: var(--glass-bg);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border: 1px solid var(--glass-border);
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-card);
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  cursor: grab;
-}
-
-.sentence-card:active { cursor: grabbing; }
-
-.sentence-card.fly-up   { animation: flyUp   0.35s ease-out forwards; }
-.sentence-card.fly-down { animation: flyDown 0.35s ease-out forwards; }
-.sentence-card.fly-left { animation: flyLeft 0.35s ease-out forwards; }
-
-/* Timer */
-.card-timer {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  width: 52px;
-  height: 52px;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +65,7 @@
 
 .timer-ring-bg {
   fill: none;
-  stroke: rgba(255,255,255,0.06);
+  stroke: rgba(255, 255, 255, 0.08);
   stroke-width: 3;
 }
 
@@ -137,7 +76,7 @@
   stroke-linecap: round;
   stroke-dasharray: 163.36;
   stroke-dashoffset: 0;
-  transition: stroke 0.3s ease;
+  transition: stroke 0.3s ease, stroke-dashoffset 1s linear;
 }
 
 .timer-ring-fill.warning { stroke: var(--accent); }
@@ -145,38 +84,98 @@
 
 .timer-text {
   font-family: var(--font-mono);
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 700;
   color: var(--ink);
   z-index: 1;
 }
 
-/* Card content */
-.card-content { padding-right: 50px; }
+/* === Gesture guide (subtle text hints at top) === */
+.gesture-guide {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-xl);
+  padding: var(--space-sm) var(--space-lg);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  flex-shrink: 0;
+}
+
+.gesture-guide.visible {
+  opacity: 1;
+}
+
+.gesture-item {
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+/* === Card area === */
+.game-card-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+  gap: var(--space-md);
+  min-height: 0;
+}
+
+/* Sentence card */
+.sentence-card {
+  width: 100%;
+  max-width: 420px;
+  padding: var(--space-xl);
+  background: var(--glass-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  cursor: grab;
+}
+
+.sentence-card:active {
+  cursor: grabbing;
+}
+
+.sentence-card.fly-up   { animation: flyUp   0.35s ease-out forwards; }
+.sentence-card.fly-down { animation: flyDown 0.35s ease-out forwards; }
+.sentence-card.fly-left { animation: flyLeft 0.35s ease-out forwards; }
 
 .sentence-text {
   font-family: var(--font-body);
-  font-size: clamp(16px, 3.5vw, 20px);
+  font-size: clamp(17px, 3.5vw, 21px);
   line-height: 1.7;
   color: var(--ink);
 }
 
+/* Word info below card */
+.word-info {
+  text-align: center;
+}
+
 .word-badge {
-  margin-top: var(--space-md);
+  display: inline-block;
   font-family: var(--font-mono);
   font-size: 13px;
   color: var(--ink-light);
-  padding: 4px 10px;
-  background: rgba(255,255,255,0.04);
-  border-radius: var(--radius-sm);
-  display: inline-block;
+  padding: 5px 12px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-full);
 }
 
-.card-hint-text {
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-50%);
+/* === Keyboard hints (bottom) === */
+.keyboard-hints {
+  text-align: center;
+  padding: var(--space-sm) var(--space-lg);
+  flex-shrink: 0;
 }
 
 .key-hint {
@@ -185,10 +184,10 @@
   color: var(--ink-muted);
 }
 
-/* Action toast */
+/* === Action toast === */
 .action-toast {
-  position: absolute;
-  bottom: 40px;
+  position: fixed;
+  bottom: 60px;
   left: 50%;
   transform: translateX(-50%) translateY(20px);
   padding: 10px 24px;
@@ -201,10 +200,11 @@
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--glass-border);
   border-radius: var(--radius-full);
+  box-shadow: var(--shadow-card);
   opacity: 0;
   pointer-events: none;
   transition: all 0.25s ease;
-  z-index: 3;
+  z-index: 10;
 }
 
 .action-toast.visible {
@@ -215,10 +215,15 @@
 .action-toast.toast-known  { color: var(--accent); }
 .action-toast.toast-unknown { color: var(--danger); }
 .action-toast.toast-fav     { color: var(--accent); }
-.action-toast.toast-timeout { color: var(--warning, #F39C12); }
+.action-toast.toast-timeout { color: #F39C12; }
 
-/* Heart burst */
-.heart-burst { position: absolute; inset: 0; pointer-events: none; z-index: 4; }
+/* === Heart burst === */
+.heart-burst {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 5;
+}
 
 .floating-heart {
   position: absolute;
@@ -227,7 +232,7 @@
   pointer-events: none;
 }
 
-/* Keyframes */
+/* === Keyframes === */
 @keyframes flyUp   { to { transform: translateY(-120%) rotate(-8deg); opacity: 0; } }
 @keyframes flyDown { to { transform: translateY(120%) rotate(8deg); opacity: 0; } }
 @keyframes flyLeft { to { transform: translateX(-120%) rotate(-5deg); opacity: 0; } }
@@ -236,10 +241,22 @@
   100% { opacity: 0; transform: translateY(-80px) scale(0.5); }
 }
 
+/* === Responsive === */
 @media (max-width: 374px) {
-  .sentence-card { padding: var(--space-lg) var(--space-lg) var(--space-md); }
-  .card-timer { width: 44px; height: 44px; }
+  .game-top-bar {
+    padding: var(--space-sm) var(--space-md);
+    gap: var(--space-sm);
+  }
+  .sentence-card {
+    padding: var(--space-lg);
+  }
+  .game-timer {
+    width: 34px;
+    height: 34px;
+  }
 }
 
 [data-device="ipad"] .sentence-card,
-[data-device="mac"] .sentence-card { max-width: 480px; }
+[data-device="mac"] .sentence-card {
+  max-width: 520px;
+}
