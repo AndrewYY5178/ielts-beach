@@ -16,7 +16,7 @@ Learn IELTS vocabulary through sentences. Offline-first, focused, minimal.
 ## How to Run
 
 ```bash
-cd public
+cd docs
 npx serve . -p 8080
 # Open http://localhost:8080
 ```
@@ -42,7 +42,7 @@ npx serve . -p 8080
 
 ```
 ielts-beach/
-├── public/                  # Frontend (PWA)
+├── docs/                    # Frontend (PWA)
 │   ├── index.html           # Single-page entry point
 │   ├── css/                 # 12 CSS files
 │   ├── js/                  # 12 JS modules
