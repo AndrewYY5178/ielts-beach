@@ -99,8 +99,6 @@ class Game {
     const sentenceEl = document.getElementById('sentence-text');
     const badgeEl = document.getElementById('word-badge');
     const timerText = document.getElementById('timer-text');
-    const toastEl = document.getElementById('action-toast');
-    const keyHints = document.getElementById('key-hints');
 
     if (sentenceEl) {
       // Highlight the target word in the sentence
@@ -115,16 +113,6 @@ class Game {
     if (toastEl) {
       toastEl.className = 'action-toast';
       toastEl.textContent = '';
-    }
-
-    // Show keyboard hints for Mac
-    if (keyHints) {
-      const device = store.get('device');
-      if (device === 'mac') {
-        keyHints.textContent = '↑W know · ↓S unknown · ←A undo · Space/F fav';
-      } else {
-        keyHints.textContent = '';
-      }
     }
 
     // Start countdown
@@ -260,12 +248,15 @@ class Game {
     const currentWord = this._getCurrentWord();
     if (!currentWord) return;
 
+    const card = document.getElementById('sentence-card');
+
     switch (direction) {
       case 'up': {
         store.set('game.knownCount', store.get('game.knownCount') + 1);
         this._recordAction('known', currentWord);
         this._showToast('✓ Got it!', 'toast-known');
         this._refreshGameHeader();
+        if (card) { card.classList.add('flyCardUp'); setTimeout(() => card.classList.remove('flyCardUp'), 350); }
         this._advanceToNext();
         break;
       }
@@ -274,6 +265,7 @@ class Game {
         this._recordAction('unknown', currentWord);
         this._showToast('Added to review', 'toast-unknown');
         this._refreshGameHeader();
+        if (card) { card.classList.add('flyCardDown'); setTimeout(() => card.classList.remove('flyCardDown'), 350); }
         this._checkUnknownThreshold();
         this._advanceToNext();
         break;
@@ -534,13 +526,11 @@ class Game {
 
   // Direct DOM update for game header — called inline after every score change
   _refreshGameHeader() {
-    const kn = document.getElementById('game-known');
-    const un = document.getElementById('game-unknown');
+    const label = document.getElementById('game-score-label');
     const bar = document.getElementById('game-progress-fill');
     const known = Number(store.get('game.knownCount')) || 0;
     const unknown = Number(store.get('game.unknownCount')) || 0;
-    if (kn) kn.textContent = known;
-    if (un) un.textContent = unknown;
+    if (label) label.textContent = `${known} / ${unknown}`;
     if (bar) {
       const words = store.get('game.sessionWords') || [];
       const idx = Number(store.get('game.currentIndex')) || 0;

@@ -108,54 +108,42 @@
 
     <!-- GAME SCREEN -->
     <div id="screen-game" class="screen hidden">
-      <div class="game-top-bar">
-        <button id="btn-game-back" class="btn-icon" aria-label="Back to menu">&#10005;</button>
-        <div class="game-score">
-          <span class="score-known" id="game-known">0</span>
-          <span class="score-divider">/</span>
-          <span class="score-unknown" id="game-unknown">0</span>
-        </div>
-        <div class="game-progress-bar">
+      <!-- Glass top bar -->
+      <div class="game-topbar">
+        <button id="btn-game-back" class="game-back-btn" aria-label="Back">&#8592;</button>
+        <span class="game-score-label" id="game-score-label">0 / 0</span>
+        <div class="game-progress-track">
           <div class="game-progress-fill" id="game-progress-fill"></div>
         </div>
-        <div class="game-timer">
-          <svg class="timer-ring" viewBox="0 0 60 60">
-            <circle class="timer-ring-bg" cx="30" cy="30" r="26"/>
-            <circle class="timer-ring-fill" id="timer-ring-fill" cx="30" cy="30" r="26"/>
+        <div class="game-timer-pill" id="game-timer-pill">
+          <svg class="timer-ring-sm" viewBox="0 0 40 40">
+            <circle class="timer-ring-bg" cx="20" cy="20" r="17"/>
+            <circle class="timer-ring-fill" id="timer-ring-fill" cx="20" cy="20" r="17"/>
           </svg>
           <span class="timer-text" id="timer-text">10</span>
         </div>
       </div>
 
-      <!-- Gesture guide (subtle, top) -->
-      <div class="gesture-guide" id="gesture-guide">
-        <span class="gesture-item">&#8593; know</span>
-        <span class="gesture-item">&#8595; review</span>
-        <span class="gesture-item">&#8592; undo</span>
-      </div>
-
+      <!-- Card area -->
       <div class="game-card-area" id="game-card-area">
-        <!-- Sentence Card -->
-        <div class="sentence-card" id="sentence-card">
+        <div class="glass-card" id="sentence-card">
           <p class="sentence-text" id="sentence-text"></p>
-        </div>
-
-        <!-- Word info below card -->
-        <div class="word-info" id="word-info">
+          <div class="word-divider"></div>
           <span class="word-badge" id="word-badge"></span>
         </div>
       </div>
 
-      <!-- Keyboard hints (bottom) -->
-      <div class="keyboard-hints" id="keyboard-hints">
-        <span class="key-hint" id="key-hints"></span>
+      <!-- Gesture pills -->
+      <div class="game-gestures" id="game-gestures">
+        <span class="gesture-pill">&#8593; known</span>
+        <span class="gesture-pill">&#8595; review</span>
+        <span class="gesture-pill">&#8592; undo</span>
       </div>
 
       <!-- Action Toast -->
       <div class="action-toast" id="action-toast"></div>
-
-      <!-- Heart animation container -->
       <div class="heart-burst" id="heart-burst"></div>
+    </div>
     </div>
 
     <!-- REVIEW SCREEN -->
