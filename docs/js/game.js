@@ -110,9 +110,10 @@ class Game {
       badgeEl.textContent = `${word.word} · ${word.partOfSpeech} · ${word.cefrLevel}`;
     }
 
+    // Reset toast
+    const toastEl = document.getElementById('action-toast');
     if (toastEl) {
       toastEl.className = 'action-toast';
-      toastEl.textContent = '';
     }
 
     // Start countdown
@@ -183,17 +184,11 @@ class Game {
       const duration = store.get('game.timerDuration');
       this._updateTimerRing(remaining, duration);
 
-      // Color pulse at thresholds
+      // Color warning at 25%
       const ring = document.getElementById('timer-ring-fill');
       if (ring) {
         const ratio = remaining / duration;
-        if (ratio <= 0.1) {
-          ring.style.stroke = '#FF4444';
-        } else if (ratio <= 0.25) {
-          ring.style.stroke = '#FFA500';
-        } else if (ratio <= 0.5) {
-          ring.style.stroke = '#FFD700';
-        }
+        ring.classList.toggle('danger', ratio <= 0.25);
       }
 
       if (remaining <= 0) {
@@ -220,7 +215,7 @@ class Game {
     const ring = document.getElementById('timer-ring-fill');
     if (!ring) return;
 
-    const circumference = 2 * Math.PI * 26; // r=26 from SVG
+    const circumference = 2 * Math.PI * 17; // r=17 from SVG
     const offset = circumference * (1 - remaining / total);
     ring.style.strokeDasharray = `${circumference}`;
     ring.style.strokeDashoffset = `${offset}`;
