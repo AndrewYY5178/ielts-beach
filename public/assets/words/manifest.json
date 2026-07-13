@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "totalWords": 3007,
+  "packCount": 7,
+  "generated": "2026-07-02",
+  "packs": [
+    {
+      "id": "pack-01",
+      "file": "pack-01.json",
+      "count": 500,
+      "cefrDistribution": {
+        "B1": 125,
+        "B2": 125,
+        "C1": 125,
+        "C2": 125
+      },
+      "label": "B1-C2"
+    },
+    {
+      "id": "pack-02",
+      "file": "pack-02.json",
+      "count": 500,
+      "cefrDistribution": {
+        "B1": 125,
+        "B2": 125,
+        "C1": 125,
+        "C2": 125
+      },
+      "label": "B1-C2"
+    },
+    {
+      "id": "pack-03",
+      "file": "pack-03.json",
+      "count": 500,
+      "cefrDistribution": {
+        "B1": 125,
+        "B2": 125,
+        "C1": 125,
+        "C2": 125
+      },
+      "label": "B1-C2"
+    },
+    {
+      "id": "pack-04",
+      "file": "pack-04.json",
+      "count": 500,
+      "cefrDistribution": {
+        "B1": 125,
+        "B2": 125,
+        "C1": 125,
+        "C2": 125
+      },
+      "label": "B1-C2"
+    },
+    {
+      "id": "pack-05",
+      "file": "pack-05.json",
+      "count": 500,
+      "cefrDistribution": {
+        "B1": 72,
+        "B2": 176,
+        "C1": 175,
+        "C2": 77
+      },
+      "label": "B1-C2"
+    },
+    {
+      "id": "pack-06",
+      "file": "pack-06.json",
+      "count": 500,
+      "cefrDistribution": {
+        "B2": 55,
+        "C1": 445
+      },
+      "label": "B2-C1"
+    },
+    {
+      "id": "pack-07",
+      "file": "pack-07.json",
+      "count": 7,
+      "cefrDistribution": {
+        "C1": 7
+      },
+      "label": "Level C1"
+    }
+  ],
+  "cefrDistribution": {
+    "B1": 572,
+    "B2": 731,
+    "C1": 1127,
+    "C2": 577
+  },
+  "source": "IELTS vocabulary compilation (AI-generated)"
+}

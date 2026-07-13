@@ -1,0 +1,11 @@
+name = "ielts-beach"
+main = "src/index.js"
+compatibility_date = "2026-06-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ielts-beach-db"
+database_id = "3592c843-fb96-4bef-9e83-d143ca7ae2e7"
+
+# Deploy: wrangler deploy
+# Local dev: wrangler dev --local

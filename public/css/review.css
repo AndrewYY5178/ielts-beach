@@ -1,0 +1,167 @@
+/* review.css — Review mode: 3D card flip */
+
+#screen-review.screen-active {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding-bottom: var(--space-md);
+  margin-bottom: var(--space-md);
+  border-bottom: 1px solid var(--rule);
+}
+
+.review-title {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink);
+  flex: 1;
+}
+
+.review-progress {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--ink-light);
+}
+
+/* Flip card container */
+.review-card-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+}
+
+.flip-card {
+  width: 100%;
+  max-width: 380px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transform-style: preserve-3d;
+}
+
+.flip-card-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl);
+  background: var(--glass-bg);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  gap: var(--space-sm);
+}
+
+.flip-sentence {
+  font-family: var(--font-body);
+  font-size: clamp(15px, 3vw, 18px);
+  line-height: 1.7;
+  color: var(--ink);
+  text-align: center;
+}
+
+.flip-hint {
+  margin-top: var(--space-md);
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+.flip-word {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 5vw, 28px);
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.flip-phonetic {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--ink-light);
+}
+
+.flip-pos {
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-muted);
+  background: rgba(255,255,255,0.04);
+  padding: 2px 10px;
+  border-radius: var(--radius-sm);
+}
+
+.flip-definition {
+  font-family: var(--font-cn);
+  font-size: 15px;
+  color: var(--ink-light);
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Navigation */
+.review-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+  margin-top: var(--space-lg);
+}
+
+.review-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.review-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  transition: background var(--transition-hover);
+}
+
+.review-dot.active { background: var(--accent); }
+.review-dot.reviewed { background: var(--ink-light); }
+
+.review-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-lg);
+}
+
+@media (max-width: 374px) {
+  .flip-card { height: 260px; }
+  .flip-card-front,
+  .flip-card-back { padding: var(--space-lg); }
+}
+
+[data-device="ipad"] .flip-card,
+[data-device="mac"] .flip-card { max-width: 480px; height: 340px; }

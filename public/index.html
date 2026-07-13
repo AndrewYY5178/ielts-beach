@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#39393A">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>IELTS Beach</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/game.css">
+  <link rel="stylesheet" href="css/review.css">
+  <link rel="stylesheet" href="css/favorites.css">
+  <link rel="stylesheet" href="css/auth.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/wordbank.css">
+  <link rel="stylesheet" href="css/settings.css">
+  <link rel="stylesheet" href="css/toasts.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body data-device="iphone">
+
+  <!-- Noise texture overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Loading overlay -->
+  <div id="app-loading" class="app-loading">
+    <div class="loading-content">
+      <p class="loading-text">IELTS Beach</p>
+      <p class="loading-sub">Loading...</p>
+    </div>
+  </div>
+
+  <!-- Noscript fallback -->
+  <noscript>
+    <div style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#39393A;z-index:9999;font-family:sans-serif;text-align:center;padding:20px;color:#E8E8E5;">
+      <div>
+        <p style="font-size:24px;">IELTS Beach</p>
+        <p style="font-size:18px;margin:12px 0;">IELTS Beach requires JavaScript</p>
+        <p style="color:#9A9A95;">Please enable JavaScript in your browser settings.</p>
+      </div>
+    </div>
+  </noscript>
+
+  <!-- === APP CONTAINER === -->
+  <div id="app" class="app-container">
+
+    <!-- Navigation Pill -->
+    <nav class="nav-pill" id="nav-pill" aria-label="Main navigation">
+      <button class="nav-item" data-screen="menu">Home</button>
+      <button class="nav-item" data-screen="game" style="display:none">Study</button>
+      <button class="nav-item" data-screen="wordbank">Words</button>
+      <span class="nav-sync-dot" id="nav-sync-dot" title="Sync status"></span>
+    </nav>
+
+    <!-- WELCOME SCREEN -->
+    <div id="screen-welcome" class="screen screen-active">
+      <div class="screen-content screen-centered">
+        <h1 class="display-title">IELTS<br>Beach</h1>
+        <p class="display-subtitle">Learn words by the shore.</p>
+        <form id="welcome-form" class="welcome-form">
+          <div class="input-glass">
+            <input type="password" id="welcome-passphrase" maxlength="64" autocomplete="off" placeholder="Set a passphrase to sync across devices">
+          </div>
+          <p class="welcome-hint">Same passphrase on all your devices = progress syncs automatically.</p>
+          <button type="submit" id="welcome-submit" class="btn-primary">Enter</button>
+        </form>
+        <div id="welcome-status" class="welcome-status"></div>
+      </div>
+    </div>
+
+    <!-- MENU SCREEN -->
+    <div id="screen-menu" class="screen hidden">
+      <div class="screen-content screen-centered">
+        <p class="menu-greeting" id="menu-greeting">Good morning</p>
+        <div class="menu-stats">
+          <div class="stat-card">
+            <span class="stat-value" id="stat-known">0</span>
+            <span class="stat-label">Known</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-unknown">0</span>
+            <span class="stat-label">To Review</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value" id="stat-streak">0</span>
+            <span class="stat-label">Day Streak</span>
+          </div>
+        </div>
+        <button id="btn-start" class="btn-primary btn-lg">Start Studying</button>
+        <nav class="menu-nav">
+          <button id="btn-favorites-nav" class="btn-ghost">Favorites</button>
+          <button id="btn-wordbank-nav" class="btn-ghost">Word Bank</button>
+          <button id="btn-settings-nav" class="btn-ghost">Settings</button>
+        </nav>
+      </div>
+    </div>
+
+    <!-- GAME SCREEN -->
+    <div id="screen-game" class="screen hidden">
+      <div class="game-header">
+        <button id="btn-game-back" class="btn-icon" aria-label="Back to menu">&#10005;</button>
+        <div class="game-score">
+          <span class="score-known" id="game-known">0</span>
+          <span class="score-divider">/</span>
+          <span class="score-unknown" id="game-unknown">0</span>
+        </div>
+        <div class="game-progress-bar">
+          <div class="game-progress-fill" id="game-progress-fill"></div>
+        </div>
+      </div>
+
+      <div class="game-card-area" id="game-card-area">
+        <!-- Gesture hints -->
+        <div class="gesture-hints" id="gesture-hints">
+          <div class="hint hint-up">&#8593; know</div>
+          <div class="hint hint-down">&#8595; unknown</div>
+          <div class="hint hint-left">&#8592; undo</div>
+          <div class="hint hint-double">double-tap fav</div>
+        </div>
+
+        <!-- Sentence Card -->
+        <div class="sentence-card" id="sentence-card">
+          <div class="card-timer">
+            <svg class="timer-ring" viewBox="0 0 60 60">
+              <circle class="timer-ring-bg" cx="30" cy="30" r="26"/>
+              <circle class="timer-ring-fill" id="timer-ring-fill" cx="30" cy="30" r="26"/>
+            </svg>
+            <span class="timer-text" id="timer-text">10</span>
+          </div>
+          <div class="card-content">
+            <p class="sentence-text" id="sentence-text"></p>
+            <div class="word-badge" id="word-badge"></div>
+          </div>
+          <div class="card-hint-text">
+            <span class="key-hint" id="key-hints"></span>
+          </div>
+        </div>
+
+        <!-- Action Toast -->
+        <div class="action-toast" id="action-toast"></div>
+
+        <!-- Heart animation container -->
+        <div class="heart-burst" id="heart-burst"></div>
+      </div>
+    </div>
+
+    <!-- REVIEW SCREEN -->
+    <div id="screen-review" class="screen hidden">
+      <div class="review-header">
+        <button id="btn-review-back" class="btn-icon" aria-label="Back">&#8592;</button>
+        <h2 class="review-title">Review</h2>
+        <span class="review-progress" id="review-progress">1/10</span>
+      </div>
+      <div class="review-card-container" id="review-card-container">
+        <div class="flip-card" id="flip-card">
+          <div class="flip-card-inner" id="flip-card-inner">
+            <div class="flip-card-front">
+              <p class="flip-sentence" id="flip-sentence"></p>
+              <span class="flip-hint">Tap to reveal</span>
+            </div>
+            <div class="flip-card-back">
+              <h3 class="flip-word" id="flip-word"></h3>
+              <p class="flip-phonetic" id="flip-phonetic"></p>
+              <p class="flip-pos" id="flip-pos"></p>
+              <p class="flip-definition" id="flip-definition"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="review-nav">
+        <button id="btn-review-prev" class="btn-icon" aria-label="Previous">&#9664;</button>
+        <div class="review-dots" id="review-dots"></div>
+        <button id="btn-review-next" class="btn-icon" aria-label="Next">&#9654;</button>
+      </div>
+      <div class="review-actions">
+        <button id="btn-review-complete" class="btn-primary">Done Reviewing</button>
+      </div>
+    </div>
+
+    <!-- FAVORITES SCREEN -->
+    <div id="screen-favorites" class="screen hidden">
+      <div class="screen-content">
+        <div class="fav-header">
+          <button id="btn-fav-back" class="btn-icon" aria-label="Back">&#8592;</button>
+          <h2 class="screen-title">Favorites</h2>
+          <button id="btn-fav-export" class="btn-primary btn-sm">Export PDF</button>
+        </div>
+        <div class="fav-list" id="fav-list">
+          <p class="fav-empty" id="fav-empty">No favorites yet.<br>Double-tap a sentence to save it!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- WORD BANK SCREEN -->
+    <div id="screen-wordbank" class="screen hidden">
+      <div class="screen-content">
+        <div class="wb-header">
+          <button id="btn-wb-back" class="btn-icon" aria-label="Back">&#8592;</button>
+          <h2 class="screen-title">Word Bank</h2>
+        </div>
+        <div class="wb-search">
+          <div class="input-glass">
+            <input type="text" id="wb-search-input" placeholder="Search words...">
+          </div>
+        </div>
+        <div class="wb-filters">
+          <button class="chip active" data-level="B1">B1</button>
+          <button class="chip active" data-level="B2">B2</button>
+          <button class="chip active" data-level="C1">C1</button>
+          <button class="chip active" data-level="C2">C2</button>
+        </div>
+        <div class="wb-list" id="wb-list"></div>
+      </div>
+    </div>
+
+    <!-- Word Bank Detail Modal -->
+    <div class="modal-overlay hidden" id="wb-modal">
+      <div class="modal-card" id="wb-modal-content"></div>
+      <button class="modal-close" id="wb-modal-close">&#10005;</button>
+    </div>
+
+    <!-- SETTINGS SCREEN -->
+    <div id="screen-settings" class="screen hidden">
+      <div class="screen-content">
+        <div class="settings-header">
+          <button id="btn-settings-back" class="btn-icon" aria-label="Back">&#8592;</button>
+          <h2 class="screen-title">Settings</h2>
+        </div>
+        <div class="settings-list">
+          <div class="setting-item">
+            <label>Timer (seconds)</label>
+            <div class="setting-control">
+              <input type="range" id="setting-timer" min="5" max="20" value="10">
+              <span id="setting-timer-val">10s</span>
+            </div>
+          </div>
+          <div class="setting-item">
+            <label>Unknown threshold</label>
+            <div class="setting-control">
+              <input type="range" id="setting-threshold" min="5" max="20" value="10">
+              <span id="setting-threshold-val">10</span>
+            </div>
+          </div>
+          <div class="setting-item">
+            <label>Passphrase</label>
+            <div class="setting-control">
+              <input type="password" id="setting-passphrase" maxlength="64" autocomplete="off" placeholder="Change sync passphrase">
+            </div>
+          </div>
+          <div class="setting-item">
+            <label>Sync</label>
+            <div class="setting-control">
+              <button id="btn-sync-now" class="btn-ghost btn-sm">Sync Now</button>
+              <span id="setting-sync-time" class="sync-time"></span>
+            </div>
+          </div>
+        </div>
+        <div class="settings-actions">
+          <button id="btn-logout" class="btn-danger">Reset All Data</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- JavaScript -->
+  <script src="js/jspdf.umd.min.js"></script>
+  <script type="module">
+    import('./js/app.js');
+  </script>
+</body>
+</html>

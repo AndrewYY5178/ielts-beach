@@ -1,0 +1,13 @@
+{
+  "name": "ielts-beach",
+  "version": "0.1.0",
+  "description": "Interactive IELTS vocabulary learning app with pixel art beach theme",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve public -p 8080",
+    "start": "npx serve public -p 8080",
+    "build-words": "node scripts/build-words.js"
+  },
+  "keywords": ["ielts", "vocabulary", "learning", "pixel-art", "pwa"],
+  "license": "MIT"
+}

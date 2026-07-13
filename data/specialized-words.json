@@ -1,0 +1,4433 @@
+[
+  {
+    "id": "spec_001",
+    "word": "etiology",
+    "phonetic": "/ˌiːtiˈɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The investigation of the cause of a disease or abnormal condition",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Researchers have yet to establish a definitive etiology for chronic fatigue syndrome.",
+    "topicTags": [
+      "medicine",
+      "pathology",
+      "health-science"
+    ],
+    "synonyms": [
+      "causation",
+      "aetiology",
+      "origin",
+      "pathogenesis"
+    ],
+    "antonyms": [
+      "symptomatology"
+    ]
+  },
+  {
+    "id": "spec_002",
+    "word": "prognosis",
+    "phonetic": "/prɒɡˈnəʊsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The predicted course and outcome of a disease based on clinical indicators",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Early detection of melanoma dramatically improves the prognosis for affected patients.",
+    "topicTags": [
+      "medicine",
+      "clinical-practice",
+      "oncology"
+    ],
+    "synonyms": [
+      "outlook",
+      "prediction",
+      "forecast"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_003",
+    "word": "idiopathic",
+    "phonetic": "/ˌɪdiəˈpæθɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Denoting a disease arising spontaneously with no known external cause",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Idiopathic pulmonary fibrosis remains one of the most challenging interstitial lung diseases to treat.",
+    "topicTags": [
+      "medicine",
+      "pathology",
+      "diagnostics"
+    ],
+    "synonyms": [
+      "spontaneous",
+      "primary",
+      "cryptogenic"
+    ],
+    "antonyms": [
+      "secondary",
+      "iatrogenic",
+      "exogenous"
+    ]
+  },
+  {
+    "id": "spec_004",
+    "word": "palliative",
+    "phonetic": "/ˈpæliətɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Relieving symptoms without curing the underlying disease",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Palliative care focuses on improving quality of life for patients with terminal illnesses.",
+    "topicTags": [
+      "medicine",
+      "palliative-care"
+    ],
+    "synonyms": [
+      "comforting",
+      "alleviative",
+      "soothing"
+    ],
+    "antonyms": [
+      "curative",
+      "radical"
+    ]
+  },
+  {
+    "id": "spec_005",
+    "word": "contraindication",
+    "phonetic": "/ˌkɒntrəˌɪndɪˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A condition or factor that makes a particular treatment inadvisable",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Pregnancy is an absolute contraindication for the administration of live attenuated vaccines.",
+    "topicTags": [
+      "medicine",
+      "pharmacology",
+      "clinical-practice"
+    ],
+    "synonyms": [
+      "prohibition",
+      "disqualification",
+      "warning"
+    ],
+    "antonyms": [
+      "indication",
+      "recommendation"
+    ]
+  },
+  {
+    "id": "spec_006",
+    "word": "epidemiology",
+    "phonetic": "/ˌepɪˌdiːmiˈɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The study of the distribution and determinants of health-related states in populations",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Epidemiology provided the methodological framework for tracking the transmission of infectious diseases during the pandemic.",
+    "topicTags": [
+      "medicine",
+      "public-health",
+      "population-health"
+    ],
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "id": "spec_007",
+    "word": "nosocomial",
+    "phonetic": "/ˌnɒsəˈkəʊmiəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Originating or occurring in a hospital setting, especially of infections",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Nosocomial infections account for a significant proportion of morbidity among post-surgical patients.",
+    "topicTags": [
+      "medicine",
+      "infection-control",
+      "hospital-care"
+    ],
+    "synonyms": [
+      "hospital-acquired"
+    ],
+    "antonyms": [
+      "community-acquired"
+    ]
+  },
+  {
+    "id": "spec_008",
+    "word": "comorbidity",
+    "phonetic": "/kəˌmɔːˈbɪdəti/",
+    "partOfSpeech": "noun",
+    "definition": "The simultaneous presence of two or more diseases in the same patient",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Patients with diabetes and cardiovascular comorbidity require carefully coordinated treatment plans.",
+    "topicTags": [
+      "medicine",
+      "clinical-practice",
+      "geriatrics"
+    ],
+    "synonyms": [
+      "multimorbidity",
+      "co-occurrence"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_009",
+    "word": "iatrogenic",
+    "phonetic": "/aɪˌætrəˈdʒenɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Induced inadvertently by medical treatment or diagnostic procedures",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Iatrogenic complications arising from unnecessary surgical interventions represent a preventable burden on healthcare systems.",
+    "topicTags": [
+      "medicine",
+      "medical-ethics",
+      "patient-safety"
+    ],
+    "synonyms": [
+      "treatment-induced",
+      "physician-caused"
+    ],
+    "antonyms": [
+      "natural",
+      "spontaneous"
+    ]
+  },
+  {
+    "id": "spec_010",
+    "word": "pathogenesis",
+    "phonetic": "/ˌpæθəˈdʒenɪsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The biological mechanism by which a disease develops and progresses",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Understanding the pathogenesis of Alzheimer's disease is essential for developing targeted therapeutic interventions.",
+    "topicTags": [
+      "medicine",
+      "pathology",
+      "molecular-biology"
+    ],
+    "synonyms": [
+      "disease-development",
+      "disease-mechanism"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_011",
+    "word": "hematoma",
+    "phonetic": "/ˌhiːməˈtəʊmə/",
+    "partOfSpeech": "noun",
+    "definition": "A localized collection of blood outside blood vessels, usually clotted",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The patient developed a subdural hematoma following the traumatic head injury.",
+    "topicTags": [
+      "medicine",
+      "surgery",
+      "trauma"
+    ],
+    "synonyms": [
+      "blood-clot",
+      "swelling"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_012",
+    "word": "auscultation",
+    "phonetic": "/ˌɔːskəlˈteɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The act of listening to internal body sounds, typically with a stethoscope",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Auscultation of the chest revealed crackles in the lower lobes consistent with pneumonia.",
+    "topicTags": [
+      "medicine",
+      "clinical-examination",
+      "diagnostics"
+    ],
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "id": "spec_013",
+    "word": "biopsy",
+    "phonetic": "/ˈbaɪɒpsi/",
+    "partOfSpeech": "noun",
+    "definition": "The removal of tissue from a living body for diagnostic examination",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Histological analysis of the liver biopsy confirmed the diagnosis of cirrhosis.",
+    "topicTags": [
+      "medicine",
+      "pathology",
+      "diagnostics"
+    ],
+    "synonyms": [
+      "tissue-sample",
+      "excision"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_014",
+    "word": "carcinoma",
+    "phonetic": "/ˌkɑːsɪˈnəʊmə/",
+    "partOfSpeech": "noun",
+    "definition": "A malignant tumor derived from epithelial tissue",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Basal cell carcinoma is the most common form of skin cancer but rarely metastasizes.",
+    "topicTags": [
+      "medicine",
+      "oncology",
+      "pathology"
+    ],
+    "synonyms": [
+      "malignancy",
+      "tumor",
+      "neoplasm"
+    ],
+    "antonyms": [
+      "benign-tumor",
+      "adenoma"
+    ]
+  },
+  {
+    "id": "spec_015",
+    "word": "metastasis",
+    "phonetic": "/mɪˈtæstəsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The spread of cancer cells from a primary site to distant parts of the body",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Detection of lymph node metastasis significantly alters both staging and treatment strategy.",
+    "topicTags": [
+      "medicine",
+      "oncology",
+      "pathology"
+    ],
+    "synonyms": [
+      "dissemination",
+      "spread"
+    ],
+    "antonyms": [
+      "localization",
+      "confinement"
+    ]
+  },
+  {
+    "id": "spec_016",
+    "word": "ischemia",
+    "phonetic": "/ɪˈskiːmiə/",
+    "partOfSpeech": "noun",
+    "definition": "Inadequate blood supply to a tissue or organ due to obstruction of blood vessels",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Myocardial ischemia occurs when coronary artery disease restricts oxygen delivery to heart muscle.",
+    "topicTags": [
+      "medicine",
+      "cardiology",
+      "vascular"
+    ],
+    "synonyms": [
+      "hypoperfusion",
+      "oxygen-deficit"
+    ],
+    "antonyms": [
+      "reperfusion",
+      "hyperemia"
+    ]
+  },
+  {
+    "id": "spec_017",
+    "word": "sepsis",
+    "phonetic": "/ˈsepsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "A life-threatening organ dysfunction caused by a dysregulated host response to infection",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Early administration of broad-spectrum antibiotics is crucial in managing suspected sepsis.",
+    "topicTags": [
+      "medicine",
+      "intensive-care",
+      "infectious-disease"
+    ],
+    "synonyms": [
+      "blood-poisoning",
+      "systemic-infection"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_018",
+    "word": "edema",
+    "phonetic": "/ɪˈdiːmə/",
+    "partOfSpeech": "noun",
+    "definition": "An abnormal accumulation of fluid in interstitial spaces of body tissues",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Pulmonary edema resulting from left ventricular failure requires immediate diuretic therapy.",
+    "topicTags": [
+      "medicine",
+      "cardiology",
+      "nephrology"
+    ],
+    "synonyms": [
+      "swelling",
+      "fluid-retention"
+    ],
+    "antonyms": [
+      "dehydration"
+    ]
+  },
+  {
+    "id": "spec_019",
+    "word": "necrosis",
+    "phonetic": "/nɛˈkrəʊsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The premature death of cells in living tissue caused by external factors",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Avascular necrosis of the femoral head is a known complication of prolonged corticosteroid use.",
+    "topicTags": [
+      "medicine",
+      "pathology"
+    ],
+    "synonyms": [
+      "tissue-death",
+      "gangrene"
+    ],
+    "antonyms": [
+      "regeneration",
+      "apoptosis"
+    ]
+  },
+  {
+    "id": "spec_020",
+    "word": "hyperplasia",
+    "phonetic": "/ˌhaɪpəˈpleɪʒə/",
+    "partOfSpeech": "noun",
+    "definition": "An abnormal increase in the number of normal cells in a tissue",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Benign prostatic hyperplasia is a common age-related condition affecting elderly men.",
+    "topicTags": [
+      "medicine",
+      "pathology",
+      "histology"
+    ],
+    "synonyms": [
+      "cellular-proliferation"
+    ],
+    "antonyms": [
+      "atrophy",
+      "hypoplasia"
+    ]
+  },
+  {
+    "id": "spec_021",
+    "word": "stenosis",
+    "phonetic": "/stɪˈnəʊsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "An abnormal narrowing of a passage or opening in the body",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Aortic stenosis can cause syncope, angina, and dyspnea in advanced cases.",
+    "topicTags": [
+      "medicine",
+      "cardiology",
+      "vascular"
+    ],
+    "synonyms": [
+      "constriction",
+      "narrowing",
+      "stricture"
+    ],
+    "antonyms": [
+      "dilation",
+      "patency"
+    ]
+  },
+  {
+    "id": "spec_022",
+    "word": "arrhythmia",
+    "phonetic": "/əˈrɪðmiə/",
+    "partOfSpeech": "noun",
+    "definition": "Any deviation from the normal rhythm of the heartbeat",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Atrial fibrillation is the most common clinically significant cardiac arrhythmia.",
+    "topicTags": [
+      "medicine",
+      "cardiology",
+      "electrophysiology"
+    ],
+    "synonyms": [
+      "dysrhythmia",
+      "irregular-heartbeat"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_023",
+    "word": "encephalopathy",
+    "phonetic": "/ɛnˌsɛfəˈlɒpəθi/",
+    "partOfSpeech": "noun",
+    "definition": "Any disorder or disease of the brain, especially chronic degenerative conditions",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Hepatic encephalopathy is a neuropsychiatric syndrome associated with liver failure.",
+    "topicTags": [
+      "medicine",
+      "neurology"
+    ],
+    "synonyms": [
+      "brain-disorder",
+      "cerebral-disease"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_024",
+    "word": "hemorrhage",
+    "phonetic": "/ˈhɛmərɪdʒ/",
+    "partOfSpeech": "noun",
+    "definition": "Profuse bleeding from a ruptured blood vessel",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Intracerebral hemorrhage requires prompt neurosurgical evaluation and blood pressure control.",
+    "topicTags": [
+      "medicine",
+      "emergency",
+      "trauma"
+    ],
+    "synonyms": [
+      "bleeding",
+      "blood-loss"
+    ],
+    "antonyms": [
+      "hemostasis"
+    ]
+  },
+  {
+    "id": "spec_025",
+    "word": "thrombosis",
+    "phonetic": "/θrɒmˈbəʊsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The formation of a blood clot inside a blood vessel that obstructs blood flow",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Deep vein thrombosis in the lower extremities can lead to life-threatening pulmonary embolism.",
+    "topicTags": [
+      "medicine",
+      "hematology",
+      "cardiology"
+    ],
+    "synonyms": [
+      "clotting",
+      "coagulation"
+    ],
+    "antonyms": [
+      "hemorrhage",
+      "bleeding"
+    ]
+  },
+  {
+    "id": "spec_026",
+    "word": "aneurysm",
+    "phonetic": "/ˈænjərɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A localized dilation of a blood vessel wall due to weakness",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Rupture of a cerebral aneurysm carries a high risk of subarachnoid hemorrhage and mortality.",
+    "topicTags": [
+      "medicine",
+      "cardiology",
+      "vascular"
+    ],
+    "synonyms": [
+      "dilation",
+      " swelling"
+    ],
+    "antonyms": [
+      "constriction"
+    ]
+  },
+  {
+    "id": "spec_027",
+    "word": "emphysema",
+    "phonetic": "/ˌɛmfɪˈsiːmə/",
+    "partOfSpeech": "noun",
+    "definition": "A lung condition involving destruction of alveoli leading to breathing impairment",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Chronic obstructive pulmonary disease with emphysema is strongly associated with long-term tobacco use.",
+    "topicTags": [
+      "medicine",
+      "respiratory",
+      "pulmonology"
+    ],
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "id": "spec_028",
+    "word": "dysphagia",
+    "phonetic": "/dɪsˈfeɪdʒə/",
+    "partOfSpeech": "noun",
+    "definition": "Difficulty or discomfort in swallowing, often indicating neurological or esophageal pathology",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Dysphagia following a stroke necessitates careful dietary modification to prevent aspiration pneumonia.",
+    "topicTags": [
+      "medicine",
+      "gastroenterology",
+      "neurology"
+    ],
+    "synonyms": [
+      "swallowing-difficulty"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_029",
+    "word": "myocardial",
+    "phonetic": "/ˌmaɪəˈkɑːdiəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the muscular tissue of the heart",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Myocardial infarction occurs when coronary artery occlusion leads to irreversible cardiac muscle damage.",
+    "topicTags": [
+      "medicine",
+      "cardiology"
+    ],
+    "synonyms": [
+      "cardiac",
+      " heart"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_030",
+    "word": "pericarditis",
+    "phonetic": "/ˌpɛrɪkɑːˈdaɪtɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Inflammation of the pericardium, the sac surrounding the heart",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Acute pericarditis presents with sharp chest pain that improves when the patient leans forward.",
+    "topicTags": [
+      "medicine",
+      "cardiology"
+    ],
+    "synonyms": [
+      "pericardial-inflammation"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_031",
+    "word": "cirrhosis",
+    "phonetic": "/sɪˈrəʊsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Chronic progressive liver disease with fibrosis and nodular regeneration",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Alcoholic cirrhosis represents the end stage of long-term alcohol-induced liver damage.",
+    "topicTags": [
+      "medicine",
+      "gastroenterology",
+      "hepatology"
+    ],
+    "synonyms": [
+      "liver-disease",
+      " hepatic-fibrosis"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_032",
+    "word": "osteoporosis",
+    "phonetic": "/ˌɒstiəʊpɔːˈrəʊsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "A condition characterized by decreased bone density and increased fracture risk",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Postmenopausal osteoporosis substantially elevates the risk of vertebral compression fractures.",
+    "topicTags": [
+      "medicine",
+      "orthopedics",
+      "geriatrics"
+    ],
+    "synonyms": [
+      "bone-loss",
+      " osteopenia"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_033",
+    "word": "neuropathy",
+    "phonetic": "/njʊˈrɒpəθi/",
+    "partOfSpeech": "noun",
+    "definition": "Damage or dysfunction of peripheral nerves causing weakness, numbness, or pain",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Diabetic peripheral neuropathy is a common complication of poorly controlled type 2 diabetes.",
+    "topicTags": [
+      "medicine",
+      "neurology"
+    ],
+    "synonyms": [
+      "nerve-damage",
+      " neural-dysfunction"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_034",
+    "word": "antipyretic",
+    "phonetic": "/ˌæntipaɪˈrɛtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Reducing or preventing fever",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Acetaminophen is a commonly used antipyretic agent for managing febrile conditions.",
+    "topicTags": [
+      "medicine",
+      "pharmacology"
+    ],
+    "synonyms": [
+      "fever-reducing",
+      " febrifuge"
+    ],
+    "antonyms": [
+      "pyretic",
+      " febrile"
+    ]
+  },
+  {
+    "id": "spec_035",
+    "word": "analgesic",
+    "phonetic": "/ˌænəlˈdʒiːzɪk/",
+    "partOfSpeech": "noun",
+    "definition": "A medication that relieves pain without causing loss of consciousness",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Opioid analgesics require cautious prescribing due to their potential for dependence and tolerance.",
+    "topicTags": [
+      "medicine",
+      "pharmacology",
+      "pain-management"
+    ],
+    "synonyms": [
+      "painkiller",
+      " anodyne"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_036",
+    "word": "placebo",
+    "phonetic": "/pləˈsiːbəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A substance with no therapeutic effect used as a control in clinical trials",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The placebo effect complicates the interpretation of clinical outcomes in pain management studies.",
+    "topicTags": [
+      "medicine",
+      "clinical-trials",
+      "pharmacology"
+    ],
+    "synonyms": [
+      "sham-treatment",
+      " dummy"
+    ],
+    "antonyms": [
+      "active-treatment",
+      " verum"
+    ]
+  },
+  {
+    "id": "spec_037",
+    "word": "homeostasis",
+    "phonetic": "/ˌhəʊmiəˈsteɪsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The tendency of a biological system to maintain internal stability",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Disruption of calcium homeostasis can lead to neuromuscular irritability and cardiac dysfunction.",
+    "topicTags": [
+      "medicine",
+      "physiology",
+      "biology"
+    ],
+    "synonyms": [
+      "equilibrium",
+      " balance"
+    ],
+    "antonyms": [
+      "disequilibrium",
+      " imbalance"
+    ]
+  },
+  {
+    "id": "spec_038",
+    "word": "pathogen",
+    "phonetic": "/ˈpæθədʒən/",
+    "partOfSpeech": "noun",
+    "definition": "A microorganism capable of causing disease in a host",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Identifying the causative pathogen is essential for selecting appropriate antimicrobial therapy.",
+    "topicTags": [
+      "medicine",
+      "microbiology",
+      "infectious-disease"
+    ],
+    "synonyms": [
+      "germ",
+      " microbe",
+      " bacterium"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_039",
+    "word": "antibody",
+    "phonetic": "/ˈæntɪˌbɒdi/",
+    "partOfSpeech": "noun",
+    "definition": "A protein produced by the immune system that neutralizes foreign substances",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Monoclonal antibodies have revolutionized the treatment of autoimmune diseases and certain cancers.",
+    "topicTags": [
+      "medicine",
+      "immunology"
+    ],
+    "synonyms": [
+      "immunoglobulin"
+    ],
+    "antonyms": [
+      "antigen"
+    ]
+  },
+  {
+    "id": "spec_040",
+    "word": "antigen",
+    "phonetic": "/ˈæntɪdʒən/",
+    "partOfSpeech": "noun",
+    "definition": "A substance that triggers an immune response by binding to specific antibodies",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Vaccines introduce weakened antigens to stimulate protective immunity without causing disease.",
+    "topicTags": [
+      "medicine",
+      "immunology"
+    ],
+    "synonyms": [
+      "immunogen"
+    ],
+    "antonyms": [
+      "antibody"
+    ]
+  },
+  {
+    "id": "spec_041",
+    "word": "epidemic",
+    "phonetic": "/ˌɛpɪˈdɛmɪk/",
+    "partOfSpeech": "noun",
+    "definition": "A widespread occurrence of a disease in a community at a particular time",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Public health authorities implemented containment measures to control the cholera epidemic.",
+    "topicTags": [
+      "medicine",
+      "public-health",
+      "epidemiology"
+    ],
+    "synonyms": [
+      "outbreak",
+      " pandemic",
+      " plague"
+    ],
+    "antonyms": [
+      "endemic"
+    ]
+  },
+  {
+    "id": "spec_042",
+    "word": "endemic",
+    "phonetic": "/ɛnˈdɛmɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Regularly found in a particular area or population, or native to a region",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Malaria remains endemic in many tropical regions despite ongoing eradication efforts.",
+    "topicTags": [
+      "medicine",
+      "public-health",
+      "epidemiology"
+    ],
+    "synonyms": [
+      "native",
+      " indigenous",
+      " local"
+    ],
+    "antonyms": [
+      "epidemic",
+      " pandemic",
+      " exotic"
+    ]
+  },
+  {
+    "id": "spec_043",
+    "word": "prophylaxis",
+    "phonetic": "/ˌprɒfɪˈlæksɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Action taken to prevent disease, especially through vaccination or medication",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Pre-exposure prophylaxis for HIV involves daily antiretroviral medication for at-risk individuals.",
+    "topicTags": [
+      "medicine",
+      "preventive-medicine",
+      "public-health"
+    ],
+    "synonyms": [
+      "prevention",
+      " precaution"
+    ],
+    "antonyms": [
+      "treatment",
+      " therapy"
+    ]
+  },
+  {
+    "id": "spec_044",
+    "word": "diagnosis",
+    "phonetic": "/ˌdaɪəɡˈnəʊsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The identification of the nature and cause of a disease through examination",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Early diagnosis of sepsis is critical for initiating timely life-saving interventions.",
+    "topicTags": [
+      "medicine",
+      "clinical-practice"
+    ],
+    "synonyms": [
+      "identification",
+      " detection"
+    ],
+    "antonyms": [
+      "misdiagnosis",
+      " oversight"
+    ]
+  },
+  {
+    "id": "spec_045",
+    "word": "remission",
+    "phonetic": "/rɪˈmɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A temporary or permanent reduction in the severity of a disease",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The patient achieved complete remission after six cycles of chemotherapy.",
+    "topicTags": [
+      "medicine",
+      "oncology",
+      "hematology"
+    ],
+    "synonyms": [
+      "abatement",
+      " subsidence"
+    ],
+    "antonyms": [
+      "relapse",
+      " recurrence"
+    ]
+  },
+  {
+    "id": "spec_046",
+    "word": "relapse",
+    "phonetic": "/rɪˈlæps/",
+    "partOfSpeech": "noun",
+    "definition": "The return of a disease after a period of improvement",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Multiple sclerosis is characterized by alternating periods of relapse and remission.",
+    "topicTags": [
+      "medicine",
+      "neurology",
+      "oncology"
+    ],
+    "synonyms": [
+      "recurrence",
+      " regression"
+    ],
+    "antonyms": [
+      "remission",
+      " recovery"
+    ]
+  },
+  {
+    "id": "spec_047",
+    "word": "symptomatic",
+    "phonetic": "/ˌsɪmptəˈmætɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Exhibiting or relating to symptoms of a disease",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Symptomatic patients were isolated immediately to prevent further transmission.",
+    "topicTags": [
+      "medicine",
+      "clinical-practice"
+    ],
+    "synonyms": [
+      "indicative",
+      " manifest"
+    ],
+    "antonyms": [
+      "asymptomatic",
+      " silent"
+    ]
+  },
+  {
+    "id": "spec_048",
+    "word": "asymptomatic",
+    "phonetic": "/eɪˌsɪmptəˈmætɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Producing or showing no symptoms of a disease",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Many carriers of the disease remain asymptomatic yet capable of infecting others.",
+    "topicTags": [
+      "medicine",
+      "epidemiology"
+    ],
+    "synonyms": [
+      "silent",
+      " subclinical"
+    ],
+    "antonyms": [
+      "symptomatic"
+    ]
+  },
+  {
+    "id": "spec_049",
+    "word": "therapeutic",
+    "phonetic": "/ˌθɛrəˈpjuːtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the treatment or healing of disease",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The therapeutic window of a drug defines the range between effective and toxic doses.",
+    "topicTags": [
+      "medicine",
+      "pharmacology",
+      "clinical-practice"
+    ],
+    "synonyms": [
+      "curative",
+      " remedial",
+      " healing"
+    ],
+    "antonyms": [
+      "pathogenic",
+      " harmful"
+    ]
+  },
+  {
+    "id": "spec_050",
+    "word": "chronic",
+    "phonetic": "/ˈkrɒnɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Persisting for a long time or constantly recurring",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Chronic kidney disease requires ongoing management of blood pressure and electrolyte balance.",
+    "topicTags": [
+      "medicine",
+      "general-medicine"
+    ],
+    "synonyms": [
+      "persistent",
+      " long-term",
+      " ongoing"
+    ],
+    "antonyms": [
+      "acute",
+      " temporary",
+      " transient"
+    ]
+  },
+  {
+    "id": "spec_051",
+    "word": "jurisprudence",
+    "phonetic": "/ˌdʒʊərɪsˈpruːdəns/",
+    "partOfSpeech": "noun",
+    "definition": "The theory or philosophy of law, encompassing legal systems and principles",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Jurisprudence examines the moral foundations that underpin statutory interpretation and judicial reasoning.",
+    "topicTags": [
+      "law",
+      "legal-theory",
+      "jurisprudence"
+    ],
+    "synonyms": [
+      "legal-philosophy",
+      "legal-theory"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_052",
+    "word": "tort",
+    "phonetic": "/tɔːt/",
+    "partOfSpeech": "noun",
+    "definition": "A civil wrong causing harm or loss for which legal remedy may be sought",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The law of tort provides a framework for compensating individuals harmed by negligent conduct.",
+    "topicTags": [
+      "law",
+      "civil-law",
+      "tort-law"
+    ],
+    "synonyms": [
+      "civil-wrong",
+      "misconduct"
+    ],
+    "antonyms": [
+      "contract"
+    ]
+  },
+  {
+    "id": "spec_053",
+    "word": "injunction",
+    "phonetic": "/ɪnˈdʒʌŋkʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A court order compelling or prohibiting a specified act",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The environmental group sought a preliminary injunction to halt construction pending the judicial review.",
+    "topicTags": [
+      "law",
+      "litigation",
+      "remedies"
+    ],
+    "synonyms": [
+      "court-order",
+      "restraining-order"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_054",
+    "word": "extradition",
+    "phonetic": "/ˌɛkstrəˈdɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The formal surrender of an accused person by one jurisdiction to another for prosecution",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The extradition treaty between the two nations facilitates cooperation in cross-border criminal matters.",
+    "topicTags": [
+      "law",
+      "criminal-law",
+      "international-law"
+    ],
+    "synonyms": [
+      "rendition",
+      "surrender"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_055",
+    "word": "culpability",
+    "phonetic": "/ˌkʌlpəˈbɪləti/",
+    "partOfSpeech": "noun",
+    "definition": "Responsibility for a fault or wrong deserving blame or punishment",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The degree of culpability determines the severity of sentencing under criminal law.",
+    "topicTags": [
+      "law",
+      "criminal-law",
+      "ethics"
+    ],
+    "synonyms": [
+      "blameworthiness",
+      "guilt",
+      "liability"
+    ],
+    "antonyms": [
+      "innocence",
+      "exoneration"
+    ]
+  },
+  {
+    "id": "spec_056",
+    "word": "malfeasance",
+    "phonetic": "/mælˈfiːzəns/",
+    "partOfSpeech": "noun",
+    "definition": "Wrongful or illegal conduct by a public official or person in authority",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "The mayor was indicted for malfeasance in office after evidence of embezzlement emerged.",
+    "topicTags": [
+      "law",
+      "public-law",
+      "ethics"
+    ],
+    "synonyms": [
+      "misconduct",
+      "wrongdoing",
+      "corruption"
+    ],
+    "antonyms": [
+      "probity",
+      "rectitude"
+    ]
+  },
+  {
+    "id": "spec_057",
+    "word": "recidivism",
+    "phonetic": "/rɪˈsɪdɪvɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The tendency of a convicted criminal to reoffend after serving a sentence",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Rehabilitation programs aim to reduce recidivism by addressing the underlying causes of criminal behavior.",
+    "topicTags": [
+      "law",
+      "criminology",
+      "penology"
+    ],
+    "synonyms": [
+      "reoffending",
+      "repetition"
+    ],
+    "antonyms": [
+      "rehabilitation",
+      "reform"
+    ]
+  },
+  {
+    "id": "spec_058",
+    "word": "litigant",
+    "phonetic": "/ˈlɪtɪɡənt/",
+    "partOfSpeech": "noun",
+    "definition": "A person involved in a lawsuit, either as plaintiff or defendant",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The litigant chose to settle the dispute through arbitration rather than proceeding to trial.",
+    "topicTags": [
+      "law",
+      "litigation",
+      "civil-procedure"
+    ],
+    "synonyms": [
+      "plaintiff",
+      "defendant",
+      "party"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_059",
+    "word": "exculpatory",
+    "phonetic": "/ɪkˈskʌlpətɔːri/",
+    "partOfSpeech": "adjective",
+    "definition": "Clearing or tending to clear from alleged fault or guilt",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "The defense attorney argued that the exculpatory evidence had been improperly withheld by the prosecution.",
+    "topicTags": [
+      "law",
+      "criminal-law",
+      "evidence"
+    ],
+    "synonyms": [
+      "exonerating",
+      "absolving",
+      "vindicating"
+    ],
+    "antonyms": [
+      "incriminating",
+      "condemning"
+    ]
+  },
+  {
+    "id": "spec_060",
+    "word": "affidavit",
+    "phonetic": "/ˌæfɪˈdeɪvɪt/",
+    "partOfSpeech": "noun",
+    "definition": "A written statement confirmed by oath for use as evidence in court",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The witness submitted an affidavit detailing the events observed on the night of the incident.",
+    "topicTags": [
+      "law",
+      "litigation",
+      "evidence"
+    ],
+    "synonyms": [
+      "sworn-statement",
+      "deposition"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_061",
+    "word": "subpoena",
+    "phonetic": "/səˈpiːnə/",
+    "partOfSpeech": "noun",
+    "definition": "A writ ordering a person to appear before a court or tribunal",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Failure to comply with a subpoena may result in the issuance of a warrant for contempt of court.",
+    "topicTags": [
+      "law",
+      "litigation",
+      "procedure"
+    ],
+    "synonyms": [
+      "summons",
+      "citation"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_062",
+    "word": "testamentary",
+    "phonetic": "/ˌtɛstəˈmɛntəri/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the provisions of a will or testament",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Testamentary capacity requires that the testator understands the nature and extent of their estate.",
+    "topicTags": [
+      "law",
+      "estate-law",
+      "succession"
+    ],
+    "synonyms": [
+      "inheritance-related",
+      "bequest"
+    ],
+    "antonyms": [
+      "intestate"
+    ]
+  },
+  {
+    "id": "spec_063",
+    "word": "fiduciary",
+    "phonetic": "/fɪˈdjuːʃiəri/",
+    "partOfSpeech": "adjective",
+    "definition": "Involving a relationship of trust and confidence requiring utmost good faith",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Directors owe a fiduciary duty to act in the best interests of the company and its shareholders.",
+    "topicTags": [
+      "law",
+      "corporate-law",
+      "equity"
+    ],
+    "synonyms": [
+      "trust-based",
+      "confidential"
+    ],
+    "antonyms": [
+      "adversarial",
+      "arm's-length"
+    ]
+  },
+  {
+    "id": "spec_064",
+    "word": "perjury",
+    "phonetic": "/ˈpɜːdʒəri/",
+    "partOfSpeech": "noun",
+    "definition": "The offense of deliberately lying under oath in a legal proceeding",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The witness was charged with perjury after discrepancies emerged between her testimony and recorded evidence.",
+    "topicTags": [
+      "law",
+      "criminal-law",
+      "evidence"
+    ],
+    "synonyms": [
+      "false-swearing",
+      "mendacity"
+    ],
+    "antonyms": [
+      "truthfulness",
+      "veracity"
+    ]
+  },
+  {
+    "id": "spec_065",
+    "word": "acquittal",
+    "phonetic": "/əˈkwɪtəl/",
+    "partOfSpeech": "noun",
+    "definition": "A judgment that a person is not guilty of the crime with which they have been charged",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The jury returned a unanimous acquittal after the prosecution failed to establish guilt beyond reasonable doubt.",
+    "topicTags": [
+      "law",
+      "criminal-law",
+      "litigation"
+    ],
+    "synonyms": [
+      "exoneration",
+      "vindication",
+      "exculpation"
+    ],
+    "antonyms": [
+      "conviction",
+      "condemnation"
+    ]
+  },
+  {
+    "id": "spec_066",
+    "word": "indictment",
+    "phonetic": "/ɪnˈdaɪtmənt/",
+    "partOfSpeech": "noun",
+    "definition": "A formal charge or accusation of a serious crime issued by a grand jury",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The grand jury returned an indictment charging the executive with securities fraud and conspiracy.",
+    "topicTags": [
+      "law",
+      "criminal-law",
+      "procedure"
+    ],
+    "synonyms": [
+      "charge",
+      "accusation",
+      "arraignment"
+    ],
+    "antonyms": [
+      "exoneration",
+      "acquittal"
+    ]
+  },
+  {
+    "id": "spec_067",
+    "word": "restitution",
+    "phonetic": "/ˌrɛstɪˈtjuːʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The restoration of something lost or stolen to its rightful owner, or compensation for loss",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The court ordered the defendant to make full restitution to the victims of the financial fraud.",
+    "topicTags": [
+      "law",
+      "remedies",
+      "civil-law"
+    ],
+    "synonyms": [
+      "compensation",
+      "repayment",
+      "redress"
+    ],
+    "antonyms": [
+      "forfeiture",
+      "confiscation"
+    ]
+  },
+  {
+    "id": "spec_068",
+    "word": "arbitration",
+    "phonetic": "/ˌɑːbɪˈtreɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The settlement of a dispute by an impartial third party outside the court system",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The commercial contract included a binding arbitration clause to resolve disputes without litigation.",
+    "topicTags": [
+      "law",
+      "dispute-resolution"
+    ],
+    "synonyms": [
+      "mediation",
+      "adjudication",
+      "conciliation"
+    ],
+    "antonyms": [
+      "litigation"
+    ]
+  },
+  {
+    "id": "spec_069",
+    "word": "appellate",
+    "phonetic": "/əˈpɛlət/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to appeals against judicial decisions",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The appellate court reversed the lower court's ruling on grounds of procedural error.",
+    "topicTags": [
+      "law",
+      "civil-procedure",
+      "appellate-law"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "trial-level",
+      "original"
+    ]
+  },
+  {
+    "id": "spec_070",
+    "word": "habeas corpus",
+    "phonetic": "/ˌheɪbiəs ˈkɔːpəs/",
+    "partOfSpeech": "noun",
+    "definition": "A legal principle protecting against unlawful detention, requiring a person be brought before a court",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "The writ of habeas corpus is a fundamental safeguard against arbitrary state imprisonment.",
+    "topicTags": [
+      "law",
+      "constitutional-law",
+      "human-rights"
+    ],
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "id": "spec_071",
+    "word": "negligence",
+    "phonetic": "/ˈnɛɡlɪdʒəns/",
+    "partOfSpeech": "noun",
+    "definition": "Failure to exercise the standard of care expected of a reasonable person, causing harm",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Medical negligence claims require proof that the practitioner breached the accepted standard of care.",
+    "topicTags": [
+      "law",
+      "tort-law",
+      "medical-law"
+    ],
+    "synonyms": [
+      "carelessness",
+      "dereliction",
+      "inadvertence"
+    ],
+    "antonyms": [
+      "diligence",
+      "carefulness"
+    ]
+  },
+  {
+    "id": "spec_072",
+    "word": "statute",
+    "phonetic": "/ˈstætʃuːt/",
+    "partOfSpeech": "noun",
+    "definition": "A written law formally enacted by a legislative body",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The statute was amended to impose stricter penalties for corporate environmental violations.",
+    "topicTags": [
+      "law",
+      "legislation",
+      "statutory-law"
+    ],
+    "synonyms": [
+      "law",
+      "act",
+      "legislation",
+      "ordinance"
+    ],
+    "antonyms": [
+      "common-law",
+      "precedent"
+    ]
+  },
+  {
+    "id": "spec_073",
+    "word": "precedent",
+    "phonetic": "/ˈprɛsɪdənt/",
+    "partOfSpeech": "noun",
+    "definition": "A judicial decision that serves as an authoritative rule for subsequent similar cases",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The landmark ruling established a binding precedent for future intellectual property disputes.",
+    "topicTags": [
+      "law",
+      "common-law",
+      "judicial-decision"
+    ],
+    "synonyms": [
+      "authority",
+      "example",
+      "model"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_074",
+    "word": "plaintiff",
+    "phonetic": "/ˈpleɪntɪf/",
+    "partOfSpeech": "noun",
+    "definition": "A person who brings a civil case against another in a court of law",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The plaintiff sought damages for breach of contract and consequential financial losses.",
+    "topicTags": [
+      "law",
+      "litigation",
+      "civil-law"
+    ],
+    "synonyms": [
+      "claimant",
+      "complainant",
+      "petitioner"
+    ],
+    "antonyms": [
+      "defendant",
+      "respondent"
+    ]
+  },
+  {
+    "id": "spec_075",
+    "word": "defendant",
+    "phonetic": "/dɪˈfɛndənt/",
+    "partOfSpeech": "noun",
+    "definition": "An individual accused or sued in a legal proceeding",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The defendant entered a plea of not guilty at the arraignment hearing.",
+    "topicTags": [
+      "law",
+      "litigation",
+      "criminal-law"
+    ],
+    "synonyms": [
+      "accused",
+      "respondent"
+    ],
+    "antonyms": [
+      "plaintiff",
+      "claimant",
+      "prosecutor"
+    ]
+  },
+  {
+    "id": "spec_076",
+    "word": "tribunal",
+    "phonetic": "/traɪˈbjuːnəl/",
+    "partOfSpeech": "noun",
+    "definition": "A body established to adjudicate disputes, often outside the regular court system",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The employment tribunal ruled that the dismissal constituted wrongful termination under statutory provisions.",
+    "topicTags": [
+      "law",
+      "dispute-resolution",
+      "administrative-law"
+    ],
+    "synonyms": [
+      "court",
+      "panel",
+      "board"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_077",
+    "word": "advocacy",
+    "phonetic": "/ˈædvəkəsi/",
+    "partOfSpeech": "noun",
+    "definition": "The act of pleading or arguing in favor of a cause or position in a legal context",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The barrister's advocacy on behalf of the asylum seeker was both compelling and ethically grounded.",
+    "topicTags": [
+      "law",
+      "legal-practice"
+    ],
+    "synonyms": [
+      "representation",
+      "argument",
+      "pleading"
+    ],
+    "antonyms": [
+      "opposition"
+    ]
+  },
+  {
+    "id": "spec_078",
+    "word": "adjudicate",
+    "phonetic": "/əˈdʒuːdɪkeɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To make a formal judgment or decision on a disputed matter",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The arbitration panel was convened to adjudicate the contractual dispute between the two corporations.",
+    "topicTags": [
+      "law",
+      "dispute-resolution",
+      "litigation"
+    ],
+    "synonyms": [
+      "judge",
+      "rule",
+      "arbitrate"
+    ],
+    "antonyms": [
+      "mediate",
+      "negotiate"
+    ]
+  },
+  {
+    "id": "spec_079",
+    "word": "codicil",
+    "phonetic": "/ˈkəʊdɪsɪl/",
+    "partOfSpeech": "noun",
+    "definition": "An addition or amendment to a will that supplements or modifies its provisions",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The testator executed a codicil to bequeath her art collection to the museum.",
+    "topicTags": [
+      "law",
+      "estate-law",
+      "succession"
+    ],
+    "synonyms": [
+      "amendment",
+      "addition",
+      "appendix"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_080",
+    "word": "estoppel",
+    "phonetic": "/ɪˈstɒpəl/",
+    "partOfSpeech": "noun",
+    "definition": "A legal principle preventing a party from asserting a fact inconsistent with a previous position",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "The doctrine of estoppel prevented the landlord from denying the existence of the tenancy agreement.",
+    "topicTags": [
+      "law",
+      "equity",
+      "contract-law"
+    ],
+    "synonyms": [
+      "preclusion",
+      "bar"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_081",
+    "word": "forgery",
+    "phonetic": "/ˈfɔːdʒəri/",
+    "partOfSpeech": "noun",
+    "definition": "The act of falsely making or altering a document with intent to deceive",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The art dealer was convicted of forgery after selling counterfeit paintings attributed to renowned artists.",
+    "topicTags": [
+      "law",
+      "criminal-law"
+    ],
+    "synonyms": [
+      "counterfeiting",
+      "falsification",
+      "impersonation"
+    ],
+    "antonyms": [
+      "authenticity",
+      "verification"
+    ]
+  },
+  {
+    "id": "spec_082",
+    "word": "extenuating",
+    "phonetic": "/ɪkˈstɛnjueɪtɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Lessening the seriousness of an offense by partially justifying it",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The court considered the defendant's difficult upbringing as an extenuating factor in sentencing.",
+    "topicTags": [
+      "law",
+      "criminal-law",
+      "sentencing"
+    ],
+    "synonyms": [
+      "mitigating",
+      "justifying"
+    ],
+    "antonyms": [
+      "aggravating"
+    ]
+  },
+  {
+    "id": "spec_083",
+    "word": "collateral",
+    "phonetic": "/kəˈlætərəl/",
+    "partOfSpeech": "noun",
+    "definition": "Property pledged as security against a loan or obligation",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The bank seized the collateral after the borrower defaulted on the commercial loan.",
+    "topicTags": [
+      "law",
+      "property-law",
+      "finance"
+    ],
+    "synonyms": [
+      "security",
+      "guarantee",
+      "pledge"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_084",
+    "word": "disclaimer",
+    "phonetic": "/dɪsˈkleɪmər/",
+    "partOfSpeech": "noun",
+    "definition": "A statement denying responsibility or knowledge of something",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The product liability disclaimer did not absolve the manufacturer of gross negligence.",
+    "topicTags": [
+      "law",
+      "contract-law",
+      "tort"
+    ],
+    "synonyms": [
+      "repudiation",
+      "disavowal",
+      "denial"
+    ],
+    "antonyms": [
+      "admission",
+      "acknowledgment"
+    ]
+  },
+  {
+    "id": "spec_085",
+    "word": "deposition",
+    "phonetic": "/ˌdɛpəˈzɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A sworn testimony taken outside court for later use in legal proceedings",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The deposition of the key witness revealed inconsistencies that weakened the prosecution's case.",
+    "topicTags": [
+      "law",
+      "litigation",
+      "evidence"
+    ],
+    "synonyms": [
+      "testimony",
+      "statement",
+      "affidavit"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_086",
+    "word": "empanel",
+    "phonetic": "/ɪmˈpænəl/",
+    "partOfSpeech": "verb",
+    "definition": "To select and swear in a jury for the trial of a case",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The court proceeded to empanel a jury after both sides exhausted their challenges.",
+    "topicTags": [
+      "law",
+      "litigation",
+      "criminal-procedure"
+    ],
+    "synonyms": [
+      "swear-in",
+      "convene"
+    ],
+    "antonyms": [
+      "disband",
+      "dismiss"
+    ]
+  },
+  {
+    "id": "spec_087",
+    "word": "impeachment",
+    "phonetic": "/ɪmˈpiːtʃmənt/",
+    "partOfSpeech": "noun",
+    "definition": "The process of challenging the credibility of a witness or charging a public official with misconduct",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The impeachment of the witness centered on prior contradictory statements that undermined her reliability.",
+    "topicTags": [
+      "law",
+      "evidence",
+      "constitutional-law"
+    ],
+    "synonyms": [
+      "indictment",
+      "accusation"
+    ],
+    "antonyms": [
+      "vindication",
+      "exoneration"
+    ]
+  },
+  {
+    "id": "spec_088",
+    "word": "probate",
+    "phonetic": "/ˈprəʊbeɪt/",
+    "partOfSpeech": "noun",
+    "definition": "The official process of proving a will is valid and administering an estate",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The executor filed the will for probate to commence the distribution of assets to beneficiaries.",
+    "topicTags": [
+      "law",
+      "estate-law",
+      "succession"
+    ],
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "id": "spec_089",
+    "word": "remand",
+    "phonetic": "/rɪˈmɑːnd/",
+    "partOfSpeech": "noun",
+    "definition": "The detention of an accused person in custody while awaiting trial",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The magistrate ordered the suspect to be held on remand due to the seriousness of the charges.",
+    "topicTags": [
+      "law",
+      "criminal-law",
+      "procedure"
+    ],
+    "synonyms": [
+      "detention",
+      "custody",
+      "confinement"
+    ],
+    "antonyms": [
+      "bail",
+      "release"
+    ]
+  },
+  {
+    "id": "spec_090",
+    "word": "sanction",
+    "phonetic": "/ˈsæŋkʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A penalty imposed for violating a law or rule, or official approval",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Economic sanctions were imposed as a penalty for the state's violations of international law.",
+    "topicTags": [
+      "law",
+      "international-law",
+      "regulatory"
+    ],
+    "synonyms": [
+      "penalty",
+      "punishment",
+      "approval"
+    ],
+    "antonyms": [
+      "reward",
+      "authorization"
+    ]
+  },
+  {
+    "id": "spec_091",
+    "word": "statutory",
+    "phonetic": "/ˈstætʃʊtɔːri/",
+    "partOfSpeech": "adjective",
+    "definition": "Required, permitted, or enacted by statute",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The employer has a statutory obligation to maintain a safe working environment for all staff.",
+    "topicTags": [
+      "law",
+      "legislation",
+      "regulatory"
+    ],
+    "synonyms": [
+      "legal",
+      "legislative",
+      "regulatory"
+    ],
+    "antonyms": [
+      "common-law",
+      "non-statutory"
+    ]
+  },
+  {
+    "id": "spec_092",
+    "word": "testator",
+    "phonetic": "/tɛˈsteɪtə/",
+    "partOfSpeech": "noun",
+    "definition": "A person who has made a legally valid will, especially one who dies leaving it in effect",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The testator must sign the will in the presence of two witnesses for it to be legally valid.",
+    "topicTags": [
+      "law",
+      "estate-law",
+      "succession"
+    ],
+    "synonyms": [
+      "bequeather",
+      "inheritor"
+    ],
+    "antonyms": [
+      "intestate"
+    ]
+  },
+  {
+    "id": "spec_093",
+    "word": "venue",
+    "phonetic": "/ˈvɛnjuː/",
+    "partOfSpeech": "noun",
+    "definition": "The geographic location where a court case is heard",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The defense successfully petitioned for a change of venue due to prejudicial media coverage.",
+    "topicTags": [
+      "law",
+      "litigation",
+      "procedure"
+    ],
+    "synonyms": [
+      "location",
+      "jurisdiction",
+      "forum"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_094",
+    "word": "vindicate",
+    "phonetic": "/ˈvɪndɪkeɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To clear someone of blame or suspicion by proving their innocence",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The new DNA evidence served to vindicate the wrongfully convicted prisoner after twenty years.",
+    "topicTags": [
+      "law",
+      "criminal-law",
+      "evidence"
+    ],
+    "synonyms": [
+      "exonerate",
+      "acquit",
+      "absolve"
+    ],
+    "antonyms": [
+      "convict",
+      "incriminate",
+      "condemn"
+    ]
+  },
+  {
+    "id": "spec_095",
+    "word": "waiver",
+    "phonetic": "/ˈweɪvər/",
+    "partOfSpeech": "noun",
+    "definition": "The voluntary relinquishment of a known right or privilege",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The tenant signed a waiver releasing the landlord from liability for certain property damages.",
+    "topicTags": [
+      "law",
+      "contract-law",
+      "property"
+    ],
+    "synonyms": [
+      "renunciation",
+      "relinquishment",
+      "abdication"
+    ],
+    "antonyms": [
+      "assertion",
+      "claim",
+      "retention"
+    ]
+  },
+  {
+    "id": "spec_096",
+    "word": "arbitrary",
+    "phonetic": "/ˈɑːbɪtrəri/",
+    "partOfSpeech": "adjective",
+    "definition": "Based on random choice rather than reason or legal principle",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The court ruled that the detention was arbitrary and violated principles of due process.",
+    "topicTags": [
+      "law",
+      "human-rights",
+      "legal-theory"
+    ],
+    "synonyms": [
+      "capricious",
+      "unreasonable",
+      "random"
+    ],
+    "antonyms": [
+      "reasonable",
+      "justified",
+      "rational"
+    ]
+  },
+  {
+    "id": "spec_097",
+    "word": "conveyance",
+    "phonetic": "/kənˈveɪəns/",
+    "partOfSpeech": "noun",
+    "definition": "A legal document transferring property from one owner to another",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The solicitor prepared the conveyance for the sale of the freehold property.",
+    "topicTags": [
+      "law",
+      "property-law",
+      "real-estate"
+    ],
+    "synonyms": [
+      "deed",
+      "transfer",
+      "document"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_098",
+    "word": "liquidate",
+    "phonetic": "/ˈlɪkwɪdeɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To wind up a company by converting assets into cash and settling debts",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The insolvent corporation was forced to liquidate its assets to satisfy creditor claims.",
+    "topicTags": [
+      "law",
+      "corporate-law",
+      "finance"
+    ],
+    "synonyms": [
+      "dissolve",
+      "wind-up"
+    ],
+    "antonyms": [
+      "capitalize",
+      "incorporate"
+    ]
+  },
+  {
+    "id": "spec_099",
+    "word": "repudiate",
+    "phonetic": "/rɪˈpjuːdieɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To refuse to accept or comply with a contract or obligation",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The insurer could not repudiate liability without demonstrating a material breach of policy terms.",
+    "topicTags": [
+      "law",
+      "contract-law"
+    ],
+    "synonyms": [
+      "reject",
+      "disavow",
+      "renounce"
+    ],
+    "antonyms": [
+      "accept",
+      "acknowledge",
+      "uphold"
+    ]
+  },
+  {
+    "id": "spec_100",
+    "word": "rescind",
+    "phonetic": "/rɪˈsɪnd/",
+    "partOfSpeech": "verb",
+    "definition": "To revoke, cancel, or annul a law, contract, or agreement",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The board voted to rescind the previous resolution after identifying procedural irregularities.",
+    "topicTags": [
+      "law",
+      "contract-law",
+      "corporate-law"
+    ],
+    "synonyms": [
+      "revoke",
+      "annul",
+      "repeal",
+      "void"
+    ],
+    "antonyms": [
+      "enact",
+      "ratify",
+      "confirm"
+    ]
+  },
+  {
+    "id": "spec_101",
+    "word": "epistemology",
+    "phonetic": "/ɪˌpɪstɪˈmɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The branch of philosophy concerned with the nature, origin, and limits of knowledge",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Epistemology examines whether empirical evidence alone can justify our beliefs about the external world.",
+    "topicTags": [
+      "philosophy",
+      "epistemology"
+    ],
+    "synonyms": [
+      "theory-of-knowledge",
+      "gnoseology"
+    ],
+    "antonyms": [
+      "ontology",
+      "metaphysics"
+    ]
+  },
+  {
+    "id": "spec_102",
+    "word": "ontology",
+    "phonetic": "/ɒnˈtɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The metaphysical study of the nature of being, existence, and reality",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Ontology addresses fundamental questions about the categories of entities that exist in the universe.",
+    "topicTags": [
+      "philosophy",
+      "metaphysics"
+    ],
+    "synonyms": [
+      "metaphysics",
+      "philosophy-of-being"
+    ],
+    "antonyms": [
+      "epistemology"
+    ]
+  },
+  {
+    "id": "spec_103",
+    "word": "teleology",
+    "phonetic": "/ˌtɛliˈɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical explanation of phenomena in terms of purpose or end goals",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Teleology posits that natural processes can be understood through their ultimate purposes rather than mechanistic causes.",
+    "topicTags": [
+      "philosophy",
+      "ethics",
+      "metaphysics"
+    ],
+    "synonyms": [
+      "final-causation",
+      "purposiveness"
+    ],
+    "antonyms": [
+      "mechanism",
+      "determinism"
+    ]
+  },
+  {
+    "id": "spec_104",
+    "word": "syllogism",
+    "phonetic": "/ˈsɪlədʒɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A logical argument consisting of two premises and a conclusion, used in deductive reasoning",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The classic syllogism states that all humans are mortal and Socrates is human, therefore Socrates is mortal.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "deduction",
+      "argument",
+      "reasoning"
+    ],
+    "antonyms": [
+      "paradox",
+      "falacy"
+    ]
+  },
+  {
+    "id": "spec_105",
+    "word": "dialectic",
+    "phonetic": "/ˌdaɪəˈlɛktɪk/",
+    "partOfSpeech": "noun",
+    "definition": "A method of argument involving the exchange of contradictory propositions to resolve disagreement",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Hegelian dialectic proceeds through thesis, antithesis, and synthesis to arrive at higher truth.",
+    "topicTags": [
+      "philosophy",
+      "dialectics",
+      "logic"
+    ],
+    "synonyms": [
+      "argumentation",
+      "debate",
+      "discourse"
+    ],
+    "antonyms": [
+      "dogmatism",
+      "monologue"
+    ]
+  },
+  {
+    "id": "spec_106",
+    "word": "a priori",
+    "phonetic": "/ˌeɪ praɪˈɔːraɪ/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to knowledge derived from theoretical reasoning rather than empirical observation",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Mathematical truths are often considered a priori because they are knowable independently of sensory experience.",
+    "topicTags": [
+      "philosophy",
+      "epistemology",
+      "logic"
+    ],
+    "synonyms": [
+      "deductive",
+      "rational"
+    ],
+    "antonyms": [
+      "a-posteriori",
+      "empirical",
+      "inductive"
+    ]
+  },
+  {
+    "id": "spec_107",
+    "word": "tautology",
+    "phonetic": "/tɔːˈtɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "A statement that is true by definition, often involving needless repetition of an idea",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The claim that a bachelor is an unmarried man is a tautology offering no substantive information.",
+    "topicTags": [
+      "philosophy",
+      "logic",
+      "semantics"
+    ],
+    "synonyms": [
+      "redundancy",
+      "pleonasm",
+      "repetition"
+    ],
+    "antonyms": [
+      "contradiction",
+      "paradox"
+    ]
+  },
+  {
+    "id": "spec_108",
+    "word": "existentialism",
+    "phonetic": "/ˌɛɡzɪˈstɛnʃəlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A philosophical movement emphasizing individual existence, freedom, and subjective experience",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Existentialism asserts that existence precedes essence, granting individuals the freedom to define their own meaning.",
+    "topicTags": [
+      "philosophy",
+      "continental-philosophy"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "essentialism",
+      "determinism"
+    ]
+  },
+  {
+    "id": "spec_109",
+    "word": "nihilism",
+    "phonetic": "/ˈnaɪɪlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical rejection of objective meaning, moral values, or absolute truth",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Nihilism challenges the foundation of ethical systems by denying the existence of inherent moral truths.",
+    "topicTags": [
+      "philosophy",
+      "ethics",
+      "metaphysics"
+    ],
+    "synonyms": [
+      "skepticism",
+      "cynicism",
+      "negation"
+    ],
+    "antonyms": [
+      "optimism",
+      "absolutism",
+      "idealism"
+    ]
+  },
+  {
+    "id": "spec_110",
+    "word": "solipsism",
+    "phonetic": "/ˈsɒlɪpsɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical position that only one's own mind is certain to exist",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Solipsism represents the extreme of subjective idealism, questioning the reality of other minds.",
+    "topicTags": [
+      "philosophy",
+      "epistemology",
+      "metaphysics"
+    ],
+    "synonyms": [
+      "subjectivism",
+      "idealism"
+    ],
+    "antonyms": [
+      "realism",
+      "objectivism"
+    ]
+  },
+  {
+    "id": "spec_111",
+    "word": "determinism",
+    "phonetic": "/dɪˈtɜːmɪnɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical doctrine that all events are causally necessitated by prior conditions",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Determinism poses a fundamental challenge to notions of free will and moral responsibility.",
+    "topicTags": [
+      "philosophy",
+      "metaphysics",
+      "ethics"
+    ],
+    "synonyms": [
+      "fatalism",
+      "necessitarianism"
+    ],
+    "antonyms": [
+      "indeterminism",
+      "libertarianism",
+      "free-will"
+    ]
+  },
+  {
+    "id": "spec_112",
+    "word": "utilitarianism",
+    "phonetic": "/juːˌtɪlɪˈtɛəriənɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "An ethical theory holding that the best action maximizes overall happiness or utility",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Utilitarianism provides a framework for evaluating public policy based on its consequences for aggregate well-being.",
+    "topicTags": [
+      "philosophy",
+      "ethics",
+      "moral-philosophy"
+    ],
+    "synonyms": [
+      "consequentialism",
+      "beneficialness"
+    ],
+    "antonyms": [
+      "deontology",
+      "virtue-ethics"
+    ]
+  },
+  {
+    "id": "spec_113",
+    "word": "deontology",
+    "phonetic": "/ˌdiːɒnˈtɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "An ethical theory that judges actions based on adherence to duties and rules, not consequences",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Kantian deontology insists that lying is morally impermissible regardless of the beneficial outcomes it may produce.",
+    "topicTags": [
+      "philosophy",
+      "ethics",
+      "moral-philosophy"
+    ],
+    "synonyms": [
+      "duty-based-ethics"
+    ],
+    "antonyms": [
+      "utilitarianism",
+      "consequentialism"
+    ]
+  },
+  {
+    "id": "spec_114",
+    "word": "empiricism",
+    "phonetic": "/ɪmˈpɪrɪsɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The theory that knowledge derives primarily from sensory experience",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Empiricism underpins the scientific method by asserting that hypotheses must be testable through observation.",
+    "topicTags": [
+      "philosophy",
+      "epistemology",
+      "philosophy-of-science"
+    ],
+    "synonyms": [
+      "sensory-experience",
+      "empirical-method"
+    ],
+    "antonyms": [
+      "rationalism",
+      "idealism"
+    ]
+  },
+  {
+    "id": "spec_115",
+    "word": "rationalism",
+    "phonetic": "/ˈræʃənəlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The theory that reason and deductive logic are the primary sources of knowledge",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Rationalism holds that certain innate concepts cannot be derived from sensory experience alone.",
+    "topicTags": [
+      "philosophy",
+      "epistemology"
+    ],
+    "synonyms": [
+      "reason",
+      "deductive-reasoning"
+    ],
+    "antonyms": [
+      "empiricism",
+      "skepticism"
+    ]
+  },
+  {
+    "id": "spec_116",
+    "word": "heuristic",
+    "phonetic": "/hjʊˈrɪstɪk/",
+    "partOfSpeech": "noun",
+    "definition": "An approach to problem-solving using practical methods not guaranteed to be optimal",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The availability heuristic leads individuals to overestimate the frequency of easily recalled events.",
+    "topicTags": [
+      "philosophy",
+      "logic",
+      "cognitive-science"
+    ],
+    "synonyms": [
+      "rule-of-thumb",
+      "shortcut"
+    ],
+    "antonyms": [
+      "algorithm",
+      "systematic-analysis"
+    ]
+  },
+  {
+    "id": "spec_117",
+    "word": "reductio ad absurdum",
+    "phonetic": "/rɪˈdʌktiəʊ æd æbˈsɜːdəm/",
+    "partOfSpeech": "noun",
+    "definition": "A proof technique demonstrating the falsity of a premise by showing it leads to absurdity",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "The mathematician employed reductio ad absurdum to prove that the square root of two is irrational.",
+    "topicTags": [
+      "philosophy",
+      "logic",
+      "mathematics"
+    ],
+    "synonyms": [
+      "proof-by-contradiction"
+    ],
+    "antonyms": [
+      "direct-proof",
+      "constructive-proof"
+    ]
+  },
+  {
+    "id": "spec_118",
+    "word": "categorical imperative",
+    "phonetic": "/ˌkætɪˈɡɒrɪkəl ɪmˈpɛrətɪv/",
+    "partOfSpeech": "noun",
+    "definition": "Kant's principle that moral obligations are unconditional and universally binding",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "The categorical imperative commands that one should act only according to maxims that could become universal law.",
+    "topicTags": [
+      "philosophy",
+      "ethics",
+      "kantianism"
+    ],
+    "synonyms": [
+      "moral-law",
+      "universal-maxim"
+    ],
+    "antonyms": [
+      "hypothetical-imperative"
+    ]
+  },
+  {
+    "id": "spec_119",
+    "word": "hedonism",
+    "phonetic": "/ˈhiːdənɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical doctrine that pleasure is the highest good and proper aim of human life",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Epicurean hedonism advocates for moderate pleasure and the avoidance of pain as the path to well-being.",
+    "topicTags": [
+      "philosophy",
+      "ethics"
+    ],
+    "synonyms": [
+      "pleasure-seeking",
+      "epicureanism"
+    ],
+    "antonyms": [
+      "asceticism",
+      "stoicism"
+    ]
+  },
+  {
+    "id": "spec_120",
+    "word": "stoicism",
+    "phonetic": "/ˈstəʊɪsɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A school of philosophy emphasizing virtue, self-control, and acceptance of fate",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Stoicism teaches that external events are beyond our control and that inner tranquility depends on rational judgment.",
+    "topicTags": [
+      "philosophy",
+      "ethics",
+      "ancient-philosophy"
+    ],
+    "synonyms": [
+      "fortitude",
+      "resilience",
+      "equanimity"
+    ],
+    "antonyms": [
+      "hedonism",
+      "passion",
+      "excess"
+    ]
+  },
+  {
+    "id": "spec_121",
+    "word": "metaphysics",
+    "phonetic": "/ˌmɛtəˈfɪzɪks/",
+    "partOfSpeech": "noun",
+    "definition": "The branch of philosophy examining the fundamental nature of reality and being",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Metaphysics addresses whether abstract entities such as numbers and propositions exist independently of the mind.",
+    "topicTags": [
+      "philosophy",
+      "metaphysics"
+    ],
+    "synonyms": [
+      "ontology",
+      "cosmology"
+    ],
+    "antonyms": [
+      "epistemology",
+      "empiricism"
+    ]
+  },
+  {
+    "id": "spec_122",
+    "word": "phenomenology",
+    "phonetic": "/fɪˌnɒmɪˈnɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical study of the structures of conscious experience as perceived from the first-person perspective",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Phenomenology seeks to describe phenomena as they appear to consciousness, bracketing assumptions about objective existence.",
+    "topicTags": [
+      "philosophy",
+      "continental-philosophy"
+    ],
+    "synonyms": [
+      "consciousness-study",
+      "experiential-philosophy"
+    ],
+    "antonyms": [
+      "behaviorism",
+      "empiricism"
+    ]
+  },
+  {
+    "id": "spec_123",
+    "word": "consequentialism",
+    "phonetic": "/ˌkɒnsɪˈkwɛnʃəlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The ethical doctrine that actions are right or wrong based on their outcomes",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Consequentialism evaluates the morality of an action solely by the net value of its consequences.",
+    "topicTags": [
+      "philosophy",
+      "ethics"
+    ],
+    "synonyms": [
+      "teleological-ethics",
+      "utilitarianism"
+    ],
+    "antonyms": [
+      "deontology",
+      "virtue-ethics"
+    ]
+  },
+  {
+    "id": "spec_124",
+    "word": "fallacy",
+    "phonetic": "/ˈfæləsi/",
+    "partOfSpeech": "noun",
+    "definition": "A mistaken belief or flawed reasoning that undermines the validity of an argument",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The straw man fallacy involves misrepresenting an opponent's position to make it easier to attack.",
+    "topicTags": [
+      "philosophy",
+      "logic",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "misconception",
+      "error",
+      "sophism"
+    ],
+    "antonyms": [
+      "validity",
+      "soundness",
+      "truth"
+    ]
+  },
+  {
+    "id": "spec_125",
+    "word": "skepticism",
+    "phonetic": "/ˈskɛptɪsɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A philosophical position questioning the possibility of certain knowledge",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Cartesian skepticism employs systematic doubt to establish a foundation for indubitable knowledge.",
+    "topicTags": [
+      "philosophy",
+      "epistemology"
+    ],
+    "synonyms": [
+      "doubt",
+      "questioning",
+      "cynicism"
+    ],
+    "antonyms": [
+      "dogmatism",
+      "credulity",
+      "certainty"
+    ]
+  },
+  {
+    "id": "spec_126",
+    "word": "dualism",
+    "phonetic": "/ˈdjuːəlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical view that reality consists of two fundamentally distinct substances, typically mind and matter",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Cartesian dualism posits an ontological distinction between mental substance and physical extension.",
+    "topicTags": [
+      "philosophy",
+      "metaphysics",
+      "philosophy-of-mind"
+    ],
+    "synonyms": [
+      "two-substance-theory"
+    ],
+    "antonyms": [
+      "monism",
+      "physicalism"
+    ]
+  },
+  {
+    "id": "spec_127",
+    "word": "monism",
+    "phonetic": "/ˈmɒnɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical doctrine that reality constitutes a single unified substance or principle",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Materialist monism asserts that everything in existence is reducible to physical matter.",
+    "topicTags": [
+      "philosophy",
+      "metaphysics"
+    ],
+    "synonyms": [
+      "unity",
+      "oneness"
+    ],
+    "antonyms": [
+      "dualism",
+      "pluralism"
+    ]
+  },
+  {
+    "id": "spec_128",
+    "word": "paradox",
+    "phonetic": "/ˈpærədɒks/",
+    "partOfSpeech": "noun",
+    "definition": "A seemingly contradictory statement that may nonetheless express a deeper truth",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The liar paradox arises from the self-referential statement that this sentence is false.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "contradiction",
+      "anomaly",
+      "puzzle"
+    ],
+    "antonyms": [
+      "consistency",
+      "certainty"
+    ]
+  },
+  {
+    "id": "spec_129",
+    "word": "postulate",
+    "phonetic": "/ˈpɒstjʊlət/",
+    "partOfSpeech": "noun",
+    "definition": "A fundamental assumption or proposition serving as a basis for reasoning",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Euclid's fifth postulate regarding parallel lines was eventually shown to be independent of the other axioms.",
+    "topicTags": [
+      "philosophy",
+      "logic",
+      "mathematics"
+    ],
+    "synonyms": [
+      "axiom",
+      "assumption",
+      "premise"
+    ],
+    "antonyms": [
+      "conclusion",
+      "demonstration"
+    ]
+  },
+  {
+    "id": "spec_130",
+    "word": "inference",
+    "phonetic": "/ˈɪnfərəns/",
+    "partOfSpeech": "noun",
+    "definition": "A conclusion reached on the basis of evidence and logical reasoning",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Deductive inference guarantees the truth of the conclusion if the premises are true.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "deduction",
+      "reasoning",
+      "conclusion"
+    ],
+    "antonyms": [
+      "assumption",
+      "guess"
+    ]
+  },
+  {
+    "id": "spec_131",
+    "word": "premise",
+    "phonetic": "/ˈprɛmɪs/",
+    "partOfSpeech": "noun",
+    "definition": "A proposition serving as the basis for an argument or inference",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The validity of a syllogism depends entirely on the logical relationship between its premises and conclusion.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "assumption",
+      "proposition",
+      "postulate"
+    ],
+    "antonyms": [
+      "conclusion",
+      "deduction"
+    ]
+  },
+  {
+    "id": "spec_132",
+    "word": "ontological",
+    "phonetic": "/ˌɒntəˈlɒdʒɪkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the nature of being, existence, or reality",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Anselm's ontological argument attempts to prove God's existence from the concept of a perfect being.",
+    "topicTags": [
+      "philosophy",
+      "metaphysics"
+    ],
+    "synonyms": [
+      "existential",
+      "metaphysical"
+    ],
+    "antonyms": [
+      "epistemic",
+      "empirical"
+    ]
+  },
+  {
+    "id": "spec_133",
+    "word": "epistemic",
+    "phonetic": "/ˌɛpɪˈstiːmɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to knowledge or the study of knowledge",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Epistemic uncertainty arises when available evidence is insufficient to determine the truth of a proposition.",
+    "topicTags": [
+      "philosophy",
+      "epistemology"
+    ],
+    "synonyms": [
+      "cognitive",
+      "knowledge-related"
+    ],
+    "antonyms": [
+      "ontological",
+      "metaphysical"
+    ]
+  },
+  {
+    "id": "spec_134",
+    "word": "positivism",
+    "phonetic": "/ˈpɒzɪtɪvɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A philosophical system holding that only verifiable scientific propositions are meaningful",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Logical positivism rejected metaphysical statements as meaningless because they could not be empirically verified.",
+    "topicTags": [
+      "philosophy",
+      "philosophy-of-science",
+      "epistemology"
+    ],
+    "synonyms": [
+      "empiricism",
+      "scientism"
+    ],
+    "antonyms": [
+      "metaphysics",
+      "idealism",
+      "interpretivism"
+    ]
+  },
+  {
+    "id": "spec_135",
+    "word": "pragmatism",
+    "phonetic": "/ˈpræɡmətɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A philosophical approach evaluating theories by their practical consequences and applicability",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Pragmatism asserts that the meaning of a concept lies in its practical effects on human experience.",
+    "topicTags": [
+      "philosophy",
+      "american-philosophy",
+      "practical-philosophy"
+    ],
+    "synonyms": [
+      "practicality",
+      "instrumentalism"
+    ],
+    "antonyms": [
+      "idealism",
+      "absolutism",
+      "theory"
+    ]
+  },
+  {
+    "id": "spec_136",
+    "word": "dialectical materialism",
+    "phonetic": "/ˌdaɪəˈlɛktɪkəl məˈtɪəriəlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "Marxist philosophy combining dialectics with materialist explanations of historical change",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Dialectical materialism interprets history as a series of class struggles driven by material economic conditions.",
+    "topicTags": [
+      "philosophy",
+      "marxism",
+      "social-philosophy"
+    ],
+    "synonyms": [
+      "historical-materialism"
+    ],
+    "antonyms": [
+      "idealism",
+      "metaphysical-materialism"
+    ]
+  },
+  {
+    "id": "spec_137",
+    "word": "transcendental",
+    "phonetic": "/ˌtrænsɛnˈdɛntəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to conditions that make experience possible, beyond empirical observation",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Kant's transcendental idealism distinguishes between phenomena as we perceive them and noumena as things in themselves.",
+    "topicTags": [
+      "philosophy",
+      "kantianism",
+      "epistemology"
+    ],
+    "synonyms": [
+      "a-priori",
+      "supersensible"
+    ],
+    "antonyms": [
+      "empirical",
+      "phenomenal"
+    ]
+  },
+  {
+    "id": "spec_138",
+    "word": "noumenon",
+    "phonetic": "/ˈnuːmɪnɒn/",
+    "partOfSpeech": "noun",
+    "definition": "A thing in itself as distinct from its appearance to the senses in Kantian philosophy",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Kant argued that the noumenon remains forever inaccessible to human cognition.",
+    "topicTags": [
+      "philosophy",
+      "kantianism",
+      "epistemology"
+    ],
+    "synonyms": [
+      "thing-in-itself"
+    ],
+    "antonyms": [
+      "phenomenon",
+      "appearance"
+    ]
+  },
+  {
+    "id": "spec_139",
+    "word": "phenomenon",
+    "phonetic": "/fɪˈnɒmɪnən/",
+    "partOfSpeech": "noun",
+    "definition": "An observable fact or event as it appears to consciousness, distinct from its underlying reality",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "In Kantian terms, a phenomenon is the representation of an object as structured by the mind's categories.",
+    "topicTags": [
+      "philosophy",
+      "kantianism"
+    ],
+    "synonyms": [
+      "appearance",
+      "manifestation",
+      "occurrence"
+    ],
+    "antonyms": [
+      "noumenon",
+      "thing-in-itself"
+    ]
+  },
+  {
+    "id": "spec_140",
+    "word": "axiology",
+    "phonetic": "/ˌæksiˈɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical study of values, encompassing both ethics and aesthetics",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Axiology investigates what makes things valuable, whether intrinsically or instrumentally.",
+    "topicTags": [
+      "philosophy",
+      "ethics",
+      "aesthetics"
+    ],
+    "synonyms": [
+      "value-theory"
+    ],
+    "antonyms": [
+      "ontology",
+      "epistemology"
+    ]
+  },
+  {
+    "id": "spec_141",
+    "word": "relativism",
+    "phonetic": "/ˈrɛlətɪvɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical view that truth and moral principles are not absolute but vary across contexts",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Cultural relativism holds that moral judgments should be understood within their specific social frameworks.",
+    "topicTags": [
+      "philosophy",
+      "ethics"
+    ],
+    "synonyms": [
+      "subjectivism",
+      "contextualism"
+    ],
+    "antonyms": [
+      "absolutism",
+      "universalism",
+      "objectivism"
+    ]
+  },
+  {
+    "id": "spec_142",
+    "word": "cogito ergo sum",
+    "phonetic": "/ˈkɒdʒɪtəʊ ˈɜːɡəʊ sʌm/",
+    "partOfSpeech": "phrase",
+    "definition": "I think, therefore I am: Descartes' foundational proposition for indubitable knowledge",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The cogito ergo sum serves as Descartes' starting point for rebuilding knowledge after systematic doubt.",
+    "topicTags": [
+      "philosophy",
+      "epistemology",
+      "rationalism"
+    ],
+    "synonyms": [
+      "I-think-therefore-I-am"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_143",
+    "word": "analytic",
+    "phonetic": "/ˌænəˈlɪtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to propositions that are true by definition or logical necessity",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Analytic truths such as all bachelors are unmarried are knowable through the meanings of the terms involved.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "a-priori",
+      "logical"
+    ],
+    "antonyms": [
+      "synthetic",
+      "empirical"
+    ]
+  },
+  {
+    "id": "spec_144",
+    "word": "synthetic",
+    "phonetic": "/sɪnˈθɛtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to propositions whose truth depends on empirical verification beyond mere definition",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Synthetic a priori judgments, such as those in geometry, expand knowledge while being knowable independently of experience.",
+    "topicTags": [
+      "philosophy",
+      "kantianism"
+    ],
+    "synonyms": [
+      "empirical",
+      "contingent"
+    ],
+    "antonyms": [
+      "analytic",
+      "a-priori"
+    ]
+  },
+  {
+    "id": "spec_145",
+    "word": "intuitionism",
+    "phonetic": "/ˌɪntjuːˈɪʃənɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical view that basic ethical truths are known through immediate intuitive apprehension",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Intuitionism maintains that moral properties are objectively real and directly apprehendable by the mind.",
+    "topicTags": [
+      "philosophy",
+      "ethics",
+      "moral-philosophy"
+    ],
+    "synonyms": [
+      "ethical-intuitionism"
+    ],
+    "antonyms": [
+      "rationalism",
+      "empiricism",
+      "consequentialism"
+    ]
+  },
+  {
+    "id": "spec_146",
+    "word": "modal logic",
+    "phonetic": "/ˈməʊdəl ˈlɒdʒɪk/",
+    "partOfSpeech": "noun",
+    "definition": "A system of logic dealing with necessity, possibility, and contingency",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Modal logic formalizes the logical relationships between what is necessarily true and what is merely possible.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "necessity-logic",
+      "possibility-logic"
+    ],
+    "antonyms": [
+      "classical-logic",
+      "extensional-logic"
+    ]
+  },
+  {
+    "id": "spec_147",
+    "word": "predicate logic",
+    "phonetic": "/ˈprɛdɪkət ˈlɒdʒɪk/",
+    "partOfSpeech": "noun",
+    "definition": "A formal logical system using quantifiers and predicates to express statements about objects",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Predicate logic permits the formalization of statements like all humans are mortal using universal quantifiers.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "first-order-logic",
+      "quantifier-logic"
+    ],
+    "antonyms": [
+      "propositional-logic",
+      "sentential-logic"
+    ]
+  },
+  {
+    "id": "spec_148",
+    "word": "eudaimonia",
+    "phonetic": "/juːdaɪˈməʊniə/",
+    "partOfSpeech": "noun",
+    "definition": "A state of human flourishing and well-being, central to Aristotelian ethics",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Aristotle conceived of eudaimonia as the highest human good achieved through rational activity and virtue.",
+    "topicTags": [
+      "philosophy",
+      "ethics",
+      "ancient-philosophy"
+    ],
+    "synonyms": [
+      "flourishing",
+      "well-being",
+      "fulfillment"
+    ],
+    "antonyms": [
+      "misery",
+      "suffering",
+      "hedonism"
+    ]
+  },
+  {
+    "id": "spec_149",
+    "word": "solipsistic",
+    "phonetic": "/ˌsɒlɪpˈsɪstɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the belief that only the self exists or can be known",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "The solipsistic position ultimately undermines the possibility of meaningful communication between individuals.",
+    "topicTags": [
+      "philosophy",
+      "epistemology"
+    ],
+    "synonyms": [
+      "self-centered",
+      "egocentric"
+    ],
+    "antonyms": [
+      "objective",
+      "shared",
+      "communal"
+    ]
+  },
+  {
+    "id": "spec_150",
+    "word": "essence",
+    "phonetic": "/ˈɛsəns/",
+    "partOfSpeech": "noun",
+    "definition": "The intrinsic nature or indispensable quality of something that determines its character",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Existentialism famously reverses the Scholastic maxim by asserting that existence precedes essence.",
+    "topicTags": [
+      "philosophy",
+      "metaphysics"
+    ],
+    "synonyms": [
+      "core",
+      "nature",
+      "quintessence"
+    ],
+    "antonyms": [
+      "accident",
+      "appearance",
+      "existence"
+    ]
+  },
+  {
+    "id": "spec_151",
+    "word": "biodiversity",
+    "phonetic": "/ˈbaɪəʊdaɪˌvɜːsɪti/",
+    "partOfSpeech": "noun",
+    "definition": "The variety of plant and animal life in a particular habitat or ecosystem",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Deforestation in tropical rainforests poses a dire threat to global biodiversity and ecosystem stability.",
+    "topicTags": [
+      "environmental-science",
+      "ecology",
+      "conservation"
+    ],
+    "synonyms": [
+      "biological-diversity",
+      "ecological-richness"
+    ],
+    "antonyms": [
+      "monoculture",
+      "ecological-homogeneity"
+    ]
+  },
+  {
+    "id": "spec_152",
+    "word": "desertification",
+    "phonetic": "/dɪˌzɜːtɪfɪˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The process by which fertile land becomes desert, typically due to drought, deforestation, or inappropriate agriculture",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Desertification in the Sahel region has displaced millions and intensified food insecurity across multiple nations.",
+    "topicTags": [
+      "environmental-science",
+      "land-degradation",
+      "climate-science"
+    ],
+    "synonyms": [
+      "land-degradation",
+      "aridification"
+    ],
+    "antonyms": [
+      "reforestation",
+      "afforestation",
+      "greening"
+    ]
+  },
+  {
+    "id": "spec_153",
+    "word": "eutrophication",
+    "phonetic": "/juːˌtrɒfɪˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Excessive nutrient enrichment of water bodies causing algal blooms and oxygen depletion",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Agricultural runoff containing nitrogen and phosphorus fertilizers accelerates eutrophication in freshwater lakes.",
+    "topicTags": [
+      "environmental-science",
+      "water-quality",
+      "aquatic-ecology"
+    ],
+    "synonyms": [
+      "nutrient-pollution",
+      "algal-bloom"
+    ],
+    "antonyms": [
+      "oligotrophication"
+    ]
+  },
+  {
+    "id": "spec_154",
+    "word": "anthropogenic",
+    "phonetic": "/ˌænθrəpəˈdʒɛnɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Originating from human activity, especially environmental impact",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Anthropogenic carbon emissions have elevated atmospheric CO2 concentrations to levels unprecedented in millennia.",
+    "topicTags": [
+      "environmental-science",
+      "climate-science",
+      "ecology"
+    ],
+    "synonyms": [
+      "human-caused",
+      "man-made"
+    ],
+    "antonyms": [
+      "natural",
+      "biogenic",
+      "geogenic"
+    ]
+  },
+  {
+    "id": "spec_155",
+    "word": "decarbonization",
+    "phonetic": "/diːˌkɑːbənaɪˈzeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The process of reducing carbon dioxide emissions, especially from industry and energy production",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Decarbonization of the transportation sector requires widespread adoption of electric vehicles and renewable fuels.",
+    "topicTags": [
+      "environmental-science",
+      "climate-policy",
+      "energy"
+    ],
+    "synonyms": [
+      "carbon-reduction"
+    ],
+    "antonyms": [
+      "carbonization",
+      "fossil-fuel-dependence"
+    ]
+  },
+  {
+    "id": "spec_156",
+    "word": "albedo",
+    "phonetic": "/ælˈbiːdəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "The proportion of incident radiation reflected by a surface, important in climate modeling",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Melting sea ice reduces the Arctic's albedo, causing more solar radiation to be absorbed and accelerating warming.",
+    "topicTags": [
+      "environmental-science",
+      "climate-science",
+      "glaciology"
+    ],
+    "synonyms": [
+      "reflectivity",
+      "reflectance"
+    ],
+    "antonyms": [
+      "absorptivity"
+    ]
+  },
+  {
+    "id": "spec_157",
+    "word": "cryosphere",
+    "phonetic": "/ˈkraɪəsfɪər/",
+    "partOfSpeech": "noun",
+    "definition": "The frozen water component of the Earth system, including glaciers, ice sheets, and permafrost",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The cryosphere is contracting at an accelerating rate, contributing to global sea-level rise.",
+    "topicTags": [
+      "environmental-science",
+      "glaciology",
+      "climate-science"
+    ],
+    "synonyms": [
+      "frozen-sphere",
+      "frozen-water"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_158",
+    "word": "biome",
+    "phonetic": "/ˈbaɪəʊm/",
+    "partOfSpeech": "noun",
+    "definition": "A large naturally occurring community of flora and fauna occupying a major habitat",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The tundra biome is characterized by permafrost, low temperatures, and limited tree growth.",
+    "topicTags": [
+      "environmental-science",
+      "ecology",
+      "biogeography"
+    ],
+    "synonyms": [
+      "ecosystem",
+      "habitat",
+      "ecological-zone"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_159",
+    "word": "troposphere",
+    "phonetic": "/ˈtrɒpəsfɪər/",
+    "partOfSpeech": "noun",
+    "definition": "The lowest layer of Earth's atmosphere, where weather phenomena and most air pollution occur",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Ground-level ozone in the troposphere is a harmful pollutant that exacerbates respiratory conditions.",
+    "topicTags": [
+      "environmental-science",
+      "atmospheric-science"
+    ],
+    "synonyms": [
+      "lower-atmosphere"
+    ],
+    "antonyms": [
+      "stratosphere",
+      "mesosphere"
+    ]
+  },
+  {
+    "id": "spec_160",
+    "word": "watershed",
+    "phonetic": "/ˈwɔːtərʃɛd/",
+    "partOfSpeech": "noun",
+    "definition": "An area of land where all surface water drains into a common outlet such as a river or lake",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The watershed management plan aims to reduce sediment runoff and protect downstream aquatic habitats.",
+    "topicTags": [
+      "environmental-science",
+      "hydrology"
+    ],
+    "synonyms": [
+      "catchment-basin",
+      "drainage-basin"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_161",
+    "word": "biodome",
+    "phonetic": "/ˈbaɪəʊdəʊm/",
+    "partOfSpeech": "noun",
+    "definition": "A closed ecological system or artificially created ecosystem for research or display",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Researchers living inside the biodome studied nutrient cycling and waste recycling in a sealed environment.",
+    "topicTags": [
+      "environmental-science",
+      "ecology"
+    ],
+    "synonyms": [
+      "closed-ecosystem",
+      "artificial-habitat"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_162",
+    "word": "carbon sink",
+    "phonetic": "/ˈkɑːbən sɪŋk/",
+    "partOfSpeech": "noun",
+    "definition": "A natural reservoir that absorbs and stores atmospheric carbon dioxide",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Old-growth forests function as crucial carbon sinks, sequestering CO2 for centuries.",
+    "topicTags": [
+      "environmental-science",
+      "climate-science",
+      "conservation"
+    ],
+    "synonyms": [
+      "carbon-reservoir",
+      "carbon-sequester"
+    ],
+    "antonyms": [
+      "carbon-source",
+      "emitter"
+    ]
+  },
+  {
+    "id": "spec_163",
+    "word": "deforestation",
+    "phonetic": "/diːˌfɒrɪˈsteɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The deliberate clearing of forested land for non-forest use",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Deforestation in the Amazon basin has reached critical levels, threatening indigenous territories and global climate stability.",
+    "topicTags": [
+      "environmental-science",
+      "conservation",
+      "land-use"
+    ],
+    "synonyms": [
+      "clearing",
+      "logging"
+    ],
+    "antonyms": [
+      "reforestation",
+      "afforestation",
+      "regeneration"
+    ]
+  },
+  {
+    "id": "spec_164",
+    "word": "greenhouse effect",
+    "phonetic": "/ˈɡriːnhaʊs ɪˈfɛkt/",
+    "partOfSpeech": "noun",
+    "definition": "The trapping of solar radiation by atmospheric gases, causing planetary warming",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The enhanced greenhouse effect driven by anthropogenic emissions is the primary cause of contemporary climate change.",
+    "topicTags": [
+      "environmental-science",
+      "climate-science"
+    ],
+    "synonyms": [
+      "atmospheric-warming",
+      "global-heating"
+    ],
+    "antonyms": [
+      "greenhouse-gas",
+      "emissions"
+    ]
+  },
+  {
+    "id": "spec_165",
+    "word": "sustainability",
+    "phonetic": "/səˌsteɪnəˈbɪləti/",
+    "partOfSpeech": "noun",
+    "definition": "The capacity to maintain ecological balance and resource availability over the long term",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Sustainability requires balancing economic development with environmental protection and social equity.",
+    "topicTags": [
+      "environmental-science",
+      "conservation",
+      "policy"
+    ],
+    "synonyms": [
+      "endurance",
+      "viability",
+      "durability"
+    ],
+    "antonyms": [
+      "depletion",
+      "exhaustion",
+      "unsustainability"
+    ]
+  },
+  {
+    "id": "spec_166",
+    "word": "acidification",
+    "phonetic": "/əˌsɪdɪfɪˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The process of becoming more acidic, particularly referring to ocean pH decline",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Ocean acidification impairs the ability of calcifying organisms such as corals and mollusks to form shells.",
+    "topicTags": [
+      "environmental-science",
+      "oceanography",
+      "chemistry"
+    ],
+    "synonyms": [
+      "pH-reduction"
+    ],
+    "antonyms": [
+      "alkalinization",
+      "basification"
+    ]
+  },
+  {
+    "id": "spec_167",
+    "word": "photosynthesis",
+    "phonetic": "/ˌfəʊtəʊˈsɪnθəsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The process by which plants convert light energy into chemical energy to produce organic compounds",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Tropical rainforests contribute approximately one-third of global terrestrial photosynthesis.",
+    "topicTags": [
+      "environmental-science",
+      "biology",
+      "ecology"
+    ],
+    "synonyms": [
+      "carbon-fixation",
+      "light-reaction"
+    ],
+    "antonyms": [
+      "respiration",
+      "cellular-respiration"
+    ]
+  },
+  {
+    "id": "spec_168",
+    "word": "ecosystem",
+    "phonetic": "/ˈiːkəʊˌsɪstəm/",
+    "partOfSpeech": "noun",
+    "definition": "A biological community of interacting organisms and their physical environment",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The mangrove ecosystem provides critical coastal protection and nursery habitats for marine species.",
+    "topicTags": [
+      "environmental-science",
+      "ecology"
+    ],
+    "synonyms": [
+      "biome",
+      "habitat",
+      "biosphere"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_169",
+    "word": "reforestation",
+    "phonetic": "/riːˌfɒrɪˈsteɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The deliberate restocking of existing forests that have been depleted",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Large-scale reforestation projects can simultaneously sequester carbon and restore degraded habitats.",
+    "topicTags": [
+      "environmental-science",
+      "conservation",
+      "restoration"
+    ],
+    "synonyms": [
+      "tree-planting",
+      "afforestation"
+    ],
+    "antonyms": [
+      "deforestation",
+      "clearing"
+    ]
+  },
+  {
+    "id": "spec_170",
+    "word": "renewable energy",
+    "phonetic": "/rɪˈnjuːəbəl ˈɛnədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "Energy derived from natural sources that are replenished at a faster rate than consumed",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The transition to renewable energy sources such as wind and solar is essential for meeting emission reduction targets.",
+    "topicTags": [
+      "environmental-science",
+      "energy",
+      "climate-policy"
+    ],
+    "synonyms": [
+      "clean-energy",
+      "green-energy"
+    ],
+    "antonyms": [
+      "fossil-fuel",
+      "non-renewable-energy"
+    ]
+  },
+  {
+    "id": "spec_171",
+    "word": "carbon footprint",
+    "phonetic": "/ˈkɑːbən ˈfʊtprɪnt/",
+    "partOfSpeech": "noun",
+    "definition": "The total amount of greenhouse gases generated by an individual, organization, or product",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Reducing one's carbon footprint involves minimizing energy consumption and adopting sustainable transportation.",
+    "topicTags": [
+      "environmental-science",
+      "climate-science",
+      "policy"
+    ],
+    "synonyms": [
+      "emissions-footprint",
+      "climate-impact"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_172",
+    "word": "conservation",
+    "phonetic": "/ˌkɒnsəˈveɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The careful management and protection of natural resources and ecosystems",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Wildlife conservation efforts have successfully restored several endangered species from the brink of extinction.",
+    "topicTags": [
+      "environmental-science",
+      "conservation",
+      "ecology"
+    ],
+    "synonyms": [
+      "preservation",
+      "protection"
+    ],
+    "antonyms": [
+      "exploitation",
+      "depletion",
+      "waste"
+    ]
+  },
+  {
+    "id": "spec_173",
+    "word": "endangered species",
+    "phonetic": "/ɪnˈdeɪndʒəd ˈspiːʃiːz/",
+    "partOfSpeech": "noun",
+    "definition": "A species at serious risk of extinction throughout all or a significant portion of its range",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The International Union for Conservation of Nature maintains a red list classifying endangered species by threat level.",
+    "topicTags": [
+      "environmental-science",
+      "conservation",
+      "biology"
+    ],
+    "synonyms": [
+      "threatened-species",
+      "vulnerable-species"
+    ],
+    "antonyms": [
+      "abundant-species",
+      "stable-species"
+    ]
+  },
+  {
+    "id": "spec_174",
+    "word": "fossil fuel",
+    "phonetic": "/ˈfɒsəl ˈfjuːəl/",
+    "partOfSpeech": "noun",
+    "definition": "A natural fuel such as coal, oil, or gas formed from the remains of ancient organisms",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The combustion of fossil fuels for energy generation is the dominant source of anthropogenic CO2 emissions.",
+    "topicTags": [
+      "environmental-science",
+      "energy",
+      "climate-science"
+    ],
+    "synonyms": [
+      "hydrocarbon",
+      "petroleum"
+    ],
+    "antonyms": [
+      "renewable-energy",
+      "sustainable-fuel"
+    ]
+  },
+  {
+    "id": "spec_175",
+    "word": "greenhouse gas",
+    "phonetic": "/ˈɡriːnhaʊs ɡæs/",
+    "partOfSpeech": "noun",
+    "definition": "Atmospheric gases that trap heat, including CO2, methane, and nitrous oxide",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Methane is a potent greenhouse gas with a global warming potential approximately 28 times that of CO2.",
+    "topicTags": [
+      "environmental-science",
+      "climate-science"
+    ],
+    "synonyms": [
+      "GHG",
+      "heat-trapping-gas"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_176",
+    "word": "habitat fragmentation",
+    "phonetic": "/ˈhæbɪtæt ˌfræɡmɛnˈteɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The breaking apart of continuous habitat into smaller isolated patches",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Habitat fragmentation disrupts migration patterns and reduces genetic diversity among isolated populations.",
+    "topicTags": [
+      "environmental-science",
+      "conservation",
+      "ecology"
+    ],
+    "synonyms": [
+      "landscape-fragmentation",
+      "habitat-loss"
+    ],
+    "antonyms": [
+      "habitat-connectivity",
+      "ecological-corridor"
+    ]
+  },
+  {
+    "id": "spec_177",
+    "word": "invasive species",
+    "phonetic": "/ɪnˈveɪsɪv ˈspiːʃiːz/",
+    "partOfSpeech": "noun",
+    "definition": "A non-native organism that causes ecological or economic harm in its introduced environment",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Invasive species outcompete native flora and fauna, often leading to significant biodiversity loss.",
+    "topicTags": [
+      "environmental-science",
+      "ecology",
+      "conservation"
+    ],
+    "synonyms": [
+      "alien-species",
+      "exotic-species"
+    ],
+    "antonyms": [
+      "native-species",
+      "endemic-species"
+    ]
+  },
+  {
+    "id": "spec_178",
+    "word": "ozone depletion",
+    "phonetic": "/ˈəʊzəʊn dɪˈpliːʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The thinning of the stratospheric ozone layer due to chlorofluorocarbon emissions",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The Montreal Protocol successfully curbed ozone depletion through the phase-out of ozone-destroying chemicals.",
+    "topicTags": [
+      "environmental-science",
+      "atmospheric-science"
+    ],
+    "synonyms": [
+      "ozone-layer-thinning"
+    ],
+    "antonyms": [
+      "ozone-recovery",
+      "ozone-regeneration"
+    ]
+  },
+  {
+    "id": "spec_179",
+    "word": "permafrost",
+    "phonetic": "/ˈpɜːməfrɒst/",
+    "partOfSpeech": "noun",
+    "definition": "Ground that remains frozen for two or more consecutive years",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Thawing permafrost releases methane and CO2, creating a dangerous feedback loop that amplifies global warming.",
+    "topicTags": [
+      "environmental-science",
+      "cryosphere",
+      "climate-science"
+    ],
+    "synonyms": [
+      "frozen-ground",
+      "perennially-frozen-ground"
+    ],
+    "antonyms": [
+      "talik",
+      "active-layer"
+    ]
+  },
+  {
+    "id": "spec_180",
+    "word": "phytoplankton",
+    "phonetic": "/ˌfaɪtəʊˈplæŋktən/",
+    "partOfSpeech": "noun",
+    "definition": "Microscopic marine algae that form the base of most aquatic food webs and produce much of Earth's oxygen",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Phytoplankton blooms in the Southern Ocean play a crucial role in the global carbon cycle through photosynthesis.",
+    "topicTags": [
+      "environmental-science",
+      "oceanography",
+      "biology"
+    ],
+    "synonyms": [
+      "microalgae"
+    ],
+    "antonyms": [
+      "zooplankton"
+    ]
+  },
+  {
+    "id": "spec_181",
+    "word": "riparian",
+    "phonetic": "/raɪˈpɛəriən/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to or situated on the banks of a natural watercourse",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Riparian buffer zones filter agricultural runoff and stabilize stream banks against erosion.",
+    "topicTags": [
+      "environmental-science",
+      "ecology",
+      "hydrology"
+    ],
+    "synonyms": [
+      "riverside",
+      "riverine"
+    ],
+    "antonyms": [
+      "upland",
+      "terrestrial"
+    ]
+  },
+  {
+    "id": "spec_182",
+    "word": "smog",
+    "phonetic": "/smɒɡ/",
+    "partOfSpeech": "noun",
+    "definition": "A severe form of air pollution caused by the reaction of sunlight with pollutants",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Photochemical smog in urban areas is associated with respiratory morbidity and reduced visibility.",
+    "topicTags": [
+      "environmental-science",
+      "atmospheric-science",
+      "public-health"
+    ],
+    "synonyms": [
+      "air-pollution",
+      "haze",
+      "fog"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_183",
+    "word": "soil erosion",
+    "phonetic": "/sɔɪl ɪˈrəʊʒən/",
+    "partOfSpeech": "noun",
+    "definition": "The displacement of the upper layer of soil by natural or anthropogenic forces",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "No-till farming practices significantly reduce soil erosion while preserving soil organic matter.",
+    "topicTags": [
+      "environmental-science",
+      "agriculture",
+      "conservation"
+    ],
+    "synonyms": [
+      "land-degradation",
+      "soil-loss"
+    ],
+    "antonyms": [
+      "soil-conservation",
+      "soil-stabilization"
+    ]
+  },
+  {
+    "id": "spec_184",
+    "word": "stratosphere",
+    "phonetic": "/ˈstrætəsfɪər/",
+    "partOfSpeech": "noun",
+    "definition": "The second major layer of Earth's atmosphere above the troposphere, containing the ozone layer",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The stratosphere is home to the ozone layer that shields the Earth from harmful ultraviolet radiation.",
+    "topicTags": [
+      "environmental-science",
+      "atmospheric-science"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "troposphere",
+      "mesosphere"
+    ]
+  },
+  {
+    "id": "spec_185",
+    "word": "sustainable development",
+    "phonetic": "/səˈsteɪnəbəl dɪˈvɛləpmənt/",
+    "partOfSpeech": "noun",
+    "definition": "Economic development that meets present needs without compromising future generations' ability to meet theirs",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Sustainable development integrates environmental stewardship with economic growth and social equity.",
+    "topicTags": [
+      "environmental-science",
+      "policy",
+      "conservation"
+    ],
+    "synonyms": [
+      "eco-development",
+      "green-growth"
+    ],
+    "antonyms": [
+      "unsustainable-development",
+      "resource-depletion"
+    ]
+  },
+  {
+    "id": "spec_186",
+    "word": "biogeochemical cycle",
+    "phonetic": "/ˌbaɪəʊˌdʒiːəʊˈkɛmɪkəl ˈsaɪkəl/",
+    "partOfSpeech": "noun",
+    "definition": "The natural circulation of chemical elements through living organisms and the physical environment",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "The nitrogen biogeochemical cycle involves fixation, nitrification, denitrification, and ammonification processes.",
+    "topicTags": [
+      "environmental-science",
+      "ecology",
+      "geochemistry"
+    ],
+    "synonyms": [
+      "nutrient-cycle",
+      "element-cycle"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_187",
+    "word": "ecological footprint",
+    "phonetic": "/ˌiːkəˈlɒdʒɪkəl ˈfʊtprɪnt/",
+    "partOfSpeech": "noun",
+    "definition": "A measure of human demand on natural resources compared to the Earth's regenerative capacity",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The average ecological footprint of high-income countries far exceeds the planet's biocapacity per capita.",
+    "topicTags": [
+      "environmental-science",
+      "sustainability",
+      "policy"
+    ],
+    "synonyms": [
+      "environmental-impact",
+      "resource-demand"
+    ],
+    "antonyms": [
+      "biocapacity"
+    ]
+  },
+  {
+    "id": "spec_188",
+    "word": "endemism",
+    "phonetic": "/ˈɛndəmɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The ecological state of a species being native to a single defined geographic location",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Madagascar exhibits extraordinary levels of endemism, with over 80 percent of its species found nowhere else.",
+    "topicTags": [
+      "environmental-science",
+      "biogeography",
+      "ecology"
+    ],
+    "synonyms": [
+      "native-restriction",
+      "localized-distribution"
+    ],
+    "antonyms": [
+      "cosmopolitanism",
+      "ubiquity"
+    ]
+  },
+  {
+    "id": "spec_189",
+    "word": "evapotranspiration",
+    "phonetic": "/ɪˌvæpəʊˌtrænspɪˈreɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The combined process of water evaporation from surfaces and transpiration from plants",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Climate change alters evapotranspiration rates, affecting agricultural water requirements and drought severity.",
+    "topicTags": [
+      "environmental-science",
+      "hydrology",
+      "agriculture"
+    ],
+    "synonyms": [
+      "water-vapor-flux",
+      "ET"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_190",
+    "word": "geothermal",
+    "phonetic": "/ˌdʒiːəʊˈθɜːməl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to heat derived from the Earth's internal geological processes",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Geothermal energy provides a stable baseload renewable power source independent of weather conditions.",
+    "topicTags": [
+      "environmental-science",
+      "energy",
+      "geology"
+    ],
+    "synonyms": [
+      "earth-heat",
+      "terrestrial-heat"
+    ],
+    "antonyms": [
+      "solar",
+      "wind",
+      "hydro"
+    ]
+  },
+  {
+    "id": "spec_191",
+    "word": "keystone species",
+    "phonetic": "/ˈkiːstəʊn ˈspiːʃiːz/",
+    "partOfSpeech": "noun",
+    "definition": "A species that has a disproportionately large effect on its ecosystem relative to its abundance",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Sea otters are a keystone species whose predation on sea urchins maintains healthy kelp forest ecosystems.",
+    "topicTags": [
+      "environmental-science",
+      "ecology",
+      "conservation"
+    ],
+    "synonyms": [
+      "pillar-species",
+      "foundation-species"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_192",
+    "word": "microplastic",
+    "phonetic": "/ˈmaɪkrəʊˌplæstɪk/",
+    "partOfSpeech": "noun",
+    "definition": "Tiny plastic particles less than five millimeters in size that pollute the environment",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Microplastics have been detected in marine organisms across all trophic levels, from plankton to whales.",
+    "topicTags": [
+      "environmental-science",
+      "pollution",
+      "oceanography"
+    ],
+    "synonyms": [
+      "plastic-debris",
+      "nanoplastic"
+    ],
+    "antonyms": [
+      "biodegradable-material"
+    ]
+  },
+  {
+    "id": "spec_193",
+    "word": "photosynthetic efficiency",
+    "phonetic": "/ˌfəʊtəʊsɪnˈθɛtɪk ɪˈfɪʃənsi/",
+    "partOfSpeech": "noun",
+    "definition": "The fraction of light energy converted into chemical energy during photosynthesis",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Improving photosynthetic efficiency in crops is a key strategy for enhancing agricultural yields under climate stress.",
+    "topicTags": [
+      "environmental-science",
+      "biology",
+      "agriculture"
+    ],
+    "synonyms": [
+      "quantum-yield",
+      "light-conversion"
+    ],
+    "antonyms": [
+      "photorespiration",
+      "energy-loss"
+    ]
+  },
+  {
+    "id": "spec_194",
+    "word": "rewilding",
+    "phonetic": "/riːˈwaɪldɪŋ/",
+    "partOfSpeech": "noun",
+    "definition": "The large-scale restoration of ecosystems through reintroduction of native species and natural processes",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Rewilding initiatives have successfully restored wolf populations to Yellowstone, triggering trophic cascade effects.",
+    "topicTags": [
+      "environmental-science",
+      "conservation",
+      "restoration"
+    ],
+    "synonyms": [
+      "ecological-restoration",
+      "wilderness-restoration"
+    ],
+    "antonyms": [
+      "habitat-fragmentation",
+      "land-development"
+    ]
+  },
+  {
+    "id": "spec_195",
+    "word": "seismic",
+    "phonetic": "/ˈsaɪzmɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to earthquakes or other vibrations of the Earth's crust",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Seismic surveys are used to locate underground oil and gas reservoirs.",
+    "topicTags": [
+      "environmental-science",
+      "geology"
+    ],
+    "synonyms": [
+      "earthquake-related",
+      "tectonic"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "spec_196",
+    "word": "symbiosis",
+    "phonetic": "/ˌsɪmbaɪˈəʊsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "A close, long-term interaction between two different biological organisms",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Mycorrhizal symbiosis between fungi and plant roots enhances nutrient uptake in exchange for carbohydrates.",
+    "topicTags": [
+      "environmental-science",
+      "ecology",
+      "biology"
+    ],
+    "synonyms": [
+      "mutualism",
+      "commensalism"
+    ],
+    "antonyms": [
+      "antagonism",
+      "parasitism",
+      "competition"
+    ]
+  },
+  {
+    "id": "spec_197",
+    "word": "thermohaline circulation",
+    "phonetic": "/ˌθɜːməʊˈheɪlaɪn ˌsɜːkjʊˈleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The large-scale ocean circulation driven by density differences from temperature and salinity",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Thermohaline circulation transports heat from equatorial regions toward the poles, moderating global climate.",
+    "topicTags": [
+      "environmental-science",
+      "oceanography",
+      "climate-science"
+    ],
+    "synonyms": [
+      "ocean-conveyor",
+      "deep-water-circulation"
+    ],
+    "antonyms": [
+      "surface-circulation",
+      "wind-driven-circulation"
+    ]
+  },
+  {
+    "id": "spec_198",
+    "word": "upwelling",
+    "phonetic": "/ʌpˈwɛlɪŋ/",
+    "partOfSpeech": "noun",
+    "definition": "The upward movement of deep, nutrient-rich water to the ocean surface",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Coastal upwelling zones support some of the world's most productive fisheries.",
+    "topicTags": [
+      "environmental-science",
+      "oceanography"
+    ],
+    "synonyms": [
+      "nutrient-upward-flow",
+      "deep-water-rise"
+    ],
+    "antonyms": [
+      "downwelling",
+      "sinking"
+    ]
+  },
+  {
+    "id": "spec_199",
+    "word": "weathering",
+    "phonetic": "/ˈwɛðərɪŋ/",
+    "partOfSpeech": "noun",
+    "definition": "The breakdown of rocks and minerals at the Earth's surface through physical, chemical, or biological processes",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Chemical weathering of silicate rocks consumes atmospheric CO2 over geological timescales.",
+    "topicTags": [
+      "environmental-science",
+      "geology",
+      "geochemistry"
+    ],
+    "synonyms": [
+      "erosion",
+      "disintegration"
+    ],
+    "antonyms": [
+      "lithification",
+      "cementation"
+    ]
+  },
+  {
+    "id": "spec_200",
+    "word": "zooplankton",
+    "phonetic": "/ˌzəʊəˈplæŋktən/",
+    "partOfSpeech": "noun",
+    "definition": "Small floating or weakly swimming animals that drift in water bodies",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Zooplankton grazing exerts top-down control on phytoplankton populations in aquatic ecosystems.",
+    "topicTags": [
+      "environmental-science",
+      "oceanography",
+      "biology"
+    ],
+    "synonyms": [
+      "planktonic-animals",
+      "microfauna"
+    ],
+    "antonyms": [
+      "phytoplankton"
+    ]
+  }
+]

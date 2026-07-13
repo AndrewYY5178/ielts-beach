@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "version": 1,
+    "packId": "pack-07",
+    "count": 7,
+    "cefrDistribution": {
+      "C1": 7
+    },
+    "generated": "2026-07-02"
+  },
+  "words": [
+    {
+      "id": "final_282",
+      "word": "emancipation",
+      "phonetic": "/ɪˌmænsɪˈpeɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "The act of being freed from legal, social, or political restrictions",
+      "cefrLevel": "C1",
+      "ieltsFrequency": 6,
+      "exampleSentence": "The emancipation of serfs in 1861 transformed Russia's social structure and agricultural economy.",
+      "topicTags": [
+        "history",
+        "political science"
+      ],
+      "synonyms": [
+        "liberation",
+        "freedom"
+      ],
+      "antonyms": [
+        "enslavement",
+        "subjugation"
+      ]
+    },
+    {
+      "id": "final_286",
+      "word": "externality",
+      "phonetic": "/ˌɛkstɜːˈnælɪti/",
+      "partOfSpeech": "noun",
+      "definition": "A consequence of an economic activity experienced by unrelated third parties",
+      "cefrLevel": "C1",
+      "ieltsFrequency": 6,
+      "exampleSentence": "Pollution is a negative externality that imposes health costs on society beyond those responsible for emissions.",
+      "topicTags": [
+        "economics"
+      ],
+      "synonyms": [
+        "spillover effect"
+      ],
+      "antonyms": []
+    },
+    {
+      "id": "final_287",
+      "word": "disinflation",
+      "phonetic": "/ˌdɪsɪnˈfleɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "A reduction in the rate of inflation, not to be confused with deflation",
+      "cefrLevel": "C1",
+      "ieltsFrequency": 5,
+      "exampleSentence": "The central bank's interest rate hikes successfully produced disinflation without triggering a recession.",
+      "topicTags": [
+        "economics"
+      ],
+      "synonyms": [
+        "deceleration",
+        "slowdown"
+      ],
+      "antonyms": [
+        "deflation",
+        "hyperinflation"
+      ]
+    },
+    {
+      "id": "final_288",
+      "word": "stagflation",
+      "phonetic": "/stæɡˈfleɪʃən/",
+      "partOfSpeech": "noun",
+      "definition": "Persistent high inflation combined with high unemployment and stagnant demand",
+      "cefrLevel": "C1",
+      "ieltsFrequency": 6,
+      "exampleSentence": "The 1970s oil crisis produced stagflation that defied the traditional Phillips curve relationship.",
+      "topicTags": [
+        "economics"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "inflation",
+        "recession"
+      ]
+    },
+    {
+      "id": "final_290",
+      "word": "arbitrage",
+      "phonetic": "/ˈɑːbɪtrɑːʒ/",
+      "partOfSpeech": "noun",
+      "definition": "The simultaneous buying and selling of assets to profit from price differences",
+      "cefrLevel": "C1",
+      "ieltsFrequency": 6,
+      "exampleSentence": "High-frequency trading firms exploit tiny arbitrage opportunities lasting only milliseconds.",
+      "topicTags": [
+        "economics",
+        "finance"
+      ],
+      "synonyms": [
+        "price exploitation"
+      ],
+      "antonyms": []
+    },
+    {
+      "id": "final_293",
+      "word": "solvency",
+      "phonetic": "/ˈsɒlvənsi/",
+      "partOfSpeech": "noun",
+      "definition": "The ability of a company or individual to meet long-term financial obligations",
+      "cefrLevel": "C1",
+      "ieltsFrequency": 5,
+      "exampleSentence": "The solvency ratio measures whether a firm's assets exceed its liabilities by a sufficient margin.",
+      "topicTags": [
+        "economics",
+        "finance"
+      ],
+      "synonyms": [
+        "creditworthiness"
+      ],
+      "antonyms": [
+        "insolvency",
+        "bankruptcy"
+      ]
+    },
+    {
+      "id": "final_295",
+      "word": "elasticity",
+      "phonetic": "/ˌiːlæˈstɪsɪti/",
+      "partOfSpeech": "noun",
+      "definition": "A measure of how much one economic variable responds to changes in another",
+      "cefrLevel": "C1",
+      "ieltsFrequency": 6,
+      "exampleSentence": "Price elasticity of demand determines whether a price increase will raise or lower total revenue.",
+      "topicTags": [
+        "economics"
+      ],
+      "synonyms": [
+        "responsiveness",
+        "sensitivity"
+      ],
+      "antonyms": [
+        "inelasticity"
+      ]
+    }
+  ]
+}

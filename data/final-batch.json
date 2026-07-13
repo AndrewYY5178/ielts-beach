@@ -1,0 +1,5913 @@
+[
+  {
+    "id": "final_001",
+    "word": "peroration",
+    "phonetic": "/ˌpɛrəˈreɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The concluding part of a speech intended to inspire enthusiasm",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The professor's peroration on climate policy galvanised even sceptical audience members.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "conclusion",
+      "summation"
+    ],
+    "antonyms": [
+      "preamble",
+      "preface"
+    ]
+  },
+  {
+    "id": "final_002",
+    "word": "encomium",
+    "phonetic": "/ɛnˈkəʊmiəm/",
+    "partOfSpeech": "noun",
+    "definition": "A speech or piece of writing that praises someone or something highly",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The laureate delivered an encomium honouring her mentor's contributions to theoretical physics.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "tribute",
+      "panegyric",
+      "eulogy",
+      "accolade"
+    ],
+    "antonyms": [
+      "condemnation",
+      "criticism"
+    ]
+  },
+  {
+    "id": "final_003",
+    "word": "apostrophe",
+    "phonetic": "/əˈpɒstrəfi/",
+    "partOfSpeech": "noun",
+    "definition": "A rhetorical device addressing an absent person or abstract concept",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The poet's apostrophe to the moon as a silent witness exemplifies Romantic lyricism.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "invocation",
+      "address"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_004",
+    "word": "periphrasis",
+    "phonetic": "/pəˈrɪfrəsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The use of indirect or circumlocutory language",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The diplomat's periphrasis obscured the severity of the economic sanctions under discussion.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "circumlocution",
+      "verbiage"
+    ],
+    "antonyms": [
+      "directness",
+      "concision"
+    ]
+  },
+  {
+    "id": "final_005",
+    "word": "solecism",
+    "phonetic": "/ˈsɒlɪsɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A grammatical mistake or breach of etiquette",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The candidate's solecism during the debate was widely circulated on social media.",
+    "topicTags": [
+      "literature",
+      "grammar"
+    ],
+    "synonyms": [
+      "error",
+      "blunder",
+      "gaffe"
+    ],
+    "antonyms": [
+      "correctness",
+      "propriety"
+    ]
+  },
+  {
+    "id": "final_006",
+    "word": "anaphora",
+    "phonetic": "/əˈnæfərə/",
+    "partOfSpeech": "noun",
+    "definition": "Repetition of a word or phrase at the beginning of successive clauses",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Martin Luther King's use of anaphora in his famous speech created a powerful rhythmic effect.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "repetition",
+      "iteration"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_007",
+    "word": "paralipsis",
+    "phonetic": "/ˌpærəˈlɪpsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Drawing attention to something by claiming not to mention it",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The prosecutor used paralipsis to highlight the defendant's criminal record while claiming it was irrelevant.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "apophasis",
+      "preterition"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_008",
+    "word": "chiasmus",
+    "phonetic": "/kaɪˈæzməs/",
+    "partOfSpeech": "noun",
+    "definition": "A rhetorical inversion of the second of two parallel structures",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "John F. Kennedy's 'ask not what your country can do for you' is a textbook example of chiasmus.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "inversion",
+      "antimetabole"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_009",
+    "word": "litotes",
+    "phonetic": "/laɪˈtəʊtiːz/",
+    "partOfSpeech": "noun",
+    "definition": "Understatement achieved by negating the contrary",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Describing the catastrophic flood as 'not entirely ideal' was a characteristic instance of litotes.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "understatement",
+      "meiosis"
+    ],
+    "antonyms": [
+      "hyperbole",
+      "exaggeration"
+    ]
+  },
+  {
+    "id": "final_010",
+    "word": "synecdoche",
+    "phonetic": "/sɪˈnɛkdəki/",
+    "partOfSpeech": "noun",
+    "definition": "A figure of speech in which a part represents the whole or vice versa",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Using 'the crown' to refer to the monarchy is a familiar example of synecdoche.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "metonymy",
+      "substitution"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_011",
+    "word": "metonymy",
+    "phonetic": "/mɪˈtɒnɪmi/",
+    "partOfSpeech": "noun",
+    "definition": "Substitution of the name of an attribute for the thing meant",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "When journalists refer to 'the White House' they employ metonymy for the executive branch.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "synecdoche",
+      "substitution"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_012",
+    "word": "epistrophe",
+    "phonetic": "/ɪˈpɪstrəfi/",
+    "partOfSpeech": "noun",
+    "definition": "Repetition of a word or phrase at the end of successive clauses",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The speech's power derived from its epistrophe, with each sentence concluding with the same phrase.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "repetition",
+      "iteration"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_013",
+    "word": "ellipsis",
+    "phonetic": "/ɪˈlɪpsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Omission of words from a sentence that are understood from context",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The ellipsis in the transcript indicated where the witness had paused meaningfully.",
+    "topicTags": [
+      "literature",
+      "grammar"
+    ],
+    "synonyms": [
+      "omission",
+      "gapping",
+      "elision"
+    ],
+    "antonyms": [
+      "amplification",
+      "expansion"
+    ]
+  },
+  {
+    "id": "final_014",
+    "word": "hendiadys",
+    "phonetic": "/hɛnˈdaɪədɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Expression of an idea by two nouns joined by 'and' instead of a noun and modifier",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The phrase 'sound and fury' instead of 'furious sound' exemplifies hendiadys in Shakespearean drama.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "id": "final_015",
+    "word": "pleonasm",
+    "phonetic": "/ˈpliːənæzəm/",
+    "partOfSpeech": "noun",
+    "definition": "Use of more words than necessary for clarity",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The phrase 'tuna fish' is a mild pleonasm since tuna is already understood as a fish.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "redundancy",
+      "verbosity",
+      "tautology"
+    ],
+    "antonyms": [
+      "conciseness",
+      "brevity"
+    ]
+  },
+  {
+    "id": "final_016",
+    "word": "zeugma",
+    "phonetic": "/ˈzjuːɡmə/",
+    "partOfSpeech": "noun",
+    "definition": "A figure where a single word governs two others in different senses",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The sentence 'She lowered her standards and her neckline' employs zeugma for rhetorical effect.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "syllepsis"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_017",
+    "word": "aporia",
+    "phonetic": "/əˈpɔːriə/",
+    "partOfSpeech": "noun",
+    "definition": "An expression of genuine or feigned doubt about how to proceed",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The philosopher's aporia regarding ethical frameworks left the audience in thoughtful silence.",
+    "topicTags": [
+      "literature",
+      "philosophy"
+    ],
+    "synonyms": [
+      "uncertainty",
+      "perplexity",
+      "doubt"
+    ],
+    "antonyms": [
+      "certainty",
+      "conviction"
+    ]
+  },
+  {
+    "id": "final_018",
+    "word": "euphemism",
+    "phonetic": "/ˈjuːfəmɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A mild expression substituted for a harsh or offensive one",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The government's use of 'collateral damage' as a euphemism for civilian casualties drew sharp criticism.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "understatement",
+      "politeness"
+    ],
+    "antonyms": [
+      "dysphemism",
+      "candour"
+    ]
+  },
+  {
+    "id": "final_019",
+    "word": "dysphemism",
+    "phonetic": "/ˈdɪsfəmɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A harsh or derogatory expression substituted for a neutral one",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Referring to a strike as a 'work-stoppage tantrum' is a dysphemism intended to delegitimise workers.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "insult",
+      "pejorative"
+    ],
+    "antonyms": [
+      "euphemism",
+      "politeness"
+    ]
+  },
+  {
+    "id": "final_020",
+    "word": "hyperbole",
+    "phonetic": "/haɪˈpɜːbəli/",
+    "partOfSpeech": "noun",
+    "definition": "Exaggeration used for emphasis or rhetorical effect",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Claiming that the assignment would take a million years was obvious hyperbole.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "exaggeration",
+      "overstatement",
+      "amplification"
+    ],
+    "antonyms": [
+      "understatement",
+      "litotes"
+    ]
+  },
+  {
+    "id": "final_021",
+    "word": "meiosis",
+    "phonetic": "/maɪˈəʊsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Understatement used deliberately to diminish or belittle",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Calling a devastating earthquake 'a bit of a tremor' was meiosis that trivialised the disaster.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "understatement",
+      "belittlement"
+    ],
+    "antonyms": [
+      "hyperbole",
+      "amplification"
+    ]
+  },
+  {
+    "id": "final_022",
+    "word": "praeteritio",
+    "phonetic": "/ˌpriːtəˈrɪʃiəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "The rhetorical device of drawing attention by professing to omit something",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The politician's praeteritio regarding the scandal only intensified public curiosity.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "paralipsis",
+      "apophasis"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_023",
+    "word": "occupatio",
+    "phonetic": "/ˌɒkjuˈpeɪʃiəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "Mentioning something by stating that one will not mention it",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The lawyer's use of occupatio allowed her to introduce prejudicial evidence while appearing fair.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "paralipsis",
+      "preterition"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_024",
+    "word": "ecphrasis",
+    "phonetic": "/ˈɛkfrəsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "A vivid, detailed description of a work of art within a literary work",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The novel's ecphrasis of the Renaissance fresco transported readers into the chapel.",
+    "topicTags": [
+      "literature",
+      "art"
+    ],
+    "synonyms": [
+      "description",
+      "depiction"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_025",
+    "word": "tmesis",
+    "phonetic": "/ˈtmiːsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Insertion of a word between parts of a compound word",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The colloquial construction 'fan-bloody-tastic' is an example of tmesis in English.",
+    "topicTags": [
+      "literature",
+      "linguistics"
+    ],
+    "synonyms": [
+      "infixation"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_026",
+    "word": "adynaton",
+    "phonetic": "/əˈdɪnətɒn/",
+    "partOfSpeech": "noun",
+    "definition": "A figure of speech using impossible or exaggerated conditions",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The promise 'when pigs fly' is a familiar adynaton signalling the speaker's scepticism.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "hyperbole",
+      "impossibility"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_027",
+    "word": "anthimeria",
+    "phonetic": "/ˌænθɪˈmɪəriə/",
+    "partOfSpeech": "noun",
+    "definition": "Using one part of speech as another, such as a noun as a verb",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The verbification of 'Google' is a contemporary example of anthimeria in digital discourse.",
+    "topicTags": [
+      "literature",
+      "linguistics"
+    ],
+    "synonyms": [
+      "conversion",
+      "verbification"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_028",
+    "word": "catachresis",
+    "phonetic": "/ˌkætəˈkriːsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The use of a word in a context that differs from its proper application",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Referring to a 'listening typewriter' is a catachresis that blends human and mechanical functions.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "misapplication",
+      "abuse"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_029",
+    "word": "isocolon",
+    "phonetic": "/ˌaɪsəˈkəʊlɒn/",
+    "partOfSpeech": "noun",
+    "definition": "A sentence or series of clauses of approximately equal length",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The parallel structure of 'I came, I saw, I conquered' demonstrates isocolon.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "parallelism",
+      "symmetry"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_030",
+    "word": "hypallage",
+    "phonetic": "/hɪˈpælədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "A transference of an epithet from the appropriate noun to another",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The phrase 'the sleepless bed' instead of 'the sleepless person' exemplifies hypallage.",
+    "topicTags": [
+      "literature",
+      "rhetoric"
+    ],
+    "synonyms": [
+      "transferred epithet"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_031",
+    "word": "anhedonia",
+    "phonetic": "/ˌænhɪˈdəʊniə/",
+    "partOfSpeech": "noun",
+    "definition": "The inability to feel pleasure in normally pleasurable activities",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Patients with anhedonia often describe a pervasive flatness that diminishes their quality of life.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "apathy",
+      "indifference"
+    ],
+    "antonyms": [
+      "hedonia",
+      "pleasure"
+    ]
+  },
+  {
+    "id": "final_032",
+    "word": "catharsis",
+    "phonetic": "/kəˈθɑːsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The process of releasing and thereby relieving strong emotions",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Writing in a journal can serve as a catharsis for individuals processing traumatic experiences.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "purging",
+      "release",
+      "ventilation"
+    ],
+    "antonyms": [
+      "repression",
+      "suppression"
+    ]
+  },
+  {
+    "id": "final_033",
+    "word": "gestalt",
+    "phonetic": "/ɡəˈʃtɑːlt/",
+    "partOfSpeech": "noun",
+    "definition": "An organised whole perceived as more than the sum of its parts",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The gestalt of the classroom environment affects learning outcomes beyond individual instructional elements.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "totality",
+      "wholeness",
+      "unity"
+    ],
+    "antonyms": [
+      "fragmentation"
+    ]
+  },
+  {
+    "id": "final_034",
+    "word": "atavistic",
+    "phonetic": "/ˌætəˈvɪstɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the recurrence of ancestral characteristics in later generations",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The psychologist argued that mob violence represents an atavistic impulse from our evolutionary past.",
+    "topicTags": [
+      "psychology",
+      "biology"
+    ],
+    "synonyms": [
+      "primitive",
+      "ancestral",
+      "reversionary"
+    ],
+    "antonyms": [
+      "modern",
+      "progressive"
+    ]
+  },
+  {
+    "id": "final_035",
+    "word": "labile",
+    "phonetic": "/ˈleɪbaɪl/",
+    "partOfSpeech": "adjective",
+    "definition": "Prone to change rapidly and unpredictably, especially regarding emotions",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Patients with bipolar disorder often exhibit labile moods that fluctuate without obvious triggers.",
+    "topicTags": [
+      "psychology",
+      "medicine"
+    ],
+    "synonyms": [
+      "unstable",
+      "volatile",
+      "fluctuating"
+    ],
+    "antonyms": [
+      "stable",
+      "steady",
+      "constant"
+    ]
+  },
+  {
+    "id": "final_036",
+    "word": "perseveration",
+    "phonetic": "/pəˌsɛvəˈreɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The involuntary repetition of a response or behaviour after the original stimulus has ceased",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Perseveration in dementia patients can manifest as repeatedly telling the same story within minutes.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "repetition",
+      "persistence"
+    ],
+    "antonyms": [
+      "discontinuation",
+      "cessation"
+    ]
+  },
+  {
+    "id": "final_037",
+    "word": "dissimulate",
+    "phonetic": "/dɪˈsɪmjʊleɪt/",
+    "partOfSpeech": "verb",
+    "definition": "To conceal or disguise one's true feelings or intentions",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Diplomats must often dissimulate their personal opinions to maintain international relations.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "conceal",
+      "disguise",
+      "feign"
+    ],
+    "antonyms": [
+      "reveal",
+      "disclose",
+      "confess"
+    ]
+  },
+  {
+    "id": "final_038",
+    "word": "rumination",
+    "phonetic": "/ˌruːmɪˈneɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Repetitive dwelling on negative thoughts and their causes",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Rumination is a cognitive pattern strongly associated with the onset of depressive episodes.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "brooding",
+      "contemplation",
+      "pondering"
+    ],
+    "antonyms": [
+      "distraction",
+      "disregard"
+    ]
+  },
+  {
+    "id": "final_039",
+    "word": "sublimation",
+    "phonetic": "/ˌsʌblɪˈmeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The redirection of unacceptable impulses into socially acceptable activities",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "According to psychoanalytic theory, artistic creativity can arise from the sublimation of primitive drives.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "redirection",
+      "channelling",
+      "transformation"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_040",
+    "word": "alexithymia",
+    "phonetic": "/əˌlɛksɪˈθaɪmiə/",
+    "partOfSpeech": "noun",
+    "definition": "Difficulty identifying and describing one's own emotions",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Individuals with alexithymia may struggle to articulate whether they feel sad, angry, or anxious.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "emotional blindness"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_041",
+    "word": "hypervigilance",
+    "phonetic": "/ˌhaɪpəˈvɪdʒɪləns/",
+    "partOfSpeech": "noun",
+    "definition": "An enhanced state of sensory sensitivity accompanied by excessive scanning of the environment",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Hypervigilance is a common symptom of post-traumatic stress disorder in combat veterans.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "alertness",
+      "watchfulness"
+    ],
+    "antonyms": [
+      "inattention",
+      "negligence"
+    ]
+  },
+  {
+    "id": "final_042",
+    "word": "confabulation",
+    "phonetic": "/kənˌfæbjʊˈleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The production of fabricated or distorted memories without intent to deceive",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Confabulation in Korsakoff syndrome patients is not deliberate lying but a neurological filling of gaps.",
+    "topicTags": [
+      "psychology",
+      "neurology"
+    ],
+    "synonyms": [
+      "fabrication",
+      "falsification"
+    ],
+    "antonyms": [
+      "accuracy",
+      "veracity"
+    ]
+  },
+  {
+    "id": "final_043",
+    "word": "agnosia",
+    "phonetic": "/æɡˈnəʊziə/",
+    "partOfSpeech": "noun",
+    "definition": "The inability to recognise objects, people, or sounds despite intact sensory function",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "A stroke affecting the temporal lobe can cause visual agnosia, leaving patients unable to identify familiar faces.",
+    "topicTags": [
+      "psychology",
+      "neurology"
+    ],
+    "synonyms": [
+      "recognition failure"
+    ],
+    "antonyms": [
+      "recognition"
+    ]
+  },
+  {
+    "id": "final_044",
+    "word": "apraxia",
+    "phonetic": "/əˈpræksiə/",
+    "partOfSpeech": "noun",
+    "definition": "The inability to perform learned purposeful movements despite physical ability",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Occupational therapy can help patients with apraxia develop compensatory strategies for daily tasks.",
+    "topicTags": [
+      "psychology",
+      "neurology"
+    ],
+    "synonyms": [
+      "dyspraxia",
+      "motor impairment"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_045",
+    "word": "anomie",
+    "phonetic": "/ˈænəmi/",
+    "partOfSpeech": "noun",
+    "definition": "A state of normlessness or social instability resulting from breakdown of standards",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Durkheim argued that rapid industrialisation produced anomie among displaced rural workers.",
+    "topicTags": [
+      "psychology",
+      "sociology"
+    ],
+    "synonyms": [
+      "alienation",
+      "normlessness"
+    ],
+    "antonyms": [
+      "integration",
+      "cohesion"
+    ]
+  },
+  {
+    "id": "final_046",
+    "word": "transference",
+    "phonetic": "/trænsˈfɜːrəns/",
+    "partOfSpeech": "noun",
+    "definition": "The redirection of feelings about one person onto another, especially in therapy",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The therapist recognised the patient's transference as a re-enactment of childhood conflicts with authority.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "projection",
+      "displacement"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_047",
+    "word": "countertransference",
+    "phonetic": "/ˌkaʊntətrænsˈfɜːrəns/",
+    "partOfSpeech": "noun",
+    "definition": "The therapist's emotional reactions to the patient that reflect their own unresolved issues",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Regular supervision helps clinicians identify countertransference that might compromise therapeutic neutrality.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "id": "final_048",
+    "word": "abreaction",
+    "phonetic": "/ˌæbriˈækʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The expression and release of repressed emotions through reliving the original experience",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The patient's abreaction during hypnosis allowed her to process trauma she had buried for decades.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "catharsis",
+      "release"
+    ],
+    "antonyms": [
+      "repression"
+    ]
+  },
+  {
+    "id": "final_049",
+    "word": "cathexis",
+    "phonetic": "/kəˈθɛksɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The concentration of mental energy on a particular person, idea, or object",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Freud described the child's cathexis of the mother figure as central to psychosexual development.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "investment",
+      "attachment"
+    ],
+    "antonyms": [
+      "detachment"
+    ]
+  },
+  {
+    "id": "final_050",
+    "word": "alloplastic",
+    "phonetic": "/ˌæləˈplæstɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to adaptation by changing the external environment rather than oneself",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Alloplastic coping strategies include moving to a quieter neighbourhood rather than tolerating noise.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "environmental adaptation"
+    ],
+    "antonyms": [
+      "autoplastic"
+    ]
+  },
+  {
+    "id": "final_051",
+    "word": "autoplastic",
+    "phonetic": "/ˌɔːtəˈplæstɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to adaptation by changing oneself rather than the environment",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Autoplastic adjustment involves modifying one's expectations rather than altering circumstances.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "self-adaptation"
+    ],
+    "antonyms": [
+      "alloplastic"
+    ]
+  },
+  {
+    "id": "final_052",
+    "word": "entrainment",
+    "phonetic": "/ɪnˈtreɪnmənt/",
+    "partOfSpeech": "noun",
+    "definition": "The synchronisation of biological rhythms or behaviour to an external rhythm",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Circadian entrainment to the light-dark cycle is essential for healthy sleep-wake regulation.",
+    "topicTags": [
+      "psychology",
+      "biology"
+    ],
+    "synonyms": [
+      "synchronisation",
+      "alignment"
+    ],
+    "antonyms": [
+      "desynchronisation"
+    ]
+  },
+  {
+    "id": "final_053",
+    "word": "homeostasis",
+    "phonetic": "/ˌhəʊmiəʊˈsteɪsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The tendency of a system to maintain internal stability through self-regulation",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The body's homeostatic mechanisms maintain blood temperature within a narrow range despite external fluctuations.",
+    "topicTags": [
+      "psychology",
+      "biology"
+    ],
+    "synonyms": [
+      "equilibrium",
+      "balance"
+    ],
+    "antonyms": [
+      "disequilibrium",
+      "instability"
+    ]
+  },
+  {
+    "id": "final_054",
+    "word": "hypnagogic",
+    "phonetic": "/ˌhɪpnəˈɡɒdʒɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the state immediately before falling asleep",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Hypnagogic hallucinations often involve vivid geometric patterns or fleeting auditory sensations.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "pre-sleep",
+      "drowsy"
+    ],
+    "antonyms": [
+      "hypnopompic"
+    ]
+  },
+  {
+    "id": "final_055",
+    "word": "hypnopompic",
+    "phonetic": "/ˌhɪpnəˈpɒmpɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the state immediately after waking from sleep",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Hypnopompic imagery can be as vivid as dreaming and may persist for several seconds after awakening.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "post-sleep"
+    ],
+    "antonyms": [
+      "hypnagogic"
+    ]
+  },
+  {
+    "id": "final_056",
+    "word": "operant",
+    "phonetic": "/ˈɒpərənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to behaviour shaped by its consequences through reinforcement or punishment",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Operant conditioning explains how reward schedules maintain certain behaviours in educational settings.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "reinforced",
+      "conditioned"
+    ],
+    "antonyms": [
+      "respondent"
+    ]
+  },
+  {
+    "id": "final_057",
+    "word": "respondent",
+    "phonetic": "/rɪˈspɒndənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to behaviour elicited automatically by a specific stimulus",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Respondent behaviours include salivation in Pavlov's experiment, triggered by the sound of a bell.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "reflexive",
+      "automatic"
+    ],
+    "antonyms": [
+      "operant"
+    ]
+  },
+  {
+    "id": "final_058",
+    "word": "satiation",
+    "phonetic": "/ˌseɪʃiˈeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The state of being fully satisfied to the point of excess",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Consumer satiation occurs when repeated exposure to a product diminishes its perceived value.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "satiety",
+      "fullness",
+      "surfeit"
+    ],
+    "antonyms": [
+      "deprivation",
+      "hunger"
+    ]
+  },
+  {
+    "id": "final_059",
+    "word": "somatization",
+    "phonetic": "/ˌsəʊmətaɪˈzeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The manifestation of psychological distress as physical symptoms",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Patients with somatisation may undergo extensive medical testing before the psychological origin is identified.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "somatic symptom"
+    ],
+    "antonyms": [
+      "psychologization"
+    ]
+  },
+  {
+    "id": "final_060",
+    "word": "dysthymia",
+    "phonetic": "/dɪsˈθaɪmiə/",
+    "partOfSpeech": "noun",
+    "definition": "A persistent but milder form of depression lasting for two years or more",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Unlike major depressive episodes, dysthymia involves chronic low-grade symptoms that persist for years.",
+    "topicTags": [
+      "psychology"
+    ],
+    "synonyms": [
+      "depression",
+      "melancholy"
+    ],
+    "antonyms": [
+      "euthymia"
+    ]
+  },
+  {
+    "id": "final_061",
+    "word": "chiaroscuro",
+    "phonetic": "/kiˌɑːrəˈskʊəroʊ/",
+    "partOfSpeech": "noun",
+    "definition": "The treatment of light and shade in pictorial art to create depth",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Caravaggio's dramatic use of chiaroscuro created a theatrical intensity in his religious paintings.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "light-and-shade",
+      "modelling"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_062",
+    "word": "sfumato",
+    "phonetic": "/sfuːˈmɑːtəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A technique of subtle tonal gradation that blurs outlines, creating a hazy effect",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Leonardo da Vinci perfected sfumato in the Mona Lisa, giving her face an enigmatic softness.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "blending",
+      "gradation"
+    ],
+    "antonyms": [
+      "sharpness"
+    ]
+  },
+  {
+    "id": "final_063",
+    "word": "bas-relief",
+    "phonetic": "/ˌbɑːrɪˈliːf/",
+    "partOfSpeech": "noun",
+    "definition": "A sculptural technique where figures project only slightly from the background",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The bas-relief panels on the cathedral doors depicted scenes from the life of Saint Peter.",
+    "topicTags": [
+      "art",
+      "architecture"
+    ],
+    "synonyms": [
+      "low relief",
+      "relief carving"
+    ],
+    "antonyms": [
+      "high relief"
+    ]
+  },
+  {
+    "id": "final_064",
+    "word": "portico",
+    "phonetic": "/ˈpɔːtɪkəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A roofed structure supported by columns, typically attached to a building entrance",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The neoclassical portico with its Corinthian columns became a defining feature of the bank.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "colonnade",
+      "veranda",
+      "porch"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_065",
+    "word": "pendentive",
+    "phonetic": "/pɛnˈdɛntɪv/",
+    "partOfSpeech": "noun",
+    "definition": "A curved triangular structure that transitions a square base to a circular dome",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Hagia Sophia's pendentives allowed the immense dome to rest securely on a square nave.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "transition",
+      "support"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_066",
+    "word": "tympanum",
+    "phonetic": "/ˈtɪmpənəm/",
+    "partOfSpeech": "noun",
+    "definition": "The triangular or semicircular space between a lintel and an arch above a doorway",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The Romanesque tympanum above the church entrance featured a carved depiction of the Last Judgement.",
+    "topicTags": [
+      "architecture",
+      "art"
+    ],
+    "synonyms": [
+      "pediment"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_067",
+    "word": "campanile",
+    "phonetic": "/ˌkæmpəˈniːli/",
+    "partOfSpeech": "noun",
+    "definition": "A freestanding bell tower, typically associated with Italian churches",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The campanile of St Mark's Basilica collapsed in 1902 and was meticulously reconstructed.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "belfry",
+      "bell tower"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_068",
+    "word": "putto",
+    "phonetic": "/ˈpuːtəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A representation of a cherubic male child, especially in Renaissance art",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Renaissance frescoes often include putti hovering around the central figures as decorative elements.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "cherub",
+      "cupid"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_069",
+    "word": "intaglio",
+    "phonetic": "/ɪnˈtæliəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A carving or engraving technique where the design is incised below the surface",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The gemstone intaglio depicted a Roman emperor with remarkable precision despite its tiny scale.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "engraving",
+      "incision"
+    ],
+    "antonyms": [
+      "relief",
+      "cameo"
+    ]
+  },
+  {
+    "id": "final_070",
+    "word": "frieze",
+    "phonetic": "/friːz/",
+    "partOfSpeech": "noun",
+    "definition": "A horizontal band of sculpted or painted decoration along a wall",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The Parthenon frieze depicts the Panathenaic procession in continuous sculpted narrative.",
+    "topicTags": [
+      "architecture",
+      "art"
+    ],
+    "synonyms": [
+      "band",
+      "panel",
+      "decoration"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_071",
+    "word": "triptych",
+    "phonetic": "/ˈtrɪptɪk/",
+    "partOfSpeech": "noun",
+    "definition": "A set of three hinged panels used as an altarpiece or artwork",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The medieval triptych opened to reveal gilded scenes from the Nativity.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "polyptych",
+      "panel"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_072",
+    "word": "trompe-l'oeil",
+    "phonetic": "/trɒmp ˈlɔɪ/",
+    "partOfSpeech": "noun",
+    "definition": "A painting technique that creates an optical illusion of three-dimensionality",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The ceiling trompe-l'oeil made the flat plaster appear as if it opened to a sky filled with clouds.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "illusion",
+      "deception"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_073",
+    "word": "impasto",
+    "phonetic": "/ɪmˈpæstəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "The technique of applying paint thickly to create texture and visible brushstrokes",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Van Gogh's impasto technique gave his paintings a visceral energy that flat application could not achieve.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "texture",
+      "thickness"
+    ],
+    "antonyms": [
+      "glaze"
+    ]
+  },
+  {
+    "id": "final_074",
+    "word": "gouache",
+    "phonetic": "/ɡuːˈɑːʃ/",
+    "partOfSpeech": "noun",
+    "definition": "An opaque watercolour paint bound with gum, giving a matte finish",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The illustrator chose gouache for its ability to produce flat, vibrant areas of colour.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "opaque watercolour"
+    ],
+    "antonyms": [
+      "transparent watercolour"
+    ]
+  },
+  {
+    "id": "final_075",
+    "word": "tempera",
+    "phonetic": "/ˈtɛmpərə/",
+    "partOfSpeech": "noun",
+    "definition": "A painting medium using pigment mixed with egg yolk or egg white",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Egg tempera was the primary painting medium for panel paintings before the adoption of oil.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "egg tempera",
+      "distemper"
+    ],
+    "antonyms": [
+      "oil paint"
+    ]
+  },
+  {
+    "id": "final_076",
+    "word": "fresco",
+    "phonetic": "/ˈfrɛskəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A wall painting technique using watercolour on freshly applied plaster",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Michelangelo's Sistine Chapel ceiling is the most celebrated fresco in Western art history.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "mural",
+      "wall painting"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_077",
+    "word": "spandrel",
+    "phonetic": "/ˈspændrəl/",
+    "partOfSpeech": "noun",
+    "definition": "The triangular space between the curve of an arch and the surrounding framework",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The Gothic cathedral's spandrels were filled with intricate quatrefoil carvings.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [],
+    "antonyms": []
+  },
+  {
+    "id": "final_078",
+    "word": "corbel",
+    "phonetic": "/ˈkɔːbəl/",
+    "partOfSpeech": "noun",
+    "definition": "A projecting structural piece supporting a beam or arch from a wall",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Stone corbels carved as grinning gargoyles projected from the castle walls.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "bracket",
+      "support"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_079",
+    "word": "finial",
+    "phonetic": "/ˈfɪniəl/",
+    "partOfSpeech": "noun",
+    "definition": "A decorative top ornament on a roof, spire, or piece of furniture",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The pagoda's gold finial caught the morning light and signalled the temple's sacred importance.",
+    "topicTags": [
+      "architecture",
+      "art"
+    ],
+    "synonyms": [
+      "ornament",
+      "crown",
+      "spike"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_080",
+    "word": "pilaster",
+    "phonetic": "/pɪˈlæstə/",
+    "partOfSpeech": "noun",
+    "definition": "A shallow rectangular column projecting slightly from a wall",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The Georgian facade was divided by Ionic pilasters that gave rhythm to the composition.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "half-column",
+      "engaged column"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_081",
+    "word": "rustication",
+    "phonetic": "/ˌrʌstɪˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A masonry technique using rough-hewn stone blocks with recessed joints",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The Renaissance palace's ground floor featured heavy rustication that conveyed solidity and power.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "rough masonry"
+    ],
+    "antonyms": [
+      "ashlar"
+    ]
+  },
+  {
+    "id": "final_082",
+    "word": "quoin",
+    "phonetic": "/kɔɪn/",
+    "partOfSpeech": "noun",
+    "definition": "A dressed stone at the corner of a building, often emphasised decoratively",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The brick building's contrasting limestone quoins defined its edges with visual clarity.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "cornerstone",
+      "angle stone"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_083",
+    "word": "voussoir",
+    "phonetic": "/vuːˈswɑː/",
+    "partOfSpeech": "noun",
+    "definition": "A wedge-shaped stone forming part of an arch",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Each voussoir in the Roman aqueduct was precisely cut to distribute compressive forces evenly.",
+    "topicTags": [
+      "architecture",
+      "engineering"
+    ],
+    "synonyms": [
+      "arch stone",
+      "wedge"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_084",
+    "word": "arabesque",
+    "phonetic": "/ˌærəˈbɛsk/",
+    "partOfSpeech": "noun",
+    "definition": "An intricate ornamental design of intertwined flowing lines and foliage",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Islamic geometric arabesques adorned the mosque walls with mathematically precise floral motifs.",
+    "topicTags": [
+      "art"
+    ],
+    "synonyms": [
+      "filigree",
+      "scrollwork"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_085",
+    "word": "baldachin",
+    "phonetic": "/ˈbɔːldəkɪn/",
+    "partOfSpeech": "noun",
+    "definition": "A canopy of state or an architectural structure over an altar",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Bernini's bronze baldachin in St Peter's rises dramatically above the papal altar with twisted columns.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "canopy",
+      "ciborium"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_086",
+    "word": "caryatid",
+    "phonetic": "/ˌkæriˈætɪd/",
+    "partOfSpeech": "noun",
+    "definition": "A sculpted female figure serving as a supporting column in architecture",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The Erechtheion's porch on the Acropolis features six caryatids supporting the entablature.",
+    "topicTags": [
+      "architecture",
+      "sculpture"
+    ],
+    "synonyms": [
+      "support",
+      "column"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_087",
+    "word": "colonnade",
+    "phonetic": "/ˌkɒləˈneɪd/",
+    "partOfSpeech": "noun",
+    "definition": "A long sequence of columns joined by an entablature",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The Baroque colonnade in St Peter's Square encloses the piazza with embracing arms of columns.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "portico",
+      "arcade"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_088",
+    "word": "cupola",
+    "phonetic": "/ˈkjuːpələ/",
+    "partOfSpeech": "noun",
+    "definition": "A small dome crowning a roof or turret",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The observatory's cupola rotated to allow the telescope access to different parts of the sky.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "dome",
+      "lantern",
+      "turret"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_089",
+    "word": "dentil",
+    "phonetic": "/ˈdɛntɪl/",
+    "partOfSpeech": "noun",
+    "definition": "One of a series of small rectangular blocks forming a decorative molding",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The cornice was decorated with a row of dentils that cast rhythmic shadows across the facade.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "tooth ornament",
+      "modillion"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_090",
+    "word": "entablature",
+    "phonetic": "/ɛnˈtæblətʃə/",
+    "partOfSpeech": "noun",
+    "definition": "The horizontal structure resting on columns, comprising architrave, frieze, and cornice",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Classical Greek temples featured a trabeated entablature that defined the building's proportions.",
+    "topicTags": [
+      "architecture"
+    ],
+    "synonyms": [
+      "lintel",
+      "superstructure"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_091",
+    "word": "morpheme",
+    "phonetic": "/ˈmɔːfiːm/",
+    "partOfSpeech": "noun",
+    "definition": "The smallest meaningful unit of language that cannot be divided further",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The word 'unbreakable' contains three morphemes: the prefix 'un-', the root 'break', and the suffix '-able'.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "morph",
+      "unit"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_092",
+    "word": "phoneme",
+    "phonetic": "/ˈfəʊniːm/",
+    "partOfSpeech": "noun",
+    "definition": "The smallest distinct unit of sound in a language that distinguishes meaning",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The phoneme contrast between /p/ and /b/ differentiates 'pat' from 'bat' in English.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "sound unit",
+      "segment"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_093",
+    "word": "agglutinative",
+    "phonetic": "/əˈɡluːtɪnətɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Forming words by combining morphemes in a linear chain, each with distinct meaning",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Turkish is a highly agglutinative language where a single verb can carry multiple suffixes indicating tense, person, and mood.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "concatenative",
+      "affixing"
+    ],
+    "antonyms": [
+      "isolating",
+      "fusional"
+    ]
+  },
+  {
+    "id": "final_094",
+    "word": "periphrastic",
+    "phonetic": "/ˌpɛrɪˈfræstɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Using multiple words instead of inflection to express grammatical relationships",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The periphrastic future 'will go' in English contrasts with the inflected future forms in Romance languages.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "circumlocutory",
+      "analytic"
+    ],
+    "antonyms": [
+      "synthetic",
+      "inflectional"
+    ]
+  },
+  {
+    "id": "final_095",
+    "word": "collocation",
+    "phonetic": "/ˌkɒləˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The habitual juxtaposition of particular words in a language",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The collocation 'make a decision' is grammatically preferred over 'do a decision' in English.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "word pairing",
+      "combination"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_096",
+    "word": "register",
+    "phonetic": "/ˈrɛdʒɪstə/",
+    "partOfSpeech": "noun",
+    "definition": "A variety of language used in particular social contexts or for particular purposes",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Academic register requires formal vocabulary and impersonal constructions seldom used in casual conversation.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "style",
+      "tone",
+      "variety"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_097",
+    "word": "idiolect",
+    "phonetic": "/ˈɪdiəlɛkt/",
+    "partOfSpeech": "noun",
+    "definition": "An individual's distinctive pattern of language use, including vocabulary and phrasing",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The author's idiolect features archaic terms and inverted word order that distinguish her prose.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "personal dialect",
+      "speech style"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_098",
+    "word": "diglossia",
+    "phonetic": "/daɪˈɡlɒsiə/",
+    "partOfSpeech": "noun",
+    "definition": "A situation in which two distinct varieties of a language coexist with different functions",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Diglossia in Arabic-speaking countries means formal standard Arabic coexists with local vernaculars.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "bilingualism"
+    ],
+    "antonyms": [
+      "monolingualism"
+    ]
+  },
+  {
+    "id": "final_099",
+    "word": "code-switching",
+    "phonetic": "/ˈkəʊd ˌswɪtʃɪŋ/",
+    "partOfSpeech": "noun",
+    "definition": "Alternating between two or more languages or dialects within a conversation",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Bilingual speakers often engage in code-switching to express solidarity or convey nuanced meaning.",
+    "topicTags": [
+      "linguistics",
+      "sociology"
+    ],
+    "synonyms": [
+      "alternation",
+      "mixing"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_100",
+    "word": "proxemics",
+    "phonetic": "/prɒkˈsiːmɪks/",
+    "partOfSpeech": "noun",
+    "definition": "The study of spatial distance between people in communication",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Proxemics research reveals that acceptable conversational distance varies significantly across cultures.",
+    "topicTags": [
+      "linguistics",
+      "anthropology"
+    ],
+    "synonyms": [
+      "spatial behaviour"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_101",
+    "word": "kinesics",
+    "phonetic": "/kɪˈniːsɪks/",
+    "partOfSpeech": "noun",
+    "definition": "The study of body movement and gesture as a form of nonverbal communication",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Kinesics analysis decoded the politician's hand gestures during the televised debate.",
+    "topicTags": [
+      "linguistics",
+      "psychology"
+    ],
+    "synonyms": [
+      "gesture study",
+      "body language"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_102",
+    "word": "back-formation",
+    "phonetic": "/ˈbæk fɔːˌmeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A word formed by removing an affix from a longer word that appears to be derived",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The verb 'to edit' is a back-formation from 'editor', following the pattern of words like 'to sculpt' from 'sculptor'.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "derivation",
+      "reanalysis"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_103",
+    "word": "haplology",
+    "phonetic": "/hæˈplɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The omission of one of two similar adjacent syllables in a word",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The pronunciation of 'England' as 'Ing-land' rather than 'Engla-land' demonstrates haplology.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "syllable loss",
+      "contraction"
+    ],
+    "antonyms": [
+      "reduplication"
+    ]
+  },
+  {
+    "id": "final_104",
+    "word": "metathesis",
+    "phonetic": "/mɪˈtæθəsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The transposition of sounds or letters within a word",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The historical metathesis of 'bridd' to 'bird' in English shows how sound reordering shapes vocabulary.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "transposition",
+      "reordering"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_105",
+    "word": "assimilation",
+    "phonetic": "/əˌsɪmɪˈleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A sound change where adjacent sounds become more similar in articulation",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Assimilation in English causes the 'n' in 'incredible' to become 'ng' before a velar consonant.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "merger",
+      "adaptation"
+    ],
+    "antonyms": [
+      "dissimilation"
+    ]
+  },
+  {
+    "id": "final_106",
+    "word": "dissimilation",
+    "phonetic": "/dɪˌsɪmɪˈleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A sound change where adjacent sounds become less similar to improve distinctness",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The shift from Latin 'peregrinus' to Italian 'pellegrino' involved dissimilation of the two 'r' sounds.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "differentiation",
+      "contrast"
+    ],
+    "antonyms": [
+      "assimilation"
+    ]
+  },
+  {
+    "id": "final_107",
+    "word": "elision",
+    "phonetic": "/ɪˈlɪʒən/",
+    "partOfSpeech": "noun",
+    "definition": "The omission of a sound or syllable in rapid speech",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Elision in casual English transforms 'I am' into 'I'm' and 'do not' into 'don't'.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "omission",
+      "deletion",
+      "contraction"
+    ],
+    "antonyms": [
+      "insertion",
+      "epenthesis"
+    ]
+  },
+  {
+    "id": "final_108",
+    "word": "epenthesis",
+    "phonetic": "/ɪˈpɛnθəsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The insertion of an extra sound into a word",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The pronunciation of 'athlete' as 'ath-e-lete' by some speakers illustrates epenthesis breaking a consonant cluster.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "insertion",
+      "intrusion"
+    ],
+    "antonyms": [
+      "elision",
+      "syncope"
+    ]
+  },
+  {
+    "id": "final_109",
+    "word": "apocope",
+    "phonetic": "/əˈpɒkəpi/",
+    "partOfSpeech": "noun",
+    "definition": "The loss of one or more sounds from the end of a word",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "The apocope of final 'e' in English transformed Old English 'nama' into modern 'name'.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "truncation",
+      "clipping"
+    ],
+    "antonyms": [
+      "paragoge"
+    ]
+  },
+  {
+    "id": "final_110",
+    "word": "syncope",
+    "phonetic": "/ˈsɪŋkəpi/",
+    "partOfSpeech": "noun",
+    "definition": "The loss of a sound from the middle of a word",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Syncope in English reduced 'every' from three syllables to two in rapid speech.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "contraction",
+      "compression"
+    ],
+    "antonyms": [
+      "epenthesis"
+    ]
+  },
+  {
+    "id": "final_111",
+    "word": "aphaeresis",
+    "phonetic": "/əˈfɪərəsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The loss of one or more sounds from the beginning of a word",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Aphaeresis transformed 'acute' into 'cute' in English through historical sound deletion.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "initial truncation"
+    ],
+    "antonyms": [
+      "prosthesis"
+    ]
+  },
+  {
+    "id": "final_112",
+    "word": "analytic",
+    "phonetic": "/ˌænəˈlɪtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Using word order and auxiliary words rather than inflection to express grammatical relations",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "English is more analytic than Latin, relying on prepositions and word order rather than case endings.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "isolating",
+      "periphrastic"
+    ],
+    "antonyms": [
+      "synthetic",
+      "fusional"
+    ]
+  },
+  {
+    "id": "final_113",
+    "word": "synthetic",
+    "phonetic": "/sɪnˈθɛtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Using inflectional affixes to express grammatical relations within words",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Finnish is a highly synthetic language where noun cases and verb inflections convey complex meaning.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "inflectional",
+      "fusional"
+    ],
+    "antonyms": [
+      "analytic",
+      "isolating"
+    ]
+  },
+  {
+    "id": "final_114",
+    "word": "polysynthetic",
+    "phonetic": "/ˌpɒlɪsɪnˈθɛtɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Characterised by words composed of many morphemes expressing what would be a whole sentence elsewhere",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Greenlandic is a polysynthetic language where a single verb can encode subject, object, and tense.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "incorporating"
+    ],
+    "antonyms": [
+      "analytic",
+      "isolating"
+    ]
+  },
+  {
+    "id": "final_115",
+    "word": "isolating",
+    "phonetic": "/ˈaɪsəleɪtɪŋ/",
+    "partOfSpeech": "adjective",
+    "definition": "Having a one-to-one correspondence between words and morphemes, with no inflection",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Vietnamese is an isolating language where each word typically consists of a single morpheme.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "analytic"
+    ],
+    "antonyms": [
+      "synthetic",
+      "polysynthetic"
+    ]
+  },
+  {
+    "id": "final_116",
+    "word": "ergative",
+    "phonetic": "/ˈɜːɡətɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Treating the subject of an intransitive verb like the object of a transitive verb in case marking",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Basque employs an ergative case system that distinguishes transitive subjects from intransitive ones.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "absolutive-ergative"
+    ],
+    "antonyms": [
+      "nominative-accusative"
+    ]
+  },
+  {
+    "id": "final_117",
+    "word": "dative",
+    "phonetic": "/ˈdeɪtɪv/",
+    "partOfSpeech": "noun",
+    "definition": "A grammatical case indicating the indirect object or recipient of an action",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "In German, the dative case marks the indirect object, as in 'Ich gebe dem Mann das Buch'.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "recipient case"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_118",
+    "word": "genitive",
+    "phonetic": "/ˈdʒɛnɪtɪv/",
+    "partOfSpeech": "noun",
+    "definition": "A grammatical case indicating possession or close association",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The genitive case in Latin marks possession, equivalent to the 's construction in English.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "possessive case"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_119",
+    "word": "vocative",
+    "phonetic": "/ˈvɒkətɪv/",
+    "partOfSpeech": "noun",
+    "definition": "A grammatical case used for directly addressing a person or thing",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The Latin vocative case changed 'Marcus' to 'Marce' when calling upon someone directly.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "address case"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_120",
+    "word": "causative",
+    "phonetic": "/ˈkɔːzətɪv/",
+    "partOfSpeech": "adjective",
+    "definition": "Indicating that a subject causes something to happen or someone to act",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The causative construction 'have something done' expresses that the subject arranges for an action.",
+    "topicTags": [
+      "linguistics"
+    ],
+    "synonyms": [
+      "factitive"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_121",
+    "word": "endogamy",
+    "phonetic": "/ɛnˈdɒɡəmi/",
+    "partOfSpeech": "noun",
+    "definition": "The custom of marrying within a specific social group, caste, or community",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Endogamy in royal families historically preserved hereditary power but increased genetic disorders.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "in-marriage",
+      "intermarriage"
+    ],
+    "antonyms": [
+      "exogamy"
+    ]
+  },
+  {
+    "id": "final_122",
+    "word": "exogamy",
+    "phonetic": "/ɛkˈsɒɡəmi/",
+    "partOfSpeech": "noun",
+    "definition": "The custom of marrying outside one's own social group or community",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Exogamy between clans served to establish political alliances and reduce inbreeding.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "out-marriage"
+    ],
+    "antonyms": [
+      "endogamy"
+    ]
+  },
+  {
+    "id": "final_123",
+    "word": "animism",
+    "phonetic": "/ˈænɪmɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The belief that natural phenomena possess souls or spiritual essence",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Animism among indigenous peoples attributes conscious agency to rivers, mountains, and forests.",
+    "topicTags": [
+      "anthropology",
+      "religion"
+    ],
+    "synonyms": [
+      "spiritualism",
+      "vitalism"
+    ],
+    "antonyms": [
+      "materialism"
+    ]
+  },
+  {
+    "id": "final_124",
+    "word": "totemism",
+    "phonetic": "/ˈtəʊtəmɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A belief system involving symbolic relationships between social groups and natural entities",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Totemism in Aboriginal Australian cultures establishes kinship between clans and specific animal species.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "symbolism",
+      "emblemism"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_125",
+    "word": "acculturation",
+    "phonetic": "/əˌkʌltʃəˈreɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The process of cultural change resulting from sustained contact between different groups",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Acculturation among immigrant communities involves adopting host-country norms while retaining elements of heritage culture.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "assimilation",
+      "adaptation"
+    ],
+    "antonyms": [
+      "enculturation"
+    ]
+  },
+  {
+    "id": "final_126",
+    "word": "ethnogenesis",
+    "phonetic": "/ˌɛθnəˈdʒɛnɪsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The emergence and formation of a distinct ethnic group",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The ethnogenesis of the Métis people in Canada arose from the union of Indigenous and European fur traders.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "origin",
+      "formation"
+    ],
+    "antonyms": [
+      "ethnocide"
+    ]
+  },
+  {
+    "id": "final_127",
+    "word": "liminality",
+    "phonetic": "/ˌlɪmɪˈnælɪti/",
+    "partOfSpeech": "noun",
+    "definition": "The ambiguous transitional state between two social statuses in a ritual process",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Liminality during initiation rites suspends normal social hierarchies, creating a temporary egalitarian state.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "transition",
+      "threshold"
+    ],
+    "antonyms": [
+      "normality",
+      "stability"
+    ]
+  },
+  {
+    "id": "final_128",
+    "word": "syncretism",
+    "phonetic": "/ˈsɪŋkrətɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The fusion of different religious or cultural beliefs into a new system",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Vodou represents a syncretism of West African spiritual traditions and Roman Catholicism.",
+    "topicTags": [
+      "anthropology",
+      "religion"
+    ],
+    "synonyms": [
+      "fusion",
+      "blending",
+      "amalgamation"
+    ],
+    "antonyms": [
+      "orthodoxy",
+      "purity"
+    ]
+  },
+  {
+    "id": "final_129",
+    "word": "taboo",
+    "phonetic": "/təˈbuː/",
+    "partOfSpeech": "noun",
+    "definition": "A prohibition against certain behaviours based on religious or social custom",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The taboo against discussing death varies in strength across different cultural contexts.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "prohibition",
+      "ban"
+    ],
+    "antonyms": [
+      "permission",
+      "sanction"
+    ]
+  },
+  {
+    "id": "final_130",
+    "word": "potlatch",
+    "phonetic": "/ˈpɒtlætʃ/",
+    "partOfSpeech": "noun",
+    "definition": "A ceremonial gift-giving feast among Indigenous peoples of the Pacific Northwest",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The potlatch served as a redistributive economic system in which chiefs demonstrated status through generosity.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "feast",
+      "ceremony"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_131",
+    "word": "levirate",
+    "phonetic": "/ˈlɛvɪrət/",
+    "partOfSpeech": "noun",
+    "definition": "A custom requiring a man to marry his deceased brother's widow",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Levirate marriage in traditional societies ensured that widows remained within the family's protection.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "widow inheritance"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_132",
+    "word": "patrilineal",
+    "phonetic": "/ˌpætrɪˈlɪniəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Tracing descent and inheritance through the male line",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Patrilineal societies pass surnames and property from father to son across generations.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "agnatic"
+    ],
+    "antonyms": [
+      "matrilineal"
+    ]
+  },
+  {
+    "id": "final_133",
+    "word": "matrilineal",
+    "phonetic": "/ˌmætrɪˈlɪniəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Tracing descent and inheritance through the female line",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The Minangkabau of Indonesia maintain a matrilineal system where property passes from mother to daughter.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "uterine"
+    ],
+    "antonyms": [
+      "patrilineal"
+    ]
+  },
+  {
+    "id": "final_134",
+    "word": "patrilocal",
+    "phonetic": "/ˌpætrɪˈləʊkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Residing with or near the husband's family after marriage",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Patrilocal residence patterns in agricultural societies kept brothers together for land cultivation.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "virilocal"
+    ],
+    "antonyms": [
+      "matrilocal"
+    ]
+  },
+  {
+    "id": "final_135",
+    "word": "matrilocal",
+    "phonetic": "/ˌmætrɪˈləʊkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Residing with or near the wife's family after marriage",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Matrilocal post-marital residence is common in societies where women control agricultural production.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "uxorilocal"
+    ],
+    "antonyms": [
+      "patrilocal"
+    ]
+  },
+  {
+    "id": "final_136",
+    "word": "neolocal",
+    "phonetic": "/ˌniːəˈləʊkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Establishing a residence independent of both spouses' families after marriage",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Neolocal residence is the dominant pattern in modern industrialised societies with nuclear families.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "independent residence"
+    ],
+    "antonyms": [
+      "patrilocal",
+      "matrilocal"
+    ]
+  },
+  {
+    "id": "final_137",
+    "word": "hypergamy",
+    "phonetic": "/haɪˈpɜːɡəmi/",
+    "partOfSpeech": "noun",
+    "definition": "The practice of marrying into a social group of higher status than one's own",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Hypergamy in historical Europe encouraged women to marry upward to improve their social standing.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "upward marriage"
+    ],
+    "antonyms": [
+      "hypogamy"
+    ]
+  },
+  {
+    "id": "final_138",
+    "word": "hypogamy",
+    "phonetic": "/haɪˈpɒɡəmi/",
+    "partOfSpeech": "noun",
+    "definition": "The practice of marrying into a social group of lower status than one's own",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 4,
+    "exampleSentence": "Hypogamy was far less common than hypergamy in traditional caste-based societies.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "downward marriage"
+    ],
+    "antonyms": [
+      "hypergamy"
+    ]
+  },
+  {
+    "id": "final_139",
+    "word": "consanguinity",
+    "phonetic": "/ˌkɒnsæŋˈɡwɪnɪti/",
+    "partOfSpeech": "noun",
+    "definition": "Relationship by blood or common ancestry",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Marriage between persons of close consanguinity is prohibited in most legal systems.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "blood relationship",
+      "kinship"
+    ],
+    "antonyms": [
+      "affinity"
+    ]
+  },
+  {
+    "id": "final_140",
+    "word": "affinity",
+    "phonetic": "/əˈfɪnɪti/",
+    "partOfSpeech": "noun",
+    "definition": "Relationship by marriage rather than by blood",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "In kinship studies, affinity refers to connections created through marital alliances.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "relationship by marriage"
+    ],
+    "antonyms": [
+      "consanguinity"
+    ]
+  },
+  {
+    "id": "final_141",
+    "word": "bigamy",
+    "phonetic": "/ˈbɪɡəmi/",
+    "partOfSpeech": "noun",
+    "definition": "The act of marrying someone while still legally married to another person",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Bigamy is a criminal offence in jurisdictions that recognise only monogamous marriage.",
+    "topicTags": [
+      "sociology",
+      "law"
+    ],
+    "synonyms": [
+      "polygamy"
+    ],
+    "antonyms": [
+      "monogamy"
+    ]
+  },
+  {
+    "id": "final_142",
+    "word": "polygyny",
+    "phonetic": "/pəˈlɪdʒɪni/",
+    "partOfSpeech": "noun",
+    "definition": "A marriage system in which a man has multiple wives simultaneously",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Polygyny in pre-industrial societies was often an indicator of male wealth and status.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "plural marriage"
+    ],
+    "antonyms": [
+      "monogamy",
+      "polyandry"
+    ]
+  },
+  {
+    "id": "final_143",
+    "word": "polyandry",
+    "phonetic": "/ˌpɒliˈændri/",
+    "partOfSpeech": "noun",
+    "definition": "A marriage system in which a woman has multiple husbands simultaneously",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Polyandry in the Himalayan region arose from limited arable land and the need to keep family farms intact.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "plural marriage"
+    ],
+    "antonyms": [
+      "monogamy",
+      "polygyny"
+    ]
+  },
+  {
+    "id": "final_144",
+    "word": "monogamy",
+    "phonetic": "/məˈnɒɡəmi/",
+    "partOfSpeech": "noun",
+    "definition": "The practice of being married to one person at a time",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Monogamy is the legally recognised form of marriage in the majority of contemporary nations.",
+    "topicTags": [
+      "sociology"
+    ],
+    "synonyms": [
+      "pair-bonding"
+    ],
+    "antonyms": [
+      "polygamy",
+      "polygyny",
+      "polyandry"
+    ]
+  },
+  {
+    "id": "final_145",
+    "word": "misogyny",
+    "phonetic": "/mɪˈsɒdʒɪni/",
+    "partOfSpeech": "noun",
+    "definition": "Hatred or entrenched prejudice against women",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Systemic misogyny manifests in workplace discrimination, underrepresentation, and gender-based violence.",
+    "topicTags": [
+      "sociology"
+    ],
+    "synonyms": [
+      "sexism",
+      "chauvinism"
+    ],
+    "antonyms": [
+      "philogyny"
+    ]
+  },
+  {
+    "id": "final_146",
+    "word": "misandry",
+    "phonetic": "/mɪˈsændri/",
+    "partOfSpeech": "noun",
+    "definition": "Hatred or entrenched prejudice against men",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Misandry as an ideological position is statistically less documented than misogyny in institutional contexts.",
+    "topicTags": [
+      "sociology"
+    ],
+    "synonyms": [
+      "prejudice"
+    ],
+    "antonyms": [
+      "philandry"
+    ]
+  },
+  {
+    "id": "final_147",
+    "word": "bridewealth",
+    "phonetic": "/ˈbraɪdˌwɛlθ/",
+    "partOfSpeech": "noun",
+    "definition": "Property or money paid by a groom to the bride's family upon marriage",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Bridewealth in pastoral societies was traditionally paid in cattle and represented the value of lost labour.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "dowry",
+      "bride price"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_148",
+    "word": "dowry",
+    "phonetic": "/ˈdaʊri/",
+    "partOfSpeech": "noun",
+    "definition": "Property or money brought by a bride to her husband upon marriage",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The dowry system in South Asia has been linked to financial coercion despite legal prohibitions.",
+    "topicTags": [
+      "anthropology",
+      "sociology"
+    ],
+    "synonyms": [
+      "dower",
+      "settlement"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_149",
+    "word": "lineage",
+    "phonetic": "/ˈlɪniɪdʒ/",
+    "partOfSpeech": "noun",
+    "definition": "Direct descent from a particular ancestor establishing membership in a kinship group",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Lineage membership in many African societies determines land rights, political roles, and ritual obligations.",
+    "topicTags": [
+      "anthropology"
+    ],
+    "synonyms": [
+      "ancestry",
+      "descent",
+      "pedigree"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_150",
+    "word": "celibacy",
+    "phonetic": "/ˈsɛlɪbəsi/",
+    "partOfSpeech": "noun",
+    "definition": "The state of abstaining from marriage and sexual relations",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Celibacy among Catholic clergy has been a mandatory discipline in the Latin rite since the 12th century.",
+    "topicTags": [
+      "sociology",
+      "religion"
+    ],
+    "synonyms": [
+      "chastity",
+      "abstinence"
+    ],
+    "antonyms": [
+      "promiscuity"
+    ]
+  },
+  {
+    "id": "final_151",
+    "word": "xerophyte",
+    "phonetic": "/ˈzɪərəfaɪt/",
+    "partOfSpeech": "noun",
+    "definition": "A plant adapted to survive in dry conditions with minimal water",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Cacti are classic xerophytes with water-storing tissues and reduced leaf surfaces to minimise transpiration.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "desert plant",
+      "drought-tolerant plant"
+    ],
+    "antonyms": [
+      "hydrophyte",
+      "mesophyte"
+    ]
+  },
+  {
+    "id": "final_152",
+    "word": "halophyte",
+    "phonetic": "/ˈhæləfaɪt/",
+    "partOfSpeech": "noun",
+    "definition": "A plant adapted to grow in saline environments such as salt marshes",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Mangroves are halophytes with specialised glands that excrete excess salt from their leaves.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "salt-tolerant plant"
+    ],
+    "antonyms": [
+      "glycophyte"
+    ]
+  },
+  {
+    "id": "final_153",
+    "word": "mycorrhizal",
+    "phonetic": "/ˌmaɪkəˈraɪzəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the symbiotic association between fungi and plant roots",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Mycorrhizal networks allow trees to exchange nutrients and chemical signals through underground fungal connections.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "symbiotic",
+      "fungal-root"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_154",
+    "word": "senescence",
+    "phonetic": "/sɪˈnɛsəns/",
+    "partOfSpeech": "noun",
+    "definition": "The biological process of aging and deterioration with time",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Leaf senescence in autumn is triggered by decreasing daylight and involves the breakdown of chlorophyll.",
+    "topicTags": [
+      "biology"
+    ],
+    "synonyms": [
+      "aging",
+      "deterioration"
+    ],
+    "antonyms": [
+      "growth",
+      "rejuvenation"
+    ]
+  },
+  {
+    "id": "final_155",
+    "word": "ontogeny",
+    "phonetic": "/ɒnˈtɒdʒəni/",
+    "partOfSpeech": "noun",
+    "definition": "The developmental history of an individual organism from embryo to maturity",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The study of ontogeny reveals how genetic programs unfold through distinct developmental stages.",
+    "topicTags": [
+      "biology"
+    ],
+    "synonyms": [
+      "development",
+      "maturation"
+    ],
+    "antonyms": [
+      "phylogeny"
+    ]
+  },
+  {
+    "id": "final_156",
+    "word": "phylogeny",
+    "phonetic": "/faɪˈlɒdʒəni/",
+    "partOfSpeech": "noun",
+    "definition": "The evolutionary history and development of a species or taxonomic group",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Modern phylogeny relies on DNA sequencing to reconstruct evolutionary relationships among organisms.",
+    "topicTags": [
+      "biology"
+    ],
+    "synonyms": [
+      "evolution",
+      "ancestry"
+    ],
+    "antonyms": [
+      "ontogeny"
+    ]
+  },
+  {
+    "id": "final_157",
+    "word": "taxon",
+    "phonetic": "/ˈtæksɒn/",
+    "partOfSpeech": "noun",
+    "definition": "A group of organisms classified together at any taxonomic rank",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Each taxon in the Linnaean system is assigned a hierarchical rank from kingdom to species.",
+    "topicTags": [
+      "biology"
+    ],
+    "synonyms": [
+      "classification",
+      "group"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_158",
+    "word": "parthenogenesis",
+    "phonetic": "/ˌpɑːθənəʊˈdʒɛnɪsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "Reproduction from an unfertilised egg without male genetic contribution",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Parthenogenesis occurs naturally in some reptiles and insects, producing offspring genetically identical to the mother.",
+    "topicTags": [
+      "biology"
+    ],
+    "synonyms": [
+      "asexual reproduction"
+    ],
+    "antonyms": [
+      "sexual reproduction",
+      "syngamy"
+    ]
+  },
+  {
+    "id": "final_159",
+    "word": "karyotype",
+    "phonetic": "/ˈkæriətaɪp/",
+    "partOfSpeech": "noun",
+    "definition": "The number and appearance of chromosomes in a cell of an organism",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Karyotype analysis can detect chromosomal abnormalities such as trisomy 21 in prenatal screening.",
+    "topicTags": [
+      "biology",
+      "genetics"
+    ],
+    "synonyms": [
+      "chromosome complement"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_160",
+    "word": "autosome",
+    "phonetic": "/ˈɔːtəsəʊm/",
+    "partOfSpeech": "noun",
+    "definition": "Any chromosome that is not a sex chromosome",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Humans have 22 pairs of autosomes and one pair of sex chromosomes in each diploid cell.",
+    "topicTags": [
+      "biology",
+      "genetics"
+    ],
+    "synonyms": [
+      "non-sex chromosome"
+    ],
+    "antonyms": [
+      "allosome",
+      "sex chromosome"
+    ]
+  },
+  {
+    "id": "final_161",
+    "word": "allopatric",
+    "phonetic": "/ˌæləˈpætrɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Occupying separate geographic areas without gene flow between populations",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Allopatric speciation occurs when a physical barrier like a mountain range isolates two populations.",
+    "topicTags": [
+      "biology",
+      "evolution"
+    ],
+    "synonyms": [
+      "geographically separated"
+    ],
+    "antonyms": [
+      "sympatric"
+    ]
+  },
+  {
+    "id": "final_162",
+    "word": "sympatric",
+    "phonetic": "/sɪmˈpætrɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Occupying the same geographic area without interbreeding",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Sympatric speciation requires reproductive isolation mechanisms that develop within a shared habitat.",
+    "topicTags": [
+      "biology",
+      "evolution"
+    ],
+    "synonyms": [
+      "co-occurring"
+    ],
+    "antonyms": [
+      "allopatric"
+    ]
+  },
+  {
+    "id": "final_163",
+    "word": "cladistics",
+    "phonetic": "/kləˈdɪstɪks/",
+    "partOfSpeech": "noun",
+    "definition": "A classification system based on shared evolutionary ancestry rather than superficial similarities",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Cladistics classifies organisms by identifying monophyletic groups that share a common ancestor.",
+    "topicTags": [
+      "biology"
+    ],
+    "synonyms": [
+      "phylogenetic systematics"
+    ],
+    "antonyms": [
+      "phenetics"
+    ]
+  },
+  {
+    "id": "final_164",
+    "word": "dichotomous",
+    "phonetic": "/daɪˈkɒtəməs/",
+    "partOfSpeech": "adjective",
+    "definition": "Divided into two sharply distinct parts or categories",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "A dichotomous key guides users through paired options to identify unknown species.",
+    "topicTags": [
+      "biology"
+    ],
+    "synonyms": [
+      "binary",
+      "branched"
+    ],
+    "antonyms": [
+      "continuous",
+      "graduated"
+    ]
+  },
+  {
+    "id": "final_165",
+    "word": "tropism",
+    "phonetic": "/ˈtrəʊpɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The growth or movement of an organism in response to an external stimulus",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Phototropism causes plant stems to bend toward light sources, maximising photosynthetic exposure.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "response",
+      "orientation"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_166",
+    "word": "phototropism",
+    "phonetic": "/fəʊˈtɒtrəpɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "Growth or movement directed by light stimulus",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Auxin distribution mediates phototropism by elongating cells on the shaded side of the stem.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "heliotropism"
+    ],
+    "antonyms": [
+      "skototropism"
+    ]
+  },
+  {
+    "id": "final_167",
+    "word": "geotropism",
+    "phonetic": "/dʒiːˈɒtrəpɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "Growth or movement directed by gravity",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Roots exhibit positive geotropism by growing downward, while shoots display negative geotropism.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "gravitropism"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_168",
+    "word": "epiphyte",
+    "phonetic": "/ˈɛpɪfaɪt/",
+    "partOfSpeech": "noun",
+    "definition": "A plant growing on the surface of another plant for support but not parasitically",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Orchids in tropical rainforests grow as epiphytes on tree branches to access canopy sunlight.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "air plant"
+    ],
+    "antonyms": [
+      "parasite"
+    ]
+  },
+  {
+    "id": "final_169",
+    "word": "saprophyte",
+    "phonetic": "/ˈsæprəfaɪt/",
+    "partOfSpeech": "noun",
+    "definition": "An organism that feeds on dead or decaying organic matter",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Fungi are the most important saprophytes in forest ecosystems, breaking down cellulose and lignin.",
+    "topicTags": [
+      "biology"
+    ],
+    "synonyms": [
+      "decomposer",
+      "detritivore"
+    ],
+    "antonyms": [
+      "parasite",
+      "autotroph"
+    ]
+  },
+  {
+    "id": "final_170",
+    "word": "rhizome",
+    "phonetic": "/ˈraɪzəʊm/",
+    "partOfSpeech": "noun",
+    "definition": "An underground horizontal stem that sends out roots and shoots from nodes",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Ginger is propagated commercially through rhizome cuttings rather than seeds.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "rootstock",
+      "corm"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_171",
+    "word": "stolon",
+    "phonetic": "/ˈstəʊlən/",
+    "partOfSpeech": "noun",
+    "definition": "A horizontal stem that grows along the ground and produces new plants at nodes",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Strawberries propagate vegetatively through stolons that root at intervals along their length.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "runner",
+      "offset"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_172",
+    "word": "tendril",
+    "phonetic": "/ˈtɛndrɪl/",
+    "partOfSpeech": "noun",
+    "definition": "A slender threadlike plant organ that climbs by wrapping around supports",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Pea plants use tendrils that coil around trellis wires through thigmotropic growth responses.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "clasp",
+      "vine"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_173",
+    "word": "abscission",
+    "phonetic": "/æbˈsɪʒən/",
+    "partOfSpeech": "noun",
+    "definition": "The natural detachment of leaves, fruits, or flowers from a plant",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Abscission in deciduous trees is triggered by declining auxin levels as day length shortens.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "shedding",
+      "drop",
+      "fall"
+    ],
+    "antonyms": [
+      "retention"
+    ]
+  },
+  {
+    "id": "final_174",
+    "word": "etiolation",
+    "phonetic": "/ˌiːtiəˈleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A pale, elongated plant condition caused by insufficient light",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Etiolation in seedlings grown in darkness produces tall, pale stems that reach toward any available light.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "blanching",
+      "whitening"
+    ],
+    "antonyms": [
+      "greening"
+    ]
+  },
+  {
+    "id": "final_175",
+    "word": "cotyledon",
+    "phonetic": "/ˌkɒtɪˈliːdən/",
+    "partOfSpeech": "noun",
+    "definition": "An embryonic seed leaf that stores or absorbs food for the developing plant",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Monocotyledons have a single cotyledon, while dicotyledons possess two embryonic seed leaves.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "seed leaf",
+      "embryonic leaf"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_176",
+    "word": "endosperm",
+    "phonetic": "/ˈɛndəspɜːm/",
+    "partOfSpeech": "noun",
+    "definition": "Nutritive tissue within a seed that supports the developing embryo",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The endosperm of cereal grains provides the primary source of flour for human consumption.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "nutritive tissue"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_177",
+    "word": "inflorescence",
+    "phonetic": "/ˌɪnflɔːˈrɛsəns/",
+    "partOfSpeech": "noun",
+    "definition": "The complete flower head of a plant including stems and bracts",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The sunflower head is an inflorescence composed of hundreds of tiny individual flowers called florets.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "flower cluster",
+      "bloom"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_178",
+    "word": "raceme",
+    "phonetic": "/rəˈsiːm/",
+    "partOfSpeech": "noun",
+    "definition": "An unbranched flower cluster with flowers on short stalks along a central stem",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The raceme of the lupin produces flowers from the bottom upward, creating a tapering spire of colour.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "spike",
+      "panicle"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_179",
+    "word": "sepal",
+    "phonetic": "/ˈsɛpəl/",
+    "partOfSpeech": "noun",
+    "definition": "One of the leaf-like structures forming the calyx of a flower",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The green sepals enclose and protect the flower bud before it opens to reveal the petals.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "calyx"
+    ],
+    "antonyms": [
+      "petal"
+    ]
+  },
+  {
+    "id": "final_180",
+    "word": "tuber",
+    "phonetic": "/ˈtjuːbə/",
+    "partOfSpeech": "noun",
+    "definition": "A swollen underground storage stem containing buds from which new plants grow",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Potatoes are tubers that store starch as an energy reserve for the plant's dormant period.",
+    "topicTags": [
+      "biology",
+      "botany"
+    ],
+    "synonyms": [
+      "corm",
+      "bulb"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_181",
+    "word": "entropy",
+    "phonetic": "/ˈɛntrəpi/",
+    "partOfSpeech": "noun",
+    "definition": "A measure of disorder or randomness in a thermodynamic system",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The second law of thermodynamics states that the entropy of an isolated system always increases.",
+    "topicTags": [
+      "physics",
+      "thermodynamics"
+    ],
+    "synonyms": [
+      "disorder",
+      "randomness"
+    ],
+    "antonyms": [
+      "order",
+      "negentropy"
+    ]
+  },
+  {
+    "id": "final_182",
+    "word": "enthalpy",
+    "phonetic": "/ˈɛnθəlpi/",
+    "partOfSpeech": "noun",
+    "definition": "The heat content of a thermodynamic system measured under constant pressure",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The enthalpy change during a chemical reaction indicates whether the process releases or absorbs heat.",
+    "topicTags": [
+      "physics",
+      "chemistry"
+    ],
+    "synonyms": [
+      "heat content"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_183",
+    "word": "eigenvector",
+    "phonetic": "/ˈaɪɡənˌvɛktə/",
+    "partOfSpeech": "noun",
+    "definition": "A non-zero vector that changes only by a scalar factor when a linear transformation is applied",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Eigenvectors of the covariance matrix define the principal components in dimensionality reduction algorithms.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "characteristic vector"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_184",
+    "word": "asymptote",
+    "phonetic": "/ˈæsɪmptəʊt/",
+    "partOfSpeech": "noun",
+    "definition": "A line that a curve approaches arbitrarily closely as it extends to infinity",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The graph of the function approaches the horizontal asymptote as x tends to positive infinity.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "limit",
+      "boundary"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_185",
+    "word": "isomorphism",
+    "phonetic": "/ˌaɪsəˈmɔːfɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A structure-preserving mapping between two mathematical structures that can be reversed",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The isomorphism between the group of rotations and certain matrices demonstrates structural equivalence.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "equivalence",
+      "correspondence"
+    ],
+    "antonyms": [
+      "heteromorphism"
+    ]
+  },
+  {
+    "id": "final_186",
+    "word": "parabola",
+    "phonetic": "/pəˈræbələ/",
+    "partOfSpeech": "noun",
+    "definition": "A symmetrical U-shaped curve representing a quadratic function",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The trajectory of a projectile under uniform gravity follows a parabolic path.",
+    "topicTags": [
+      "mathematics",
+      "physics"
+    ],
+    "synonyms": [
+      "quadratic curve"
+    ],
+    "antonyms": [
+      "hyperbola",
+      "ellipse"
+    ]
+  },
+  {
+    "id": "final_187",
+    "word": "homomorphism",
+    "phonetic": "/ˌhəʊməˈmɔːfɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A structure-preserving mapping between algebraic structures",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "A group homomorphism preserves the group operation between the domain and codomain groups.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "morphism",
+      "structure map"
+    ],
+    "antonyms": [
+      "isomorphism"
+    ]
+  },
+  {
+    "id": "final_188",
+    "word": "homeomorphism",
+    "phonetic": "/ˌhəʊmiəˈmɔːfɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A continuous deformation between two topological spaces with a continuous inverse",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "A coffee cup and a doughnut are homeomorphic because they each have a single hole in topological terms.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "topological equivalence"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_189",
+    "word": "automorphism",
+    "phonetic": "/ˌɔːtəˈmɔːfɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "An isomorphism from a mathematical object to itself",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The automorphism group of a graph captures all symmetries that preserve its adjacency structure.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "self-isomorphism",
+      "symmetry"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_190",
+    "word": "endomorphism",
+    "phonetic": "/ˌɛndəˈmɔːfɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A homomorphism from a mathematical object to itself",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Linear endomorphisms of a vector space correspond to square matrices acting on that space.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "self-map"
+    ],
+    "antonyms": [
+      "automorphism"
+    ]
+  },
+  {
+    "id": "final_191",
+    "word": "concatenation",
+    "phonetic": "/kənˌkætɪˈneɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The linking together of elements in a sequential chain",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "String concatenation in programming joins two character sequences end to end.",
+    "topicTags": [
+      "mathematics",
+      "computer science"
+    ],
+    "synonyms": [
+      "linking",
+      "joining",
+      "appending"
+    ],
+    "antonyms": [
+      "separation",
+      "division"
+    ]
+  },
+  {
+    "id": "final_192",
+    "word": "commutativity",
+    "phonetic": "/kəˌmjuːtəˈtɪvɪti/",
+    "partOfSpeech": "noun",
+    "definition": "The property of being independent of the order of operands in an operation",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Addition of real numbers exhibits commutativity, but matrix multiplication does not.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "order-independence"
+    ],
+    "antonyms": [
+      "non-commutativity"
+    ]
+  },
+  {
+    "id": "final_193",
+    "word": "associativity",
+    "phonetic": "/əˌsəʊʃiəˈtɪvɪti/",
+    "partOfSpeech": "noun",
+    "definition": "The property that grouping of operands does not affect the result of an operation",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Associativity of addition allows us to write a plus b plus c without parentheses.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "grouping-independence"
+    ],
+    "antonyms": [
+      "non-associativity"
+    ]
+  },
+  {
+    "id": "final_194",
+    "word": "idempotent",
+    "phonetic": "/ˌaɪdɛmˈpəʊtənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Unchanged by repeated application of the same operation",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "A projection matrix is idempotent because applying it twice yields the same result as applying it once.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "self-inverse"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_195",
+    "word": "involution",
+    "phonetic": "/ˌɪnvəˈluːʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A function that is its own inverse when applied twice",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The operation of multiplying by negative one is an involution because applying it twice returns the original.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "self-inverse"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_196",
+    "word": "orthogonal",
+    "phonetic": "/ɔːˈθɒɡənəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to or involving right angles or perpendicularity",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Orthogonal vectors have a dot product of zero and represent directions with no mutual projection.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "perpendicular",
+      "normal"
+    ],
+    "antonyms": [
+      "parallel",
+      "collinear"
+    ]
+  },
+  {
+    "id": "final_197",
+    "word": "stochastic",
+    "phonetic": "/stəˈkæstɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Having a random probability distribution that can be analysed statistically",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Stochastic gradient descent introduces randomness into the optimisation process to escape local minima.",
+    "topicTags": [
+      "mathematics",
+      "statistics"
+    ],
+    "synonyms": [
+      "random",
+      "probabilistic"
+    ],
+    "antonyms": [
+      "deterministic"
+    ]
+  },
+  {
+    "id": "final_198",
+    "word": "parity",
+    "phonetic": "/ˈpærɪti/",
+    "partOfSpeech": "noun",
+    "definition": "The property of an integer being even or odd, or a symmetry property in physics",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Parity bits in error-detecting codes ensure that the number of ones in a binary string remains even.",
+    "topicTags": [
+      "mathematics",
+      "computer science"
+    ],
+    "synonyms": [
+      "even-odd property"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_199",
+    "word": "holomorphic",
+    "phonetic": "/ˌhɒləˈmɔːfɪk/",
+    "partOfSpeech": "adjective",
+    "definition": "Complex-differentiable at every point in a neighbourhood",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Holomorphic functions are infinitely differentiable and can be represented as convergent power series.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "analytic",
+      "regular"
+    ],
+    "antonyms": [
+      "singular"
+    ]
+  },
+  {
+    "id": "final_200",
+    "word": "tensor",
+    "phonetic": "/ˈtɛnsə/",
+    "partOfSpeech": "noun",
+    "definition": "A mathematical object that generalises scalars, vectors, and matrices to higher dimensions",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Tensor networks provide efficient representations for quantum many-body states in condensed matter physics.",
+    "topicTags": [
+      "mathematics",
+      "physics"
+    ],
+    "synonyms": [
+      "multidimensional array"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_201",
+    "word": "topology",
+    "phonetic": "/təˈpɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The study of properties preserved under continuous deformations such as stretching and bending",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Topology concerns itself with intrinsic properties like connectedness rather than exact distances.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "geometry of continuity"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_202",
+    "word": "manifold",
+    "phonetic": "/ˈmænɪfəʊld/",
+    "partOfSpeech": "noun",
+    "definition": "A topological space that locally resembles Euclidean space near each point",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The surface of a sphere is a two-dimensional manifold that curves through three-dimensional space.",
+    "topicTags": [
+      "mathematics",
+      "physics"
+    ],
+    "synonyms": [
+      "surface",
+      "variety"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_203",
+    "word": "bifurcation",
+    "phonetic": "/ˌbaɪfɜːˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A division into two branches, especially in dynamical systems where behaviour changes qualitatively",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Bifurcation theory explains how gradual parameter changes can trigger sudden shifts in system behaviour.",
+    "topicTags": [
+      "mathematics",
+      "physics"
+    ],
+    "synonyms": [
+      "branching",
+      "forking",
+      "splitting"
+    ],
+    "antonyms": [
+      "convergence",
+      "unification"
+    ]
+  },
+  {
+    "id": "final_204",
+    "word": "hysteresis",
+    "phonetic": "/ˌhɪstəˈriːsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The dependence of a system's state on its history of past inputs",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Hysteresis in ferromagnetic materials means the magnetisation persists after the external field is removed.",
+    "topicTags": [
+      "physics"
+    ],
+    "synonyms": [
+      "lag",
+      "memory"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_205",
+    "word": "diffraction",
+    "phonetic": "/dɪˈfrækʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The bending of waves around obstacles or through apertures",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "X-ray diffraction through crystal lattices produces interference patterns that reveal molecular structures.",
+    "topicTags": [
+      "physics"
+    ],
+    "synonyms": [
+      "bending",
+      "spreading"
+    ],
+    "antonyms": [
+      "reflection",
+      "absorption"
+    ]
+  },
+  {
+    "id": "final_206",
+    "word": "refraction",
+    "phonetic": "/rɪˈfrækʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The change in direction of a wave passing from one medium to another",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The refraction of light through a prism separates white light into its constituent spectral colours.",
+    "topicTags": [
+      "physics"
+    ],
+    "synonyms": [
+      "bending",
+      "deflection"
+    ],
+    "antonyms": [
+      "reflection"
+    ]
+  },
+  {
+    "id": "final_207",
+    "word": "scalar",
+    "phonetic": "/ˈskeɪlə/",
+    "partOfSpeech": "noun",
+    "definition": "A quantity with magnitude but no direction",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Temperature is a scalar field because it assigns a single numerical value to each point in space.",
+    "topicTags": [
+      "mathematics",
+      "physics"
+    ],
+    "synonyms": [
+      "magnitude"
+    ],
+    "antonyms": [
+      "vector",
+      "tensor"
+    ]
+  },
+  {
+    "id": "final_208",
+    "word": "gradient",
+    "phonetic": "/ˈɡreɪdiənt/",
+    "partOfSpeech": "noun",
+    "definition": "The rate of change of a function with respect to its variables, represented as a vector",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The gradient of a loss function indicates the direction of steepest ascent in parameter space.",
+    "topicTags": [
+      "mathematics"
+    ],
+    "synonyms": [
+      "slope",
+      "inclination"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_209",
+    "word": "contravariant",
+    "phonetic": "/ˌkɒntrəˈvɛəriənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Transforming inversely to a change of basis in coordinate transformations",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Contravariant vector components transform opposite to the basis vectors under coordinate changes.",
+    "topicTags": [
+      "mathematics",
+      "physics"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "covariant"
+    ]
+  },
+  {
+    "id": "final_210",
+    "word": "covariant",
+    "phonetic": "/kəʊˈvɛəriənt/",
+    "partOfSpeech": "adjective",
+    "definition": "Transforming in the same way as a change of basis in coordinate transformations",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Covariant derivatives ensure that differentiation respects the manifold's geometric structure.",
+    "topicTags": [
+      "mathematics",
+      "physics"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "contravariant"
+    ]
+  },
+  {
+    "id": "final_211",
+    "word": "timbre",
+    "phonetic": "/ˈtæmbrə/",
+    "partOfSpeech": "noun",
+    "definition": "The distinctive quality of a sound that distinguishes different instruments or voices",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The timbre of a clarinet differs from that of an oboe even when both play the same pitch at equal volume.",
+    "topicTags": [
+      "music",
+      "acoustics"
+    ],
+    "synonyms": [
+      "tone colour",
+      "sound quality"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_212",
+    "word": "tessitura",
+    "phonetic": "/ˌtɛsɪˈtʊərə/",
+    "partOfSpeech": "noun",
+    "definition": "The most comfortable vocal range for a singer within their overall compass",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The aria's tessitura lies unusually high, demanding sustained singing in the upper register.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "vocal range",
+      "compass"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_213",
+    "word": "leitmotif",
+    "phonetic": "/ˈlaɪtməʊˌtiːf/",
+    "partOfSpeech": "noun",
+    "definition": "A recurring musical phrase associated with a particular character, idea, or situation",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Wagner's Ring cycle employs leitmotifs that transform as the associated characters develop throughout the opera.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "theme",
+      "motif"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_214",
+    "word": "crescendo",
+    "phonetic": "/krɪˈʃɛndəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A gradual increase in loudness or intensity in a musical passage",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The symphony's finale builds through a relentless crescendo that culminates in a thunderous climax.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "increase",
+      "amplification"
+    ],
+    "antonyms": [
+      "diminuendo",
+      "decrescendo"
+    ]
+  },
+  {
+    "id": "final_215",
+    "word": "glissando",
+    "phonetic": "/ɡlɪˈsændəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A rapid slide through a series of consecutive notes in music",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The harp glissando swept upward across the strings, creating an ethereal transition between sections.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "slide",
+      "portamento"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_216",
+    "word": "dissonance",
+    "phonetic": "/ˈdɪsənəns/",
+    "partOfSpeech": "noun",
+    "definition": "A tension or clash in sound created by combining notes that lack harmonic compatibility",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The deliberate dissonance in the chord progression resolves into a consonant triad that provides emotional relief.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "discord",
+      "cacophony"
+    ],
+    "antonyms": [
+      "consonance",
+      "harmony"
+    ]
+  },
+  {
+    "id": "final_217",
+    "word": "coda",
+    "phonetic": "/ˈkəʊdə/",
+    "partOfSpeech": "noun",
+    "definition": "A concluding passage that brings a piece of music to a satisfying close",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The sonata's coda recapitulates the main theme with added rhythmic intensity before the final cadence.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "conclusion",
+      "finale"
+    ],
+    "antonyms": [
+      "introduction",
+      "prelude"
+    ]
+  },
+  {
+    "id": "final_218",
+    "word": "consonance",
+    "phonetic": "/ˈkɒnsənəns/",
+    "partOfSpeech": "noun",
+    "definition": "A harmonious combination of notes that feels stable and pleasing to the ear",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Consonance in Western harmony is historically associated with simple frequency ratios like the octave.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "harmony",
+      "euphony"
+    ],
+    "antonyms": [
+      "dissonance",
+      "cacophony"
+    ]
+  },
+  {
+    "id": "final_219",
+    "word": "cadence",
+    "phonetic": "/ˈkeɪdəns/",
+    "partOfSpeech": "noun",
+    "definition": "A melodic or harmonic progression that concludes a musical phrase",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The perfect cadence from dominant to tonic signals a definitive ending to the musical section.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "resolution",
+      "close"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_220",
+    "word": "rubato",
+    "phonetic": "/ruːˈbɑːtəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "Temporary rhythmic flexibility in performance for expressive effect",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The pianist's rubato during the nocturne allowed the melody to breathe with emotional freedom.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "tempo flexibility"
+    ],
+    "antonyms": [
+      "strict tempo"
+    ]
+  },
+  {
+    "id": "final_221",
+    "word": "polyrhythm",
+    "phonetic": "/ˈpɒlirɪðəm/",
+    "partOfSpeech": "noun",
+    "definition": "The simultaneous use of two or more contrasting rhythms",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "West African drumming traditions employ complex polyrhythms where multiple time signatures coexist.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "cross-rhythm",
+      "counter-rhythm"
+    ],
+    "antonyms": [
+      "monorhythm"
+    ]
+  },
+  {
+    "id": "final_222",
+    "word": "syncopation",
+    "phonetic": "/ˌsɪŋkəˈpeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The displacement of normal rhythmic accents to weak beats or offbeats",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Jazz syncopation places emphasis on the second and fourth beats, creating a characteristic swing feel.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "offbeat",
+      "counterpoint"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_223",
+    "word": "ostinato",
+    "phonetic": "/ˌɒstɪˈnɑːtəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A persistently repeated musical phrase or rhythm throughout a composition",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The bass ostinato in Ravel's Bolero drives the piece forward with its hypnotic repetition.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "riff",
+      "repetition"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_224",
+    "word": "vibrato",
+    "phonetic": "/vɪˈbrɑːtəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "A rapid slight variation in pitch used to enrich the tone of a singing voice or instrument",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Operatic vibrato gives the voice a shimmering quality that projects through a full orchestra.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "tremolo",
+      "pitch modulation"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_225",
+    "word": "arpeggio",
+    "phonetic": "/ɑːˈpɛdʒiəʊ/",
+    "partOfSpeech": "noun",
+    "definition": "The notes of a chord played sequentially rather than simultaneously",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The guitarist's arpeggio cascaded across the strings, outlining the harmony one note at a time.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "broken chord"
+    ],
+    "antonyms": [
+      "block chord"
+    ]
+  },
+  {
+    "id": "final_226",
+    "word": "modulation",
+    "phonetic": "/ˌmɒdjʊˈleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A shift from one key to another within a musical composition",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The sudden modulation from C major to A flat major in the bridge section surprised the listeners.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "key change",
+      "transition"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_227",
+    "word": "fugue",
+    "phonetic": "/fjuːɡ/",
+    "partOfSpeech": "noun",
+    "definition": "A contrapuntal composition where a theme is introduced and developed by interweaving voices",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Bach's fugues demonstrate masterful counterpoint with multiple voices entering in imitation.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "counterpoint"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_228",
+    "word": "counterpoint",
+    "phonetic": "/ˈkaʊntəpɔɪnt/",
+    "partOfSpeech": "noun",
+    "definition": "The technique of combining independent melodic lines into a coherent harmonic texture",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Renaissance polyphony achieved intricate counterpoint by weaving four or five independent vocal lines.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "polyphony"
+    ],
+    "antonyms": [
+      "homophony"
+    ]
+  },
+  {
+    "id": "final_229",
+    "word": "interval",
+    "phonetic": "/ˈɪntəvəl/",
+    "partOfSpeech": "noun",
+    "definition": "The distance in pitch between two notes, measured in semitones",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The interval of the perfect fifth spans seven semitones and is foundational to Western harmony.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "gap",
+      "span"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_230",
+    "word": "sonata",
+    "phonetic": "/səˈnɑːtə/",
+    "partOfSpeech": "noun",
+    "definition": "A musical composition typically in three or four movements for one or more instruments",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Beethoven's Moonlight Sonata opens with a haunting adagio that departs from traditional sonata form.",
+    "topicTags": [
+      "music"
+    ],
+    "synonyms": [
+      "composition",
+      "piece"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_231",
+    "word": "epistemology",
+    "phonetic": "/ɪˌpɪstɪˈmɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The branch of philosophy concerned with the nature and scope of knowledge",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Epistemology asks fundamental questions about what constitutes justified belief and how knowledge is acquired.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "theory of knowledge"
+    ],
+    "antonyms": [
+      "ontology"
+    ]
+  },
+  {
+    "id": "final_232",
+    "word": "ontology",
+    "phonetic": "/ɒnˈtɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The branch of philosophy dealing with the nature of being and reality",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Ontology explores whether abstract entities such as numbers exist independently of human thought.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "metaphysics"
+    ],
+    "antonyms": [
+      "epistemology"
+    ]
+  },
+  {
+    "id": "final_233",
+    "word": "teleology",
+    "phonetic": "/ˌtɛliˈɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The explanation of phenomena in terms of their purpose or end goal",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Teleology in biology was challenged by Darwinian natural selection, which explains adaptation without purpose.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "purpose",
+      "final cause"
+    ],
+    "antonyms": [
+      "mechanism"
+    ]
+  },
+  {
+    "id": "final_234",
+    "word": "deontology",
+    "phonetic": "/ˌdiːɒnˈtɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "An ethical theory that judges morality by adherence to duties and rules",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Deontology holds that lying is wrong regardless of consequences, because truth-telling is a moral duty.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "duty-based ethics"
+    ],
+    "antonyms": [
+      "consequentialism",
+      "utilitarianism"
+    ]
+  },
+  {
+    "id": "final_235",
+    "word": "utilitarianism",
+    "phonetic": "/juːˌtɪlɪˈtɛəriənɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "An ethical theory that maximises overall happiness and minimises suffering",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Utilitarianism evaluates actions by their consequences for aggregate well-being across all affected individuals.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "consequentialism"
+    ],
+    "antonyms": [
+      "deontology"
+    ]
+  },
+  {
+    "id": "final_236",
+    "word": "solipsism",
+    "phonetic": "/ˈsɒlɪpsɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The philosophical belief that only one's own mind is certain to exist",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Solipsism presents an epistemological challenge because we can never directly access another person's consciousness.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "self-centredness"
+    ],
+    "antonyms": [
+      "realism",
+      "objectivism"
+    ]
+  },
+  {
+    "id": "final_237",
+    "word": "nihilism",
+    "phonetic": "/ˈnaɪɪlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The rejection of all religious and moral principles as meaningless",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Nihilism in 19th-century Russia emerged as a rejection of traditional authority and metaphysical beliefs.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "scepticism",
+      "negation"
+    ],
+    "antonyms": [
+      "optimism",
+      "faith"
+    ]
+  },
+  {
+    "id": "final_238",
+    "word": "determinism",
+    "phonetic": "/dɪˈtɜːmɪnɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The doctrine that all events are determined by preceding causes and cannot be otherwise",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Hard determinism denies free will, arguing that every choice is causally necessitated by prior conditions.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "fatalism",
+      "necessitarianism"
+    ],
+    "antonyms": [
+      "indeterminism",
+      "libertarianism"
+    ]
+  },
+  {
+    "id": "final_239",
+    "word": "hermeneutics",
+    "phonetic": "/ˌhɜːmɪˈnjuːtɪks/",
+    "partOfSpeech": "noun",
+    "definition": "The theory and methodology of interpretation, especially of texts",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Hermeneutics addresses how cultural and historical context shapes the interpretation of sacred scripture.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "interpretation",
+      "exegesis"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_240",
+    "word": "phenomenology",
+    "phonetic": "/fɪˌnɒmɪˈnɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "The study of structures of consciousness as experienced from the first-person perspective",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Phenomenology brackets assumptions about the external world to examine raw subjective experience.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "study of experience"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_241",
+    "word": "existentialism",
+    "phonetic": "/ˌɛɡzɪˈstɛnʃəlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A philosophy emphasising individual existence, freedom, and choice in an absurd universe",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Existentialism asserts that existence precedes essence, meaning humans define themselves through actions.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "humanism"
+    ],
+    "antonyms": [
+      "essentialism"
+    ]
+  },
+  {
+    "id": "final_242",
+    "word": "empiricism",
+    "phonetic": "/ɪmˈpɪrɪsɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The theory that knowledge derives from sensory experience rather than innate ideas",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "British empiricism holds that the mind at birth is a blank slate filled only through experience.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "sensationism"
+    ],
+    "antonyms": [
+      "rationalism",
+      "innatism"
+    ]
+  },
+  {
+    "id": "final_243",
+    "word": "rationalism",
+    "phonetic": "/ˈræʃənəlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The theory that reason is the primary source of knowledge independent of sensory experience",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Continental rationalism argues that certain truths are known through innate ideas rather than observation.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "intellectualism"
+    ],
+    "antonyms": [
+      "empiricism",
+      "scepticism"
+    ]
+  },
+  {
+    "id": "final_244",
+    "word": "dialectic",
+    "phonetic": "/ˌdaɪəˈlɛktɪk/",
+    "partOfSpeech": "noun",
+    "definition": "A method of argument for resolving disagreement through reasoned discussion",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Hegelian dialectic proceeds through thesis, antithesis, and synthesis to reach higher understanding.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "debate",
+      "discourse"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_245",
+    "word": "heuristic",
+    "phonetic": "/hjʊˈrɪstɪk/",
+    "partOfSpeech": "noun",
+    "definition": "A problem-solving approach using practical shortcuts rather than optimal algorithms",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Availability heuristic leads people to overestimate the frequency of events that come easily to mind.",
+    "topicTags": [
+      "philosophy",
+      "psychology"
+    ],
+    "synonyms": [
+      "rule of thumb",
+      "shortcut"
+    ],
+    "antonyms": [
+      "algorithm"
+    ]
+  },
+  {
+    "id": "final_246",
+    "word": "relativism",
+    "phonetic": "/ˈrɛlətɪvɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "The doctrine that knowledge, truth, and morality depend on context rather than being absolute",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Cultural relativism argues that moral standards should be understood within their specific cultural framework.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "contextualism"
+    ],
+    "antonyms": [
+      "absolutism",
+      "universalism"
+    ]
+  },
+  {
+    "id": "final_247",
+    "word": "paradigm",
+    "phonetic": "/ˈpærədaɪm/",
+    "partOfSpeech": "noun",
+    "definition": "A distinct set of concepts or framework that defines a scientific discipline at a given time",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Kuhn argued that scientific revolutions occur when anomalies force a paradigm shift in the research community.",
+    "topicTags": [
+      "philosophy",
+      "science"
+    ],
+    "synonyms": [
+      "model",
+      "framework",
+      "worldview"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_248",
+    "word": "tautology",
+    "phonetic": "/tɔːˈtɒlədʒi/",
+    "partOfSpeech": "noun",
+    "definition": "A statement that is logically true by definition but adds no new information",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The phrase 'either it will rain or it will not rain' is a tautology that conveys no meaningful content.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "redundancy",
+      "pleonasm"
+    ],
+    "antonyms": [
+      "contradiction"
+    ]
+  },
+  {
+    "id": "final_249",
+    "word": "syllogism",
+    "phonetic": "/ˈsɪlədʒɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A deductive argument with a major premise, minor premise, and conclusion",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The classic syllogism 'All men are mortal, Socrates is a man, therefore Socrates is mortal' demonstrates deductive validity.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "deduction",
+      "argument"
+    ],
+    "antonyms": [
+      "fallacy"
+    ]
+  },
+  {
+    "id": "final_250",
+    "word": "fallacy",
+    "phonetic": "/ˈfæləsi/",
+    "partOfSpeech": "noun",
+    "definition": "A logically unsound argument that appears valid but contains a reasoning flaw",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The ad hominem fallacy attacks the person making the argument rather than addressing the argument itself.",
+    "topicTags": [
+      "philosophy",
+      "logic"
+    ],
+    "synonyms": [
+      "misconception",
+      "error"
+    ],
+    "antonyms": [
+      "validity",
+      "soundness"
+    ]
+  },
+  {
+    "id": "final_251",
+    "word": "mimesis",
+    "phonetic": "/mɪˈmiːsɪs/",
+    "partOfSpeech": "noun",
+    "definition": "The representation or imitation of reality in art and literature",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Plato criticised mimesis in poetry as a mere copy of the physical world, which itself copies the Forms.",
+    "topicTags": [
+      "philosophy",
+      "literature"
+    ],
+    "synonyms": [
+      "imitation",
+      "representation"
+    ],
+    "antonyms": [
+      "diegesis"
+    ]
+  },
+  {
+    "id": "final_252",
+    "word": "categorical",
+    "phonetic": "/ˌkætəˈɡɒrɪkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to a category or unconditionally absolute in moral terms",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Kant's categorical imperative demands that one act only according to maxims that could become universal law.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "unconditional",
+      "absolute"
+    ],
+    "antonyms": [
+      "hypothetical",
+      "conditional"
+    ]
+  },
+  {
+    "id": "final_253",
+    "word": "dialectical",
+    "phonetic": "/ˌdaɪəˈlɛktɪkəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to the logical progression through opposing forces to reach a higher truth",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Dialectical materialism in Marxist theory explains historical change through class struggle.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "dialogical",
+      "argumentative"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_254",
+    "word": "transcendental",
+    "phonetic": "/ˌtrænsɛnˈdɛntəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to conditions of possibility that precede and make experience meaningful",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Kant's transcendental idealism examines the a priori structures that shape human perception of reality.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "a priori",
+      "metaphysical"
+    ],
+    "antonyms": [
+      "empirical",
+      "contingent"
+    ]
+  },
+  {
+    "id": "final_255",
+    "word": "reification",
+    "phonetic": "/ˌreɪɪfɪˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Treating an abstract concept as if it were a concrete material thing",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The reification of IQ scores mistakenly treats a statistical measure as a fixed biological reality.",
+    "topicTags": [
+      "philosophy"
+    ],
+    "synonyms": [
+      "hypostatization",
+      "objectification"
+    ],
+    "antonyms": [
+      "abstraction"
+    ]
+  },
+  {
+    "id": "final_256",
+    "word": "hegemony",
+    "phonetic": "/hɪˈɡɛməni/",
+    "partOfSpeech": "noun",
+    "definition": "Leadership or dominance of one group over others, especially among nations",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Maritime hegemony during the Age of Sail allowed European powers to control global trade routes.",
+    "topicTags": [
+      "history",
+      "political science"
+    ],
+    "synonyms": [
+      "dominance",
+      "supremacy",
+      "ascendancy"
+    ],
+    "antonyms": [
+      "subordination",
+      "subjugation"
+    ]
+  },
+  {
+    "id": "final_257",
+    "word": "plutocracy",
+    "phonetic": "/pluːˈtɒkrəsi/",
+    "partOfSpeech": "noun",
+    "definition": "A government or society controlled by the wealthiest members",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Critics argue that unlimited campaign contributions risk turning the republic into a plutocracy.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "oligarchy",
+      "aristocracy"
+    ],
+    "antonyms": [
+      "democracy",
+      "meritocracy"
+    ]
+  },
+  {
+    "id": "final_258",
+    "word": "meritocracy",
+    "phonetic": "/ˌmɛrɪˈtɒkrəsi/",
+    "partOfSpeech": "noun",
+    "definition": "A system in which advancement is based on individual ability and achievement",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The university's admissions policy aims to create a meritocracy where talent determines opportunity.",
+    "topicTags": [
+      "political science",
+      "sociology"
+    ],
+    "synonyms": [
+      "achievement-based system"
+    ],
+    "antonyms": [
+      "nepotism",
+      "aristocracy"
+    ]
+  },
+  {
+    "id": "final_259",
+    "word": "oligarchy",
+    "phonetic": "/ˈɒlɪɡɑːki/",
+    "partOfSpeech": "noun",
+    "definition": "A government in which power is concentrated in a small group of people",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The oligarchy of wealthy landowners controlled the legislature through indirect influence.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "plutocracy",
+      "aristocracy"
+    ],
+    "antonyms": [
+      "democracy",
+      "anarchy"
+    ]
+  },
+  {
+    "id": "final_260",
+    "word": "kleptocracy",
+    "phonetic": "/ˌklɛptəˈkrəsi/",
+    "partOfSpeech": "noun",
+    "definition": "A government in which leaders exploit national resources for personal gain",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The kleptocracy siphoned billions from state oil revenues into offshore accounts controlled by officials.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "plutocracy",
+      "corruption"
+    ],
+    "antonyms": [
+      "meritocracy"
+    ]
+  },
+  {
+    "id": "final_261",
+    "word": "autarky",
+    "phonetic": "/ˈɔːtɑːki/",
+    "partOfSpeech": "noun",
+    "definition": "Economic self-sufficiency and independence from international trade",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "North Korea's policy of autarky has historically prioritised domestic production over foreign imports.",
+    "topicTags": [
+      "political science",
+      "economics"
+    ],
+    "synonyms": [
+      "self-sufficiency"
+    ],
+    "antonyms": [
+      "globalisation",
+      "interdependence"
+    ]
+  },
+  {
+    "id": "final_262",
+    "word": "demagogue",
+    "phonetic": "/ˈdɛməɡɒɡ/",
+    "partOfSpeech": "noun",
+    "definition": "A political leader who appeals to popular desires and prejudices rather than reasoned argument",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The demagogue rallied crowds with oversimplified solutions and vilification of minority groups.",
+    "topicTags": [
+      "political science",
+      "history"
+    ],
+    "synonyms": [
+      "rabble-rouser",
+      "agitator"
+    ],
+    "antonyms": [
+      "statesman",
+      "diplomat"
+    ]
+  },
+  {
+    "id": "final_263",
+    "word": "gerrymandering",
+    "phonetic": "/ˈdʒɛriˌmændərɪŋ/",
+    "partOfSpeech": "noun",
+    "definition": "The manipulation of electoral district boundaries to favour a particular party",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Partisan gerrymandering in redistricting cycles has become increasingly sophisticated with computational algorithms.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "redistricting abuse"
+    ],
+    "antonyms": [
+      "fair representation"
+    ]
+  },
+  {
+    "id": "final_264",
+    "word": "filibuster",
+    "phonetic": "/ˈfɪlɪbʌstə/",
+    "partOfSpeech": "noun",
+    "definition": "A prolonged speech designed to delay legislative action",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The senator's 24-hour filibuster temporarily blocked the bill's passage.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "delaying tactic"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_265",
+    "word": "bicameral",
+    "phonetic": "/baɪˈkæmərəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Having two separate chambers or houses in a legislative body",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The bicameral structure of the UK Parliament comprises the House of Commons and the House of Lords.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "two-chamber"
+    ],
+    "antonyms": [
+      "unicameral"
+    ]
+  },
+  {
+    "id": "final_266",
+    "word": "caucus",
+    "phonetic": "/ˈkɔːkəs/",
+    "partOfSpeech": "noun",
+    "definition": "A meeting of members of a political party to decide policy or select candidates",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The Iowa caucus is the first major electoral event in the US presidential nomination process.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "assembly",
+      "convention"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_267",
+    "word": "autocracy",
+    "phonetic": "/ɔːˈtɒkrəsi/",
+    "partOfSpeech": "noun",
+    "definition": "A system of government in which one person holds absolute power",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The transition from autocracy to democracy often requires institutional reforms that limit executive power.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "dictatorship",
+      "absolute rule"
+    ],
+    "antonyms": [
+      "democracy",
+      "republic"
+    ]
+  },
+  {
+    "id": "final_268",
+    "word": "bureaucracy",
+    "phonetic": "/bjʊˈrɒkrəsi/",
+    "partOfSpeech": "noun",
+    "definition": "A system of government with hierarchical departments and fixed rules",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Weber argued that bureaucracy is the most efficient form of organisation but risks dehumanising those within it.",
+    "topicTags": [
+      "political science",
+      "sociology"
+    ],
+    "synonyms": [
+      "administration",
+      "civil service"
+    ],
+    "antonyms": [
+      "anarchy"
+    ]
+  },
+  {
+    "id": "final_269",
+    "word": "coup d'etat",
+    "phonetic": "/ˌkuː deɪˈtɑː/",
+    "partOfSpeech": "noun",
+    "definition": "A sudden seizure of state power through illegal means, typically by the military",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The coup d'etat overthrew the elected government while the president was travelling abroad.",
+    "topicTags": [
+      "political science",
+      "history"
+    ],
+    "synonyms": [
+      "overthrow",
+      "putsch"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_270",
+    "word": "suffrage",
+    "phonetic": "/ˈsʌfrɪdʒ/",
+    "partOfSpeech": "noun",
+    "definition": "The right to vote in political elections",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The women's suffrage movement achieved voting rights for women in the UK through decades of activism.",
+    "topicTags": [
+      "political science",
+      "history"
+    ],
+    "synonyms": [
+      "franchise",
+      "voting rights"
+    ],
+    "antonyms": [
+      "disenfranchisement"
+    ]
+  },
+  {
+    "id": "final_271",
+    "word": "reparations",
+    "phonetic": "/ˌrɛpəˈreɪʃənz/",
+    "partOfSpeech": "noun",
+    "definition": "Compensation for historical injustices, often paid by a state or former colonising power",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The debate over reparations for colonial wrongs has gained momentum in international diplomatic forums.",
+    "topicTags": [
+      "history",
+      "political science"
+    ],
+    "synonyms": [
+      "compensation",
+      "redress",
+      "amends"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_272",
+    "word": "appeasement",
+    "phonetic": "/əˈpiːzmənt/",
+    "partOfSpeech": "noun",
+    "definition": "The policy of making concessions to an aggressor to avoid conflict",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The Munich Agreement of 1938 became a symbol of failed appeasement when Germany invaded Czechoslovakia.",
+    "topicTags": [
+      "history",
+      "political science"
+    ],
+    "synonyms": [
+      "conciliation",
+      "pacification"
+    ],
+    "antonyms": [
+      "resistance",
+      "confrontation"
+    ]
+  },
+  {
+    "id": "final_273",
+    "word": "detente",
+    "phonetic": "/deɪˈtɒnt/",
+    "partOfSpeech": "noun",
+    "definition": "The easing of tense relations between countries through diplomatic means",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The detente between the superpowers in the 1970s led to arms control agreements.",
+    "topicTags": [
+      "history",
+      "political science"
+    ],
+    "synonyms": [
+      "rapprochement",
+      "reconciliation"
+    ],
+    "antonyms": [
+      "escalation",
+      "hostility"
+    ]
+  },
+  {
+    "id": "final_274",
+    "word": "revanchism",
+    "phonetic": "/rɪˈvæntʃɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A political policy aimed at regaining lost territory or status",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Revanchism in post-war France fuelled nationalist movements demanding the return of Alsace-Lorraine.",
+    "topicTags": [
+      "history",
+      "political science"
+    ],
+    "synonyms": [
+      "irredentism"
+    ],
+    "antonyms": [
+      "conciliation"
+    ]
+  },
+  {
+    "id": "final_275",
+    "word": "anarchism",
+    "phonetic": "/ˈænəkɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A political philosophy advocating the abolition of all forms of compulsory government",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Anarchism proposes voluntary cooperation and mutual aid as alternatives to state authority.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "libertarianism"
+    ],
+    "antonyms": [
+      "authoritarianism",
+      "statism"
+    ]
+  },
+  {
+    "id": "final_276",
+    "word": "totalitarianism",
+    "phonetic": "/təʊˌtælɪˈtɛəriənɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A political system where the state recognises no limits to its authority over all aspects of life",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Totalitarianism differs from traditional autocracy by mobilising mass support and controlling private life.",
+    "topicTags": [
+      "political science",
+      "history"
+    ],
+    "synonyms": [
+      "dictatorship",
+      "absolutism"
+    ],
+    "antonyms": [
+      "democracy",
+      "pluralism"
+    ]
+  },
+  {
+    "id": "final_277",
+    "word": "pluralism",
+    "phonetic": "/ˈplʊərəlɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A political system in which multiple groups with different interests coexist",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Pluralism in democratic societies allows interest groups to compete for influence through legitimate channels.",
+    "topicTags": [
+      "political science"
+    ],
+    "synonyms": [
+      "diversity",
+      "multiplicity"
+    ],
+    "antonyms": [
+      "monism",
+      "totalitarianism"
+    ]
+  },
+  {
+    "id": "final_278",
+    "word": "ratification",
+    "phonetic": "/ˌrætɪfɪˈkeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The formal approval of a treaty or agreement by a legislative body",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The treaty required ratification by two-thirds of the Senate before taking effect.",
+    "topicTags": [
+      "political science",
+      "law"
+    ],
+    "synonyms": [
+      "approval",
+      "confirmation",
+      "endorsement"
+    ],
+    "antonyms": [
+      "rejection",
+      "veto"
+    ]
+  },
+  {
+    "id": "final_279",
+    "word": "extradition",
+    "phonetic": "/ˌɛkstrəˈdɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The formal surrender of an alleged criminal by one jurisdiction to another",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The extradition hearing examined whether the alleged offence constituted a crime under both legal systems.",
+    "topicTags": [
+      "political science",
+      "law"
+    ],
+    "synonyms": [
+      "rendition",
+      "handover"
+    ],
+    "antonyms": [
+      "asylum",
+      "shelter"
+    ]
+  },
+  {
+    "id": "final_280",
+    "word": "impeachment",
+    "phonetic": "/ɪmˈpiːtʃmənt/",
+    "partOfSpeech": "noun",
+    "definition": "The process of charging a public official with misconduct leading to potential removal",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The impeachment proceedings against the judge centred on allegations of accepting bribes.",
+    "topicTags": [
+      "political science",
+      "law"
+    ],
+    "synonyms": [
+      "indictment",
+      "charge"
+    ],
+    "antonyms": [
+      "acquittal",
+      "exoneration"
+    ]
+  },
+  {
+    "id": "final_281",
+    "word": "jurisprudence",
+    "phonetic": "/ˌdʒʊərɪsˈpruːdəns/",
+    "partOfSpeech": "noun",
+    "definition": "The theory or philosophy of law, or a system of legal principles",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Legal realism challenged traditional jurisprudence by emphasising the social context of judicial decisions.",
+    "topicTags": [
+      "law",
+      "philosophy"
+    ],
+    "synonyms": [
+      "legal theory",
+      "case law"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_282",
+    "word": "emancipation",
+    "phonetic": "/ɪˌmænsɪˈpeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The act of being freed from legal, social, or political restrictions",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The emancipation of serfs in 1861 transformed Russia's social structure and agricultural economy.",
+    "topicTags": [
+      "history",
+      "political science"
+    ],
+    "synonyms": [
+      "liberation",
+      "freedom"
+    ],
+    "antonyms": [
+      "enslavement",
+      "subjugation"
+    ]
+  },
+  {
+    "id": "final_283",
+    "word": "irredentism",
+    "phonetic": "/ˌɪrɪˈdɛntɪzəm/",
+    "partOfSpeech": "noun",
+    "definition": "A policy advocating the annexation of territories historically belonging to ones country",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "Irredentist claims to neighbouring regions have repeatedly destabilised international relations in the Balkans.",
+    "topicTags": [
+      "political science",
+      "history"
+    ],
+    "synonyms": [
+      "revanchism"
+    ],
+    "antonyms": [
+      "anti-imperialism"
+    ]
+  },
+  {
+    "id": "final_284",
+    "word": "oligopoly",
+    "phonetic": "/ˌɒlɪˈɡɒpəli/",
+    "partOfSpeech": "noun",
+    "definition": "A market structure dominated by a small number of large sellers",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The telecommunications industry functions as an oligopoly where three firms control the vast majority of subscribers.",
+    "topicTags": [
+      "economics"
+    ],
+    "synonyms": [
+      "market concentration",
+      "oligarchy"
+    ],
+    "antonyms": [
+      "monopoly",
+      "perfect competition"
+    ]
+  },
+  {
+    "id": "final_285",
+    "word": "monopsony",
+    "phonetic": "/məˈnɒpsəni/",
+    "partOfSpeech": "noun",
+    "definition": "A market situation with a single buyer and many sellers",
+    "cefrLevel": "C2",
+    "ieltsFrequency": 5,
+    "exampleSentence": "In a monopsony labour market, the dominant employer can suppress wages below competitive levels.",
+    "topicTags": [
+      "economics"
+    ],
+    "synonyms": [
+      "buyer monopoly"
+    ],
+    "antonyms": [
+      "monopoly"
+    ]
+  },
+  {
+    "id": "final_286",
+    "word": "externality",
+    "phonetic": "/ˌɛkstɜːˈnælɪti/",
+    "partOfSpeech": "noun",
+    "definition": "A consequence of an economic activity experienced by unrelated third parties",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Pollution is a negative externality that imposes health costs on society beyond those responsible for emissions.",
+    "topicTags": [
+      "economics"
+    ],
+    "synonyms": [
+      "spillover effect"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_287",
+    "word": "disinflation",
+    "phonetic": "/ˌdɪsɪnˈfleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A reduction in the rate of inflation, not to be confused with deflation",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The central bank's interest rate hikes successfully produced disinflation without triggering a recession.",
+    "topicTags": [
+      "economics"
+    ],
+    "synonyms": [
+      "deceleration",
+      "slowdown"
+    ],
+    "antonyms": [
+      "deflation",
+      "hyperinflation"
+    ]
+  },
+  {
+    "id": "final_288",
+    "word": "stagflation",
+    "phonetic": "/stæɡˈfleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "Persistent high inflation combined with high unemployment and stagnant demand",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The 1970s oil crisis produced stagflation that defied the traditional Phillips curve relationship.",
+    "topicTags": [
+      "economics"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "inflation",
+      "recession"
+    ]
+  },
+  {
+    "id": "final_289",
+    "word": "amortisation",
+    "phonetic": "/əˌmɔːtaɪˈzeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "The process of gradually writing off the initial cost of an asset over its useful life",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The mortgage amortisation schedule shows how each payment gradually reduces the principal balance.",
+    "topicTags": [
+      "economics",
+      "finance"
+    ],
+    "synonyms": [
+      "depreciation",
+      "write-off"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_290",
+    "word": "arbitrage",
+    "phonetic": "/ˈɑːbɪtrɑːʒ/",
+    "partOfSpeech": "noun",
+    "definition": "The simultaneous buying and selling of assets to profit from price differences",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "High-frequency trading firms exploit tiny arbitrage opportunities lasting only milliseconds.",
+    "topicTags": [
+      "economics",
+      "finance"
+    ],
+    "synonyms": [
+      "price exploitation"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_291",
+    "word": "depreciation",
+    "phonetic": "/dɪˌpriːʃiˈeɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A decrease in the value of an asset over time due to wear, age, or market conditions",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Currency depreciation makes exports cheaper but increases the cost of imported goods.",
+    "topicTags": [
+      "economics",
+      "finance"
+    ],
+    "synonyms": [
+      "devaluation",
+      "decline"
+    ],
+    "antonyms": [
+      "appreciation",
+      "increase"
+    ]
+  },
+  {
+    "id": "final_292",
+    "word": "liquidity",
+    "phonetic": "/lɪˈkwɪdɪti/",
+    "partOfSpeech": "noun",
+    "definition": "The availability of liquid assets to a market or company for immediate use",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The central bank injected liquidity into the banking system to prevent a credit crunch.",
+    "topicTags": [
+      "economics",
+      "finance"
+    ],
+    "synonyms": [
+      "cash flow",
+      "solvency"
+    ],
+    "antonyms": [
+      "insolvency",
+      "illiquidity"
+    ]
+  },
+  {
+    "id": "final_293",
+    "word": "solvency",
+    "phonetic": "/ˈsɒlvənsi/",
+    "partOfSpeech": "noun",
+    "definition": "The ability of a company or individual to meet long-term financial obligations",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The solvency ratio measures whether a firm's assets exceed its liabilities by a sufficient margin.",
+    "topicTags": [
+      "economics",
+      "finance"
+    ],
+    "synonyms": [
+      "creditworthiness"
+    ],
+    "antonyms": [
+      "insolvency",
+      "bankruptcy"
+    ]
+  },
+  {
+    "id": "final_294",
+    "word": "correlation",
+    "phonetic": "/ˌkɒrɪˈleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A mutual relationship or connection between two variables that change together",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "The correlation between education level and income does not imply that education alone causes higher earnings.",
+    "topicTags": [
+      "economics",
+      "statistics"
+    ],
+    "synonyms": [
+      "association",
+      "relationship"
+    ],
+    "antonyms": [
+      "uncorrelation",
+      "independence"
+    ]
+  },
+  {
+    "id": "final_295",
+    "word": "elasticity",
+    "phonetic": "/ˌiːlæˈstɪsɪti/",
+    "partOfSpeech": "noun",
+    "definition": "A measure of how much one economic variable responds to changes in another",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Price elasticity of demand determines whether a price increase will raise or lower total revenue.",
+    "topicTags": [
+      "economics"
+    ],
+    "synonyms": [
+      "responsiveness",
+      "sensitivity"
+    ],
+    "antonyms": [
+      "inelasticity"
+    ]
+  },
+  {
+    "id": "final_296",
+    "word": "equity",
+    "phonetic": "/ˈɛkwɪti/",
+    "partOfSpeech": "noun",
+    "definition": "The value of ownership interest in an asset or the quality of being fair and impartial",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Equity financing involves selling shares in exchange for capital without incurring debt obligations.",
+    "topicTags": [
+      "economics",
+      "finance"
+    ],
+    "synonyms": [
+      "fairness",
+      "ownership"
+    ],
+    "antonyms": [
+      "inequity",
+      "debt"
+    ]
+  },
+  {
+    "id": "final_297",
+    "word": "dividend",
+    "phonetic": "/ˈdɪvɪdɛnd/",
+    "partOfSpeech": "noun",
+    "definition": "A portion of a company's profits distributed to shareholders",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 5,
+    "exampleSentence": "The board declared a quarterly dividend of 50 cents per share for preferred stockholders.",
+    "topicTags": [
+      "economics",
+      "finance"
+    ],
+    "synonyms": [
+      "payout",
+      "distribution"
+    ],
+    "antonyms": []
+  },
+  {
+    "id": "final_298",
+    "word": "fiscal",
+    "phonetic": "/ˈfɪskəl/",
+    "partOfSpeech": "adjective",
+    "definition": "Relating to government revenue and expenditure policies",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "Fiscal stimulus during recessions typically involves increased government spending and tax cuts.",
+    "topicTags": [
+      "economics"
+    ],
+    "synonyms": [
+      "budgetary",
+      "financial"
+    ],
+    "antonyms": [
+      "monetary"
+    ]
+  },
+  {
+    "id": "final_299",
+    "word": "inflation",
+    "phonetic": "/ɪnˈfleɪʃən/",
+    "partOfSpeech": "noun",
+    "definition": "A general increase in prices and fall in the purchasing value of money",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 7,
+    "exampleSentence": "Hyperinflation in Zimbabwe rendered the national currency virtually worthless for everyday transactions.",
+    "topicTags": [
+      "economics"
+    ],
+    "synonyms": [
+      "price rise",
+      "monetary expansion"
+    ],
+    "antonyms": [
+      "deflation",
+      "disinflation"
+    ]
+  },
+  {
+    "id": "final_300",
+    "word": "cartel",
+    "phonetic": "/kɑːˈtɛl/",
+    "partOfSpeech": "noun",
+    "definition": "An association of producers formed to control prices and limit competition",
+    "cefrLevel": "C1",
+    "ieltsFrequency": 6,
+    "exampleSentence": "OPEC functions as an oil cartel by coordinating production quotas among member nations.",
+    "topicTags": [
+      "economics"
+    ],
+    "synonyms": [
+      "monopoly",
+      "syndicate"
+    ],
+    "antonyms": [
+      "competition"
+    ]
+  }
+]

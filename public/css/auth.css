@@ -1,0 +1,31 @@
+/* auth.css — Welcome screen */
+
+.welcome-form {
+  width: 100%;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.welcome-hint {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--ink-light);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.welcome-status {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--danger);
+  text-align: center;
+  min-height: 20px;
+  margin-top: var(--space-sm);
+}
+
+.screen-centered .input-glass {
+  max-width: 340px;
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "IELTS Beach",
+  "short_name": "IELTS Beach",
+  "description": "Learn IELTS vocabulary — offline, focused, by the shore.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#39393A",
+  "theme_color": "#39393A",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Studying",
+      "short_name": "Study",
+      "description": "Begin a new study session",
+      "url": "/"
+    }
+  ]
+}

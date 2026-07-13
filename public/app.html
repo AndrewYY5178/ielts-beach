@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>IELTS Beach</title>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+/* === RESET === */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+button{font-family:inherit;cursor:pointer;border:none;background:none}
+input{font-family:inherit;border:none;outline:none}
+
+/* === VARIABLES === */
+:root{
+  --sky-top:#4A90D9;--sky-mid:#87CEEB;--sky-bottom:#B0E0E6;--sky-horizon:#FFF8DC;
+  --sun-color:#FFD700;--sun-glow:rgba(255,215,0,0.6);--sun-size:44px;--sun-top:14%;--sun-left:68%;
+  --ocean-top:#5BA4CF;--ocean-bottom:#3A7CA5;
+  --sand:#F4D9A0;--sand-dark:#E8C878;
+  --bg-card:rgba(255,255,255,0.92);--text:#2C3E50;--muted:#8B9DAF;
+  --accent:#FF6B35;--success:#27AE60;--danger:#E74C3C;--warning:#F39C12;
+  --font-pixel:'Press Start 2P',monospace;
+  --star-opacity:0;--moon-opacity:0;--cloud-opacity:0.3;
+  --px:4px; /* pixel unit */
+}
+
+/* === BEACH SCENE (overhead view) === */
+.beach{position:fixed;inset:0;z-index:0;pointer-events:none}
+
+/* === SKY (user likes this - keep gradient) === */
+.sky{position:absolute;top:0;left:0;right:0;height:30%;background:linear-gradient(180deg,var(--sky-top)0%,var(--sky-mid)30%,var(--sky-bottom)70%,var(--sky-horizon)100%);transition:background 1.5s ease}
+.sun{position:absolute;top:var(--sun-top);left:var(--sun-left);width:var(--sun-size);height:var(--sun-size);border-radius:50%;background:radial-gradient(circle at 35%35%,#FFF8DC,var(--sun-color)35%,#FFA500 75%,#E87400 100%);box-shadow:0 0 20px var(--sun-glow),0 0 50px rgba(255,165,0,0.3),0 0 80px rgba(255,140,0,0.15);animation:spulse 4s ease-in-out infinite;transition:all 1.5s ease}
+@keyframes spulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+.moon{position:absolute;top:8%;left:28%;width:32px;height:32px;border-radius:50%;background:radial-gradient(circle at 40%35%,#F5F5F5,#E0E0E0 40%,#C8C8C8 70%,#A0A0A0 100%);box-shadow:0 0 20px rgba(200,200,220,0.4);opacity:var(--moon-opacity);transition:opacity 1s ease}
+.stars{position:absolute;top:0;left:0;right:0;height:100%;opacity:var(--star-opacity);transition:opacity 1.5s ease;
+  background-image:radial-gradient(1.5px 1.5px at 5% 15%,#FFF,transparent),radial-gradient(1px 1px at 12% 35%,#FFF,transparent),radial-gradient(1.5px 1.5px at 22% 8%,#FFE,transparent),radial-gradient(1px 1px at 30% 42%,#FFF,transparent),radial-gradient(1.5px 1.5px at 38% 18%,#FFF,transparent),radial-gradient(1px 1px at 48% 5%,#FFF,transparent),radial-gradient(1.5px 1.5px at 55% 38%,#FFF,transparent),radial-gradient(1px 1px at 65% 12%,#FFF,transparent),radial-gradient(1.5px 1.5px at 75% 30%,#FFF,transparent),radial-gradient(1px 1px at 85% 8%,#FFF,transparent),radial-gradient(1.5px 1.5px at 92% 25%,#FFF,transparent),radial-gradient(1px 1px at 18% 50%,#FFF,transparent),radial-gradient(1.5px 1.5px at 42% 48%,#FFE,transparent),radial-gradient(1px 1px at 68% 45%,#FFF,transparent),radial-gradient(1px 1px at 82% 42%,#FFF,transparent);
+  animation:twinkle 3s alternate infinite}
+@keyframes twinkle{0%{opacity:.5}50%{opacity:.9}100%{opacity:.6}}
+.clouds{position:absolute;top:0;left:0;right:0;height:100%;opacity:var(--cloud-opacity);transition:opacity 1.5s ease}
+.cloud{position:absolute;background:rgba(255,255,255,0.85);border-radius:50px}
+.cloud::before,.cloud::after{content:'';position:absolute;background:inherit;border-radius:50%}
+.c1{width:80px;height:26px;top:15%}.c1::before{width:36px;height:36px;top:-18px;left:14px}.c1::after{width:22px;height:22px;top:-10px;right:12px}
+.c2{width:64px;height:22px;top:30%}.c2::before{width:28px;height:28px;top:-14px;left:10px}.c2::after{width:18px;height:18px;top:-8px;right:10px}
+.ctop{animation:cdrift 28s linear infinite}
+.cmid{animation:cdrift 20s linear infinite;animation-delay:-8s}
+@keyframes cdrift{0%{transform:translateX(-120px)}100%{transform:translateX(calc(100vw+120px))}}
+
+/* === OCEAN BAND (top-down view — soft water transition) === */
+.ocean{position:absolute;top:28%;left:0;right:0;height:18%;overflow:hidden}
+/* Horizon glow — soft blend from sky to ocean */
+.ocean::before{content:'';position:absolute;top:-8px;left:0;right:0;height:16px;background:linear-gradient(180deg,var(--sky-horizon,#FFF8DC)0%,rgba(255,248,220,0.5)40%,transparent 100%);z-index:2}
+.ocean-water{position:absolute;inset:0;background:linear-gradient(180deg,var(--ocean-top)0%,var(--ocean-bottom)60%,#2A6A8A 100%);transition:all 1.5s ease}
+/* Soft pixel wave texture — subtle dither */
+.ocean-tex{position:absolute;inset:0;opacity:0.6;
+  background-image:
+    repeating-linear-gradient(0deg,transparent,transparent 12px,rgba(255,255,255,0.08)12px,rgba(255,255,255,0.08)14px,transparent 14px,transparent 24px),
+    repeating-linear-gradient(90deg,transparent 0 8px,rgba(255,255,255,0.12)8px,rgba(255,255,255,0.12)9px,transparent 9px 18px,rgba(255,255,255,0.06)18px,rgba(255,255,255,0.06)19px,transparent 19px 28px);
+  image-rendering:pixelated;animation:opxmove 6s linear infinite}
+@keyframes opxmove{0%{transform:translateX(0)}100%{transform:translateX(28px)}}
+
+/* Gentle shore — wet sand gradient between ocean and dry sand */
+.shore-wet{position:absolute;top:100%;left:0;right:0;height:20px;background:linear-gradient(180deg,rgba(100,160,190,0.6)0%,rgba(180,160,130,0.3)50%,transparent 100%);z-index:1}
+/* Foam line — pixelated white dashes */
+.shore-foam{position:absolute;top:0;left:0;right:0;height:5px;z-index:3;
+  background:repeating-linear-gradient(90deg,rgba(255,255,255,0.5)0 6px,transparent 6px 8px,rgba(255,255,255,0.3)8px 10px,transparent 10px 14px,rgba(255,255,255,0.4)14px 18px,transparent 18px 22px);
+  image-rendering:pixelated;animation:foam 1.2s steps(2) infinite}
+@keyframes foam{0%{transform:translateX(0)}50%{transform:translateX(5px)}}
+
+/* === SAND (overhead — warm with pixel grain) === */
+.sand-overhead{position:absolute;top:46%;left:0;right:0;bottom:0;background-color:var(--sand);
+  /* Pixel noise texture for sand grain */
+  background-image:
+    radial-gradient(2px 2px at 10% 15%,#E8D098,transparent),
+    radial-gradient(2px 2px at 25% 8%,#DCC488,transparent),
+    radial-gradient(1px 1px at 40% 22%,#E0C890,transparent),
+    radial-gradient(2px 2px at 55% 12%,#ECD8A0,transparent),
+    radial-gradient(1px 1px at 70% 18%,#D8C080,transparent),
+    radial-gradient(2px 2px at 85% 5%,#E4CC94,transparent),
+    radial-gradient(1px 1px at 8% 35%,#DCC488,transparent),
+    radial-gradient(2px 2px at 32% 28%,#E8D098,transparent),
+    radial-gradient(1px 1px at 50% 38%,#D8C080,transparent),
+    radial-gradient(2px 2px at 68% 32%,#ECD8A0,transparent),
+    radial-gradient(1px 1px at 90% 25%,#E0C890,transparent),
+    radial-gradient(2px 2px at 15% 50%,#E4CC94,transparent),
+    radial-gradient(1px 1px at 45% 48%,#DCC488,transparent),
+    radial-gradient(2px 2px at 78% 45%,#E8D098,transparent);
+  transition:background-color 1.5s ease;image-rendering:pixelated}
+
+/* Sand gradient overlay for depth */
+.sand-overhead::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(232,200,120,0.4)0%,transparent 15%,transparent 80%,rgba(200,170,110,0.4)100%);pointer-events:none}
+
+/* === PIXEL ART SPRITES (built with box-shadow) === */
+/* Base: each "pixel unit" is --px (4px) */
+.px-el{position:absolute;width:var(--px);height:var(--px);image-rendering:pixelated}
+/* Pixel ocean sparkle */
+.px-sparkle{bottom:70%;left:35%;box-shadow:0 0 #FFF}
+
+/* Pixel starfish (12×10 px grid, each cell=4px) */
+.px-starfish{bottom:28%;right:18%;width:0;height:0;
+  box-shadow:
+    /* row 0 */ 16px 0 #E8745C,20px 0 #E8745C,
+    /* row 1 */ 8px 4px #E8745C,12px 4px #F09080,16px 4px #E8745C,20px 4px #F09080,24px 4px #E8745C,
+    /* row 2 */ 4px 8px #E8745C,8px 8px #F09080,12px 8px #F8B0A0,16px 8px #F09080,20px 8px #F8B0A0,24px 8px #F09080,28px 8px #E8745C,
+    /* row 3 */ 0 12px #E8745C,4px 12px #F09080,8px 12px #F8B0A0,12px 12px #FCD0C8,16px 12px #F8B0A0,20px 12px #FCD0C8,24px 12px #F8B0A0,28px 12px #F09080,32px 12px #E8745C,
+    /* row 4 */ 4px 16px #E8745C,8px 16px #F09080,12px 16px #F8B0A0,16px 16px #FCD0C8,20px 16px #F8B0A0,24px 16px #FCD0C8,28px 16px #F09080,
+    /* row 5 */ 8px 20px #E8745C,12px 20px #F09080,16px 20px #F8B0A0,20px 20px #F09080,24px 20px #E8745C,
+    /* row 6 */ 8px 24px #C06050,12px 24px #E8745C,16px 24px #F09080,20px 24px #E8745C,24px 24px #C06050,
+    /* row 7 */ 12px 28px #C06050,16px 28px #E8745C,20px 28px #C06050,
+    /* row 8 */ 16px 32px #C06050;
+  animation:starfish-bob 3s ease-in-out infinite}
+@keyframes starfish-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+
+/* Pixel shell 1 (scallop shape, 8×8) */
+.px-shell1{bottom:35%;left:22%;
+  box-shadow:
+    8px 0 #FFF8F0,12px 0 #FFF8F0,16px 0 #FFF8F0,
+    4px 4px #FFF0E4,8px 4px #FFE8D8,12px 4px #FFF8F0,16px 4px #FFE8D8,20px 4px #FFF0E4,
+    4px 8px #FFE8D8,8px 8px #FFF8F0,12px 8px #FFF8F0,16px 8px #FFF8F0,20px 8px #FFE8D8,
+    8px 12px #FFE0D0,12px 12px #FFF0E4,16px 12px #FFE0D0,
+    12px 16px #E8C8B0}
+
+/* Pixel shell 2 (small spiral, 6×5) */
+.px-shell2{bottom:42%;left:65%;
+  box-shadow:
+    4px 0 #F0E0D0,8px 0 #F0E0D0,
+    0 4px #E8D4C0,4px 4px #F8ECE0,8px 4px #E8D4C0,12px 4px #E8D4C0,
+    0 8px #E8D4C0,4px 8px #F0E0D0,8px 8px #F8ECE0,12px 8px #E8D4C0,
+    0 12px #D8C4B0,4px 12px #E0CCB8,8px 12px #E8D4C0,12px 12px #D8C4B0,
+    4px 16px #C8B098,8px 16px #D0B8A0;
+  transform:rotate(25deg)}
+
+/* Pixel shell 3 */
+.px-shell3{bottom:55%;left:78%;
+  box-shadow:
+    4px 0 #FFF4E8,8px 0 #FFF4E8,
+    0 4px #FFECD8,4px 4px #FFF8F0,8px 4px #FFECD8,
+    0 8px #FFE4CC,4px 8px #FFECD8,8px 8px #FFE4CC,
+    4px 12px #E8D0B8;
+  transform:rotate(-15deg)}
+
+/* Pixel crab (tiny, 8×7) */
+.px-crab{bottom:22%;left:48%;
+  box-shadow:
+    4px 0 #E05040,20px 0 #E05040,
+    0 4px #E05040,4px 4px #E87860,8px 4px #E87860,16px 4px #E87860,20px 4px #E87860,24px 4px #E05040,
+    0 8px #C04030,4px 8px #E05040,8px 8px #F09080,12px 8px #F09080,16px 8px #F09080,20px 8px #E05040,24px 8px #C04030,
+    0 12px #C04030,4px 12px #E05040,8px 12px #F09080,12px 12px #FCC0B8,16px 12px #F09080,20px 12px #E05040,24px 12px #C04030,
+    4px 16px #E05040,8px 16px #F09080,16px 16px #F09080,20px 16px #E05040,
+    4px 20px #C04030,8px 20px #E87860,16px 20px #E87860,20px 20px #C04030;
+  animation:crab-walk 8s linear infinite}
+@keyframes crab-walk{0%{transform:translate(0,0)}24%{transform:translate(16px,2px)}25%{transform:translate(16px,2px)}49%{transform:translate(0,4px)}50%{transform:translate(0,4px)}74%{transform:translate(-16px,2px)}75%{transform:translate(-16px,2px)}100%{transform:translate(0,0)}}
+
+/* Pixel palm tree — top-down view of fronds radiating from center */
+.px-palm{position:absolute;bottom:18%;left:5%}
+.px-palm-crown{position:absolute;width:0;height:0;
+  /* Radiating fronds from center, top-down view */
+  box-shadow:
+    /* Center trunk */ 0 0 #8B6914,4px 0 #7A5A12,-4px 0 #7A5A12,0 4px #6B4F10,0 -4px #8B6914,
+    /* Ring 1 */ 8px -8px #2E8B2E,4px -8px #228B22,12px -4px #228B22,-4px -8px #2E8B2E,-8px -4px #1E7B1E,-8px 4px #2E8B2E,-4px 8px #228B22,4px 8px #1E7B1E,8px 4px #2E8B2E,12px 0 #1E7B1E,-12px 0 #228B22,0 -12px #1E7B1E,0 12px #228B22,
+    /* Ring 2 */ 16px -12px #2E8B2E,12px -16px #228B22,20px -8px #1E7B1E,8px -16px #2E8B2E,-8px -16px #228B22,-16px -12px #1E7B1E,-20px -4px #2E8B2E,-16px 8px #228B22,-12px 12px #1E7B1E,-4px 16px #2E8B2E,4px 16px #228B22,12px 12px #1E7B1E,16px 8px #2E8B2E,20px 0 #228B22,16px -4px #1E7B1E,-12px -8px #2E8B2E,
+    /* Ring 3 tips */ 20px -20px #1E7B1E,24px -12px #2E8B2E,16px -20px #228B22,8px -20px #2E8B2E,-8px -20px #228B22,-16px -16px #1E7B1E,-24px -8px #2E8B2E,-20px 4px #228B22,-20px 12px #1E7B1E,-16px 16px #2E8B2E,-8px 20px #228B22,4px 20px #1E7B1E,12px 16px #2E8B2E,20px 12px #228B22,24px 4px #1E7B1E,24px -4px #2E8B2E;
+  animation:palm-sway 6s ease-in-out infinite alternate}
+@keyframes palm-sway{0%{transform:rotate(-3deg)}100%{transform:rotate(3deg)}}
+
+/* Pixel beach towel (on sand, overhead view — striped) */
+.px-towel{position:absolute;bottom:48%;right:25%;
+  box-shadow:
+    /* Row 0-9: 24×10 pixel towel with stripes */ 0 0 #E84040,4px 0 #E84040,8px 0 #E84040,12px 0 #E84040,16px 0 #E84040,20px 0 #E84040,24px 0 #E84040,28px 0 #E84040,32px 0 #E84040,36px 0 #E84040,40px 0 #E84040,44px 0 #E84040,48px 0 #E84040,52px 0 #E84040,56px 0 #E84040,60px 0 #E84040,64px 0 #E84040,68px 0 #E84040,72px 0 #E84040,76px 0 #E84040,80px 0 #E84040,84px 0 #E84040,88px 0 #E84040,92px 0 #E84040,96px 0 #E84040,
+    0 4px #FFD700,4px 4px #FFD700,8px 4px #FFD700,12px 4px #FFD700,16px 4px #FFD700,20px 4px #FFD700,24px 4px #FFD700,28px 4px #FFD700,32px 4px #FFD700,36px 4px #FFD700,40px 4px #FFD700,44px 4px #FFD700,48px 4px #FFD700,52px 4px #FFD700,56px 4px #FFD700,60px 4px #FFD700,64px 4px #FFD700,68px 4px #FFD700,72px 4px #FFD700,76px 4px #FFD700,80px 4px #FFD700,84px 4px #FFD700,88px 4px #FFD700,92px 4px #FFD700,96px 4px #FFD700,
+    0 8px #E84040,4px 8px #E84040,8px 8px #E84040,12px 8px #E84040,16px 8px #E84040,20px 8px #E84040,24px 8px #E84040,28px 8px #E84040,32px 8px #E84040,36px 8px #E84040,40px 8px #E84040,44px 8px #E84040,48px 8px #E84040,52px 8px #E84040,56px 8px #E84040,60px 8px #E84040,64px 8px #E84040,68px 8px #E84040,72px 8px #E84040,76px 8px #E84040,80px 8px #E84040,84px 8px #E84040,88px 8px #E84040,92px 8px #E84040,96px 8px #E84040,
+    0 12px #FFD700,4px 12px #FFD700,8px 12px #FFD700,12px 12px #FFD700,16px 12px #FFD700,20px 12px #FFD700,24px 12px #FFD700,28px 12px #FFD700,32px 12px #FFD700,36px 12px #FFD700,40px 12px #FFD700,44px 12px #FFD700,48px 12px #FFD700,52px 12px #FFD700,56px 12px #FFD700,60px 12px #FFD700,64px 12px #FFD700,68px 12px #FFD700,72px 12px #FFD700,76px 12px #FFD700,80px 12px #FFD700,84px 12px #FFD700,88px 12px #FFD700,92px 12px #FFD700,96px 12px #FFD700,
+    0 16px #E84040,4px 16px #E84040,8px 16px #E84040,12px 16px #E84040,16px 16px #E84040,20px 16px #E84040,24px 16px #E84040,28px 16px #E84040,32px 16px #E84040,36px 16px #E84040,40px 16px #E84040,44px 16px #E84040,48px 16px #E84040,52px 16px #E84040,56px 16px #E84040,60px 16px #E84040,64px 16px #E84040,68px 16px #E84040,72px 16px #E84040,76px 16px #E84040,80px 16px #E84040,84px 16px #E84040,88px 16px #E84040,92px 16px #E84040,96px 16px #E84040,
+    0 20px #FFD700,4px 20px #FFD700,8px 20px #FFD700,12px 20px #FFD700,16px 20px #FFD700,20px 20px #FFD700,24px 20px #FFD700,28px 20px #FFD700,32px 20px #FFD700,36px 20px #FFD700,40px 20px #FFD700,44px 20px #FFD700,48px 20px #FFD700,52px 20px #FFD700,56px 20px #FFD700,60px 20px #FFD700,64px 20px #FFD700,68px 20px #FFD700,72px 20px #FFD700,76px 20px #FFD700,80px 20px #FFD700,84px 20px #FFD700,88px 20px #FFD700,92px 20px #FFD700,96px 20px #FFD700,
+    0 24px #E84040,4px 24px #E84040,8px 24px #E84040,12px 24px #E84040,16px 24px #E84040,20px 24px #E84040,24px 24px #E84040,28px 24px #E84040,32px 24px #E84040,36px 24px #E84040,40px 24px #E84040,44px 24px #E84040,48px 24px #E84040,52px 24px #E84040,56px 24px #E84040,60px 24px #E84040,64px 24px #E84040,68px 24px #E84040,72px 24px #E84040,76px 24px #E84040,80px 24px #E84040,84px 24px #E84040,88px 24px #E84040,92px 24px #E84040,96px 24px #E84040,
+    0 28px #FFD700,4px 28px #FFD700,8px 28px #FFD700,12px 28px #FFD700,16px 28px #FFD700,20px 28px #FFD700,24px 28px #FFD700,28px 28px #FFD700,32px 28px #FFD700,36px 28px #FFD700,40px 28px #FFD700,44px 28px #FFD700,48px 28px #FFD700,52px 28px #FFD700,56px 28px #FFD700,60px 28px #FFD700,64px 28px #FFD700,68px 28px #FFD700,72px 28px #FFD700,76px 28px #FFD700,80px 28px #FFD700,84px 28px #FFD700,88px 28px #FFD700,92px 28px #FFD700,96px 28px #FFD700,
+    0 32px #E84040,4px 32px #E84040,8px 32px #E84040,12px 32px #E84040,16px 32px #E84040,20px 32px #E84040,24px 32px #E84040,28px 32px #E84040,32px 32px #E84040,36px 32px #E84040,40px 32px #E84040,44px 32px #E84040,48px 32px #E84040,52px 32px #E84040,56px 32px #E84040,60px 32px #E84040,64px 32px #E84040,68px 32px #E84040,72px 32px #E84040,76px 32px #E84040,80px 32px #E84040,84px 32px #E84040,88px 32px #E84040,92px 32px #E84040,96px 32px #E84040,
+    0 36px #FFD700,4px 36px #FFD700,8px 36px #FFD700,12px 36px #FFD700,16px 36px #FFD700,20px 36px #FFD700,24px 36px #FFD700,28px 36px #FFD700,32px 36px #FFD700,36px 36px #FFD700,40px 36px #FFD700,44px 36px #FFD700,48px 36px #FFD700,52px 36px #FFD700,56px 36px #FFD700,60px 36px #FFD700,64px 36px #FFD700,68px 36px #FFD700,72px 36px #FFD700,76px 36px #FFD700,80px 36px #FFD700,84px 36px #FFD700,88px 36px #FFD700,92px 36px #FFD700,96px 36px #FFD700;
+  transform:rotate(-5deg);
+  opacity:0.85}
+
+/* Pixel footprints (tiny dots near shore) */
+.px-prints{position:absolute;top:4%;left:20%;width:0;height:0;
+  box-shadow:
+    0 0 rgba(180,160,130,0.5),12px 0 rgba(180,160,130,0.5),
+    -4px 8px rgba(180,160,130,0.4),16px 8px rgba(180,160,130,0.5),
+    -8px 16px rgba(180,160,130,0.4),20px 16px rgba(180,160,130,0.4),
+    -12px 24px rgba(180,160,130,0.35),24px 24px rgba(180,160,130,0.4),
+    -8px 32px rgba(180,160,130,0.3),20px 32px rgba(180,160,130,0.35),
+    -4px 40px rgba(180,160,130,0.25),16px 40px rgba(180,160,130,0.3);
+  image-rendering:pixelated}
+
+/* Pixel pebbles (tiny scattered dots) */
+.px-pebbles{position:absolute;top:15%;left:0;right:0;height:50%;width:0;height:0;
+  box-shadow:
+    12px 10px #C8B898,28px 5px #D0C0A0,45px 18px #C0B088,62px 8px #CCC0A0,78px 22px #C8B898,92px 12px #D0C0A0,
+    8px 35px #C4B490,35px 30px #BCAC84,55px 42px #C8B898,72px 28px #C0B088,88px 38px #CCC0A0,
+    18px 55px #C8B898,42px 48px #D0C0A0,68px 58px #C4B490,85px 52px #BCAC84}
+
+/* === APP CONTAINER === */
+.app{position:relative;z-index:10;width:100%;height:100%;overflow:hidden}
+.screen{position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;pointer-events:none;transition:opacity .3s;overflow-y:auto;-webkit-overflow-scrolling:touch;padding:24px;display:flex;flex-direction:column}
+.screen.on{opacity:1;pointer-events:auto}
+.screen.off{display:none}
+
+/* === SHARED === */
+.px{font-family:var(--font-pixel)}
+.btn{display:block;width:100%;padding:14px 20px;font-family:var(--font-pixel);font-size:12px;text-align:center;color:#fff;background:var(--accent);border-radius:8px;box-shadow:0 4px 0 rgba(0,0,0,0.15),0 6px 12px rgba(0,0,0,0.1);transition:all .1s}
+.btn:active{transform:translateY(2px);box-shadow:0 2px 0 rgba(0,0,0,0.15)}
+.btn2{background:var(--text);font-size:10px;margin-bottom:8px;opacity:.7}
+.btnS{font-size:9px;padding:8px 14px;width:auto;display:inline-block}
+.btnD{background:var(--danger);font-size:10px}
+.hl{background:linear-gradient(180deg,transparent 60%,rgba(255,107,53,0.35)60%);padding:0 2px;font-weight:700;color:var(--accent)}
+
+/* === AUTH === */
+#auth{align-items:center;justify-content:center;padding-top:15vh}
+#auth h1{font-family:var(--font-pixel);font-size:26px;color:var(--accent);text-align:center;margin-bottom:4px}
+#auth .sub{text-align:center;color:var(--muted);font-size:13px;margin-bottom:24px}
+.form{width:100%;max-width:320px;display:flex;flex-direction:column;gap:16px}
+.form label{font-family:var(--font-pixel);font-size:9px;color:var(--muted);text-align:center}
+.form input[type=text]{padding:12px 16px;font-size:15px;background:var(--bg-card);border-radius:8px;color:var(--text);text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.pin-disp{font-family:var(--font-pixel);font-size:20px;text-align:center;color:var(--text);letter-spacing:8px;padding:8px 0}
+.pad{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;max-width:240px;margin:0 auto}
+.pad button{aspect-ratio:1;max-height:56px;display:flex;align-items:center;justify-content:center;font-family:var(--font-pixel);font-size:16px;color:var(--text);background:var(--bg-card);border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.08)}
+.pad button:active{transform:scale(.92);background:var(--accent);color:#fff}
+.pad .go{background:var(--accent);color:#fff}
+#auth-status{text-align:center;font-size:12px;color:var(--danger);min-height:20px;margin-top:8px}
+
+/* === MENU === */
+#menu{align-items:center;justify-content:center;padding-top:10vh}
+.stats{display:flex;justify-content:center;gap:32px;margin-bottom:32px;width:100%;max-width:360px}
+.stat{display:flex;flex-direction:column;align-items:center;gap:4px}
+.stat .val{font-family:var(--font-pixel);font-size:22px;color:var(--accent)}
+.stat .lbl{font-size:10px;color:var(--muted)}
+#btn-start{max-width:300px;animation:glow 2s infinite}
+@keyframes glow{0%,100%{box-shadow:0 4px 0 rgba(0,0,0,0.15),0 6px 20px rgba(255,107,53,0.4)}50%{box-shadow:0 4px 0 rgba(0,0,0,0.15),0 6px 35px rgba(255,107,53,0.6)}}
+.menu-nav{width:100%;max-width:300px;margin-top:24px}
+
+/* === GAME === */
+#game{display:flex;flex-direction:column}
+.gh{display:flex;align-items:center;padding:16px;gap:8px}
+.gh .score{display:flex;align-items:center;gap:4px;font-family:var(--font-pixel);font-size:11px;margin-left:auto;margin-right:16px}
+.gh .sk{color:var(--success)} .gh .su{color:var(--warning)}
+.gbar{flex:1;max-width:100px;height:5px;background:var(--bg-card);border-radius:3px;overflow:hidden}
+.gbar div{height:100%;width:0%;background:var(--warning);transition:width .3s;border-radius:3px}
+.garea{flex:1;display:flex;align-items:center;justify-content:center;padding:24px;position:relative;touch-action:none;user-select:none}
+.card{position:relative;width:100%;max-width:480px;background:var(--bg-card);border-radius:20px;padding:48px 32px 34px;box-shadow:0 8px 32px rgba(0,0,0,0.08),0 2px 8px rgba(0,0,0,0.04);transition:transform .3s cubic-bezier(.34,1.56,.64,1),opacity .3s}
+.card.fly-up{animation:fu .35s ease-in forwards}
+.card.fly-down{animation:fd .35s ease-in forwards}
+.card.fly-left{animation:fl .35s ease-in forwards}
+.card.fly-in{animation:fi .35s ease-out forwards}
+@keyframes fu{0%{transform:translateY(0);opacity:1}100%{transform:translateY(-150%)rotate(-5deg);opacity:0}}
+@keyframes fd{0%{transform:translateY(0);opacity:1}100%{transform:translateY(150%)rotate(5deg);opacity:0}}
+@keyframes fl{0%{transform:translateX(0);opacity:1}100%{transform:translateX(-120%);opacity:0}}
+@keyframes fi{0%{transform:translateY(60px)scale(.9);opacity:0}100%{transform:translateY(0)scale(1);opacity:1}}
+.timer-ring{position:absolute;top:-18px;right:-18px;width:56px;height:56px}
+.timer-ring svg{transform:rotate(-90deg)}
+.timer-ring .bg{fill:none;stroke:#F5F0E8;stroke-width:4}
+.timer-ring .fill{fill:none;stroke:var(--success);stroke-width:4;stroke-linecap:round;stroke-dasharray:163.36;stroke-dashoffset:0;transition:stroke-dashoffset 1s linear}
+.timer-ring .txt{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-family:var(--font-pixel);font-size:12px;color:var(--text)}
+.sentence{font-size:21px;line-height:1.8;color:var(--text);text-align:center;margin-bottom:16px}
+.badge{font-size:11px;color:var(--muted);background:#F5F0E8;padding:6px 12px;border-radius:20px;text-align:center;width:100%;display:block}
+.hints{position:absolute;inset:0;pointer-events:none;opacity:.5}
+.hints span{position:absolute;font-family:var(--font-pixel);font-size:8px;color:var(--muted)}
+.hints .hu{top:10%;left:50%;transform:translateX(-50%)}
+.hints .hd{bottom:10%;left:50%;transform:translateX(-50%)}
+.hints .hl{left:8%;top:50%}
+.toasty{position:absolute;bottom:15%;left:50%;transform:translateX(-50%);font-family:var(--font-pixel);font-size:10px;padding:8px 16px;border-radius:20px;background:var(--bg-card);color:var(--text);box-shadow:0 4px 16px rgba(0,0,0,0.12);opacity:0;transition:all .25s;pointer-events:none;white-space:nowrap;z-index:5}
+.toasty.show{opacity:1;transform:translateX(-50%)translateY(-5px)}
+.hearts{position:absolute;top:50%;left:50%;pointer-events:none;z-index:6}
+.fh{position:absolute;animation:hfloat 1s ease-out forwards;color:#E91E63}
+@keyframes hfloat{0%{transform:translateY(0)scale(0);opacity:1}50%{transform:translateY(-30px)scale(1.3)}100%{transform:translateY(-70px)scale(.5);opacity:0}}
+
+/* === REVIEW === */
+#review{display:flex;flex-direction:column}
+.rh{display:flex;align-items:center;padding:16px;gap:8px}
+.rh .rt{font-family:var(--font-pixel);font-size:12px;color:var(--accent)}
+.rh .rp{margin-left:auto;font-family:var(--font-pixel);font-size:10px;color:var(--muted)}
+.rflip{flex:1;display:flex;align-items:center;justify-content:center;padding:24px;perspective:1000px}
+.flip{width:100%;max-width:380px;height:320px;cursor:pointer}
+.flip-inner{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d}
+.flip-inner.f{transform:rotateY(180deg)}
+.flip-f,.flip-b{position:absolute;inset:0;backface-visibility:hidden;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;box-shadow:0 8px 32px rgba(0,0,0,0.1)}
+.flip-f{background:var(--bg-card)}
+.flip-b{background:var(--bg-card);transform:rotateY(180deg)}
+.fs{font-size:18px;line-height:1.7;color:var(--text);text-align:center;margin-bottom:12px}
+.fhint{font-family:var(--font-pixel);font-size:8px;color:var(--muted);opacity:.5;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:.8}}
+.fw{font-family:var(--font-pixel);font-size:18px;color:var(--accent);margin-bottom:4px}
+.fph{font-size:13px;color:var(--muted);margin-bottom:4px}
+.fpos{font-size:11px;color:var(--muted);background:#F5F0E8;padding:2px 10px;border-radius:10px;margin-bottom:12px}
+.fdef{font-size:15px;line-height:1.6;color:var(--text);text-align:center}
+.rnav{display:flex;align-items:center;justify-content:center;padding:16px;gap:16px}
+.dots{display:flex;gap:6px;flex-wrap:wrap;justify-content:center;max-width:260px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--muted);opacity:.3;cursor:pointer}
+.dot.a{opacity:1;background:var(--accent);transform:scale(1.3)}
+.dot.ok{opacity:.6;background:var(--success)}
+.ract{padding:0 24px 24px;display:flex;justify-content:center}
+
+/* === FAVORITES === */
+.fhdr{display:flex;align-items:center;gap:8px;margin-bottom:24px}
+.fhdr .px{flex:1}
+.flist{display:flex;flex-direction:column;gap:12px}
+.fempty{text-align:center;color:var(--muted);font-size:14px;padding:40px 0;line-height:1.8}
+.fitem{display:flex;gap:8px;background:var(--bg-card);border-radius:12px;padding:16px;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.fitem .fcont{flex:1;min-width:0}
+.fitem .fsent{font-size:14px;line-height:1.6;color:var(--text);font-style:italic;margin-bottom:4px}
+.fitem .fword{font-weight:700;color:var(--accent);font-size:14px}
+.fitem .fpos{font-size:11px;color:var(--muted);margin-left:4px}
+.fitem .fdef{font-size:12px;color:var(--muted);margin-top:2px}
+.fitem .fdate{font-size:10px;color:var(--muted)}
+.fitem .fdel{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--muted);flex-shrink:0;align-self:center}
+
+/* === WORD BANK === */
+.wbhdr{display:flex;align-items:center;gap:8px;margin-bottom:16px}
+.wbsearch{margin-bottom:16px}
+.wbsearch input{width:100%;padding:12px 16px;font-size:14px;background:var(--bg-card);border-radius:12px;color:var(--text)}
+.filters{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.chip{padding:6px 14px;font-size:11px;font-weight:600;border-radius:20px;background:var(--bg-card);color:var(--muted);box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.chip.on{background:var(--accent);color:#fff}
+.wblist{display:flex;flex-direction:column;gap:4px}
+.wbitem{background:var(--bg-card);border-radius:8px;padding:12px 14px}
+.wbitem .wbm{display:flex;align-items:center;gap:8px;margin-bottom:4px}
+.wbitem .wbw{font-weight:700;font-size:14px;color:var(--text)}
+.wbitem .wbdef{font-size:12px;color:var(--muted)}
+
+/* === SETTINGS === */
+.shdr{display:flex;align-items:center;gap:8px;margin-bottom:24px}
+.sitem{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;background:var(--bg-card);border-radius:8px;padding:14px 16px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.sitem label{font-size:13px;font-weight:600;color:var(--text);min-width:100px}
+.sitem input[type=range]{flex:1;max-width:100px;accent-color:var(--accent)}
+.sact{padding:24px 0;display:flex;justify-content:center}
+
+/* === LOADING === */
+#loading{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#4A90D9,#87CEEB,#B0E0E6,#F4D9A0);transition:opacity .5s}
+#loading.off{opacity:0;pointer-events:none}
+#loading .lct{text-align:center}
+#loading .licon{font-size:48px;margin-bottom:12px}
+#loading .ltxt{font-family:var(--font-pixel);font-size:12px;color:#fff;margin-bottom:6px}
+#loading .lsub{font-size:11px;color:rgba(255,255,255,0.7)}
+</style>
+</head>
+<body>
+
+<!-- Beach Scene (overhead pixel art) -->
+<div class="beach">
+  <!-- Sky (user likes this - kept gradient) -->
+  <div class="sky">
+    <div class="sun"></div><div class="moon"></div><div class="stars"></div>
+    <div class="clouds">
+      <div class="cloud c1 ctop"></div>
+      <div class="cloud c2 cmid"></div>
+    </div>
+  </div>
+  <!-- Ocean band (top-down — soft blue water) -->
+  <div class="ocean">
+    <div class="ocean-water"></div>
+    <div class="ocean-tex"></div>
+    <div class="shore-foam"></div>
+    <div class="shore-wet"></div>
+  </div>
+  <!-- Sand (overhead — pixel-dithered warm sand) -->
+  <div class="sand-overhead">
+    <!-- Pixel art sprites on the sand -->
+    <div class="px-el px-starfish"></div>
+    <div class="px-el px-shell1"></div>
+    <div class="px-el px-shell2"></div>
+    <div class="px-el px-shell3"></div>
+    <div class="px-el px-crab"></div>
+    <div class="px-el px-palm"><div class="px-palm-crown"></div></div>
+    <div class="px-el px-towel"></div>
+    <div class="px-el px-prints"></div>
+    <div class="px-el px-pebbles"></div>
+  </div>
+</div>
+
+<!-- Loading -->
+<div id="loading"><div class="lct">
+  <p class="licon">🏝</p>
+  <p class="ltxt">IELTS Beach</p>
+  <p class="lsub">Loading...</p>
+</div></div>
+
+<!-- App -->
+<div class="app" id="app">
+
+<!-- AUTH -->
+<div id="auth" class="screen on">
+  <h1>IELTS<br>Beach</h1>
+  <p class="sub">Learn words by the shore</p>
+  <div class="form">
+    <div><label>Username</label>
+    <input type="text" id="au" maxlength="20" placeholder="Choose a username"></div>
+    <div><label>4-digit PIN</label>
+    <div class="pin-disp" id="pd">_ _ _ _</div>
+    <div class="pad" id="pad"></div></div>
+    <button class="btn" id="bsub">Enter</button>
+  </div>
+  <p id="auth-status"></p>
+</div>
+
+<!-- MENU -->
+<div id="menu" class="screen off">
+  <div class="stats">
+    <div class="stat"><span class="val" id="sk">0</span><span class="lbl">Known</span></div>
+    <div class="stat"><span class="val" id="su">0</span><span class="lbl">Unknown</span></div>
+  </div>
+  <button class="btn" id="bstart">Start Studying</button>
+  <div class="menu-nav">
+    <button class="btn btn2" id="bfav">♥ Favorites</button>
+    <button class="btn btn2" id="bwb">📚 Word Bank</button>
+    <button class="btn btn2" id="bset">⚙ Settings</button>
+  </div>
+</div>
+
+<!-- GAME -->
+<div id="game" class="screen off">
+  <div class="gh">
+    <button id="bgback" style="font-size:18px;color:var(--text)">✕</button>
+    <button id="bgpause" style="font-size:18px;color:var(--text);margin-right:auto">⏸</button>
+    <div class="score"><span class="sk">✓</span><span id="gk">0</span> <span class="su">✗</span><span id="gu">0</span>/<span id="gulim">10</span></div>
+    <div class="gbar"><div id="gfill"></div></div>
+  </div>
+  <div class="garea" id="garea">
+    <div id="pause-ov" style="position:absolute;inset:0;z-index:20;background:rgba(0,0,0,0.5);display:none;align-items:center;justify-content:center;flex-direction:column;border-radius:16px;cursor:pointer">
+      <span style="font-size:48px">⏸</span>
+      <p style="font-family:var(--font-pixel);font-size:14px;color:#fff;margin-top:12px">PAUSED</p>
+      <p style="color:rgba(255,255,255,0.7);font-size:11px;margin-top:4px">Tap or press Space to resume</p>
+    </div>
+    <div class="card" id="card">
+      <div class="timer-ring">
+        <svg viewBox="0 0 60 60"><circle class="bg" cx="30" cy="30" r="26"/><circle class="fill" id="ring" cx="30" cy="30" r="26"/></svg>
+        <span class="txt" id="rtxt">10</span>
+      </div>
+      <p class="sentence" id="sent"></p>
+      <span class="badge" id="badge"></span>
+      <div class="hints" id="hints">
+        <span class="hu">↑ know</span><span class="hd">↓ unknown</span><span class="hl">← undo</span>
+      </div>
+    </div>
+    <div class="toasty" id="toast"></div>
+    <div class="hearts" id="hearts"></div>
+  </div>
+</div>
+
+<!-- REVIEW -->
+<div id="review" class="screen off">
+  <div class="rh">
+    <button id="rbback" style="font-size:18px;color:var(--text)">←</button>
+    <span class="rt">Review</span><span class="rp" id="rprog">1/10</span>
+  </div>
+  <div class="rflip">
+    <div class="flip" id="flipcard">
+      <div class="flip-inner" id="flipinner">
+        <div class="flip-f"><p class="fs" id="fsent"></p><span class="fhint">Tap to reveal</span></div>
+        <div class="flip-b"><p class="fw" id="fword"></p><p class="fph" id="fphon"></p><span class="fpos" id="fpos2"></span><p class="fdef" id="fdef"></p></div>
+      </div>
+    </div>
+  </div>
+  <div class="rnav">
+    <button id="rbprev" style="font-size:18px;color:var(--text)">◀</button>
+    <div class="dots" id="rdots"></div>
+    <button id="rbnext" style="font-size:18px;color:var(--text)">▶</button>
+  </div>
+  <div class="ract"><button class="btn" id="rbdone" style="width:auto;padding:12px 28px;font-size:11px">Done</button></div>
+</div>
+
+<!-- FAVORITES -->
+<div id="favs" class="screen off">
+  <div class="fhdr">
+    <button id="fbback" style="font-size:18px;color:var(--text)">←</button>
+    <span class="px" style="font-size:12px;color:var(--accent)">Favorites</span>
+    <button class="btn btnS" id="fexport">Export PDF</button>
+  </div>
+  <div class="flist" id="flist">
+    <p class="fempty" id="fempty">No favorites yet.<br>Double-tap a sentence to save it!</p>
+  </div>
+</div>
+
+<!-- WORD BANK -->
+<div id="wordbank" class="screen off">
+  <div class="wbhdr">
+    <button id="wbbback" style="font-size:18px;color:var(--text)">←</button>
+    <span class="px" style="font-size:12px;color:var(--accent)">Word Bank</span>
+  </div>
+  <div class="wbsearch"><input type="text" id="wbs" placeholder="Search words..."></div>
+  <div class="filters" id="wbfilters"></div>
+  <div class="wblist" id="wblist"></div>
+</div>
+
+<!-- SETTINGS -->
+<div id="settings" class="screen off">
+  <div class="shdr">
+    <button id="sbback" style="font-size:18px;color:var(--text)">←</button>
+    <span class="px" style="font-size:12px;color:var(--accent)">Settings</span>
+  </div>
+  <div class="sitem"><label>Timer (seconds)</label><input type="range" id="stim" min="5" max="20" value="10"><span id="stv">10s</span></div>
+  <div class="sitem"><label>Unknown limit</label><input type="range" id="slim" min="5" max="20" value="10"><span id="slv">10</span></div>
+  <div class="sitem"><label>Theme</label><button class="btn btnS" id="stheme">Day / Night</button></div>
+  <div class="sitem"><label>Account</label><span id="suser" style="font-size:12px;color:var(--muted)"></span></div>
+  <div class="sact"><button class="btn btnD" id="blogout" style="max-width:200px">Logout</button></div>
+</div>
+
+</div>
+
+<script>
+// ============================================================
+// IELTS BEACH — Self-contained app
+// ============================================================
+
+// === STATE ===
+const S = {
+  screen: 'auth', timer:10, limit:10, theme:'day',
+  game:{words:[],idx:0,known:0,unknown:0,history:[],timer:0,running:false,status:'idle'},
+  review:{cards:[],idx:0,flipped:false},
+  favs:JSON.parse(localStorage.getItem('bfavs')||'[]'),
+  progress:JSON.parse(localStorage.getItem('bprog')||'{}'),
+  settings:JSON.parse(localStorage.getItem('bset')||'{"timer":10,"limit":10,"theme":"day"}'),
+  user:JSON.parse(localStorage.getItem('buser')||'null')
+};
+
+function save(k,v){ try{localStorage.setItem('b'+k,JSON.stringify(v))}catch(e){} }
+
+// === WORDS ===
+const WORDS = [
+  {id:'w001',word:'analyze',phonetic:'/ˈæn.əl.aɪz/',pos:'verb',def:'To examine something in detail in order to understand or explain it',level:'B2',freq:9,sent:'The researcher needed to analyze the data before drawing any conclusions.',tags:['academic','research'],syn:['examine','evaluate','study']},
+  {id:'w002',word:'significant',phonetic:'/sɪɡˈnɪf.ɪ.kənt/',pos:'adjective',def:'Important or large enough to be noticed or have an effect',level:'B2',freq:10,sent:'There has been a significant increase in global temperatures over the past century.',tags:['academic','environment'],syn:['important','major','substantial']},
+  {id:'w003',word:'consequence',phonetic:'/ˈkɒn.sɪ.kwəns/',pos:'noun',def:'A result or effect of an action or condition',level:'B2',freq:8,sent:'Many people are unaware of the environmental consequences of their daily choices.',tags:['academic','environment'],syn:['result','outcome','effect']},
+  {id:'w004',word:'nevertheless',phonetic:'/ˌnev.ə.ðəˈles/',pos:'adverb',def:'Despite what has just been said or referred to',level:'B2',freq:7,sent:'The experiment was difficult to set up; nevertheless, the team persisted.',tags:['academic','writing'],syn:['however','nonetheless','still']},
+  {id:'w005',word:'predominantly',phonetic:'/prɪˈdɒm.ɪ.nənt.li/',pos:'adverb',def:'Mainly; for the most part',level:'C1',freq:6,sent:'The region is predominantly agricultural, with wheat as the main crop.',tags:['academic','geography'],syn:['mainly','primarily','largely']},
+  {id:'w006',word:'ambiguous',phonetic:'/æmˈbɪɡ.ju.əs/',pos:'adjective',def:'Open to more than one interpretation; not clear',level:'C1',freq:7,sent:'The survey results were ambiguous and required further investigation.',tags:['academic','communication'],syn:['unclear','vague','equivocal']},
+  {id:'w007',word:'deteriorate',phonetic:'/dɪˈtɪə.ri.ə.reɪt/',pos:'verb',def:'To become progressively worse',level:'C1',freq:6,sent:'Without proper maintenance, the historic building will continue to deteriorate.',tags:['academic','society'],syn:['worsen','decline','degenerate']},
+  {id:'w008',word:'fluctuate',phonetic:'/ˈflʌk.tʃu.eɪt/',pos:'verb',def:'To rise and fall irregularly in number or amount',level:'C1',freq:8,sent:'Currency exchange rates tend to fluctuate based on economic conditions.',tags:['academic','economics'],syn:['vary','oscillate','waver']},
+  {id:'w009',word:'paradigm',phonetic:'/ˈpær.ə.daɪm/',pos:'noun',def:'A typical example or pattern of something; a model',level:'C2',freq:5,sent:'The discovery led to a fundamental paradigm shift in the field of physics.',tags:['academic','science'],syn:['model','pattern','framework']},
+  {id:'w010',word:'ubiquitous',phonetic:'/juːˈbɪk.wɪ.təs/',pos:'adjective',def:'Present, appearing, or found everywhere',level:'C2',freq:5,sent:'Smartphones have become ubiquitous in modern urban life.',tags:['technology','society'],syn:['omnipresent','pervasive','universal']},
+  {id:'w011',word:'implement',phonetic:'/ˈɪm.plɪ.ment/',pos:'verb',def:'To put a decision, plan, or agreement into effect',level:'B2',freq:9,sent:'The government plans to implement new policies to reduce carbon emissions.',tags:['academic','politics'],syn:['execute','apply','enforce']},
+  {id:'w012',word:'controversy',phonetic:'/ˈkɒn.trə.vɜː.si/',pos:'noun',def:'Prolonged public disagreement or heated discussion',level:'B2',freq:7,sent:'The new law has sparked considerable controversy among legal experts.',tags:['society','politics'],syn:['dispute','debate','disagreement']},
+  {id:'w013',word:'emphasize',phonetic:'/ˈem.fə.saɪz/',pos:'verb',def:'To give special importance or prominence to something',level:'B2',freq:9,sent:'The professor emphasized the importance of critical thinking in academic writing.',tags:['academic','communication'],syn:['stress','highlight','underscore']},
+  {id:'w014',word:'inevitable',phonetic:'/ɪˈnev.ɪ.tə.bəl/',pos:'adjective',def:'Certain to happen; unavoidable',level:'C1',freq:7,sent:'Some degree of economic disruption is inevitable during the transition period.',tags:['academic','economics'],syn:['unavoidable','certain','inescapable']},
+  {id:'w015',word:'phenomenon',phonetic:'/fɪˈnɒm.ɪ.nən/',pos:'noun',def:'A fact or situation that is observed to exist or happen',level:'C1',freq:8,sent:'The Northern Lights is a natural phenomenon that attracts tourists from around the world.',tags:['academic','science'],syn:['occurrence','event','happening']},
+  {id:'w016',word:'accumulate',phonetic:'/əˈkjuː.mjə.leɪt/',pos:'verb',def:'To gather together or acquire an increasing number or quantity of',level:'C1',freq:7,sent:'Over time, small savings can accumulate into a substantial retirement fund.',tags:['academic','economics'],syn:['gather','collect','amass']},
+  {id:'w017',word:'subsequently',phonetic:'/ˈsʌb.sɪ.kwənt.li/',pos:'adverb',def:'After a particular thing has happened; afterward',level:'B2',freq:8,sent:'The company reported losses and subsequently announced major layoffs.',tags:['academic','writing'],syn:['afterward','later','then']},
+  {id:'w018',word:'comprehensive',phonetic:'/ˌkɒm.prɪˈhen.sɪv/',pos:'adjective',def:'Including all or nearly all elements or aspects of something',level:'C1',freq:8,sent:'The report provides a comprehensive overview of current market trends.',tags:['academic','business'],syn:['thorough','complete','extensive']},
+  {id:'w019',word:'mitigate',phonetic:'/ˈmɪt.ɪ.ɡeɪt/',pos:'verb',def:'To make less severe, serious, or painful',level:'C1',freq:6,sent:'Planting more trees can help mitigate the effects of urban air pollution.',tags:['environment','academic'],syn:['alleviate','reduce','ease']},
+  {id:'w020',word:'skeptical',phonetic:'/ˈskep.tɪ.kəl/',pos:'adjective',def:'Not easily convinced; having doubts or reservations',level:'C1',freq:6,sent:'Many scientists remain skeptical about the proposed cure for the disease.',tags:['academic','science'],syn:['doubtful','dubious','questioning']},
+  {id:'w021',word:'adequate',phonetic:'/ˈæd.ɪ.kwət/',pos:'adjective',def:'Sufficient for a specific need or requirement',level:'B2',freq:8,sent:'The report concluded that current safety measures were not adequate to prevent accidents.',tags:['academic','general'],syn:['sufficient','enough','suitable']},
+  {id:'w022',word:'profound',phonetic:'/prəˈfaʊnd/',pos:'adjective',def:'Very great or intense; having deep meaning',level:'C1',freq:7,sent:'The invention of the internet has had a profound impact on how we communicate.',tags:['technology','society'],syn:['deep','intense','significant']},
+  {id:'w023',word:'undermine',phonetic:'/ˌʌn.dəˈmaɪn/',pos:'verb',def:'To damage or weaken gradually or insidiously',level:'C1',freq:6,sent:'Constant criticism can undermine a student\'s confidence in their abilities.',tags:['society','academic'],syn:['weaken','erode','subvert']},
+  {id:'w024',word:'disparity',phonetic:'/dɪˈspær.ə.ti/',pos:'noun',def:'A great difference between things',level:'C2',freq:5,sent:'The growing economic disparity between urban and rural areas is a concern for policymakers.',tags:['economics','society'],syn:['inequality','gap','difference']},
+  {id:'w025',word:'scrutiny',phonetic:'/ˈskruː.tɪ.ni/',pos:'noun',def:'Critical observation or examination',level:'C1',freq:6,sent:'The company\'s financial records came under close scrutiny during the audit.',tags:['academic','business'],syn:['examination','inspection','review']},
+  {id:'w026',word:'hypothesis',phonetic:'/haɪˈpɒθ.ə.sɪs/',pos:'noun',def:'A proposed explanation made on the basis of limited evidence',level:'B2',freq:9,sent:'The researchers formulated a hypothesis about the relationship between sleep and memory.',tags:['academic','science'],syn:['theory','proposition','premise']},
+  {id:'w027',word:'explicit',phonetic:'/ɪkˈsplɪs.ɪt/',pos:'adjective',def:'Stated clearly and in detail, leaving no room for confusion',level:'C1',freq:7,sent:'The instructions were explicit about the safety procedures to follow.',tags:['academic','communication'],syn:['clear','direct','precise']},
+  {id:'w028',word:'implicit',phonetic:'/ɪmˈplɪs.ɪt/',pos:'adjective',def:'Suggested though not directly expressed',level:'C1',freq:7,sent:'There was an implicit understanding that the meeting was confidential.',tags:['academic','communication'],syn:['implied','tacit','unspoken']},
+  {id:'w029',word:'underlying',phonetic:'/ˌʌn.dəˈlaɪ.ɪŋ/',pos:'adjective',def:'Lying beneath or fundamental to something',level:'C1',freq:7,sent:'The underlying cause of the problem has yet to be identified.',tags:['academic','science'],syn:['fundamental','basic','root']},
+  {id:'w030',word:'notwithstanding',phonetic:'/ˌnɒt.wɪðˈstæn.dɪŋ/',pos:'preposition',def:'In spite of; despite',level:'C2',freq:5,sent:'Notwithstanding the challenges, the team managed to complete the project on time.',tags:['academic','writing'],syn:['despite','in spite of']},
+  {id:'w031',word:'feasible',phonetic:'/ˈfiː.zə.bəl/',pos:'adjective',def:'Possible and practical to do easily or conveniently',level:'C1',freq:6,sent:'The engineers determined that the bridge design was technically feasible.',tags:['academic','business'],syn:['practicable','viable','workable']},
+  {id:'w032',word:'consensus',phonetic:'/kənˈsen.səs/',pos:'noun',def:'A general agreement among a group of people',level:'C1',freq:7,sent:'There is now a broad scientific consensus on the reality of climate change.',tags:['science','society'],syn:['agreement','accord','unity']},
+  {id:'w033',word:'preliminary',phonetic:'/prɪˈlɪm.ɪ.nər.i/',pos:'adjective',def:'Denoting an action or event preceding or preparing for something fuller',level:'B2',freq:6,sent:'The preliminary results of the study are expected to be published next month.',tags:['academic','research'],syn:['initial','early','introductory']},
+  {id:'w034',word:'hierarchy',phonetic:'/ˈhaɪə.rɑː.ki/',pos:'noun',def:'A system in which members are ranked according to relative status or authority',level:'C1',freq:6,sent:'The corporate hierarchy made it difficult for junior staff to voice their opinions.',tags:['society','business'],syn:['ranking','order','structure']},
+  {id:'w035',word:'prominent',phonetic:'/ˈprɒm.ɪ.nənt/',pos:'adjective',def:'Important; famous; standing out so as to be easily seen',level:'C1',freq:7,sent:'She is a prominent figure in the field of neuroscience.',tags:['society','academic'],syn:['notable','eminent','distinguished']},
+  {id:'w036',word:'constraint',phonetic:'/kənˈstreɪnt/',pos:'noun',def:'A limitation or restriction',level:'C1',freq:6,sent:'Budget constraints forced the team to scale back their ambitious plans.',tags:['business','academic'],syn:['restriction','limitation','restraint']},
+  {id:'w037',word:'synthesis',phonetic:'/ˈsɪn.θə.sɪs/',pos:'noun',def:'The combination of ideas to form a theory or system',level:'C2',freq:5,sent:'The essay presents an impressive synthesis of existing research on the topic.',tags:['academic','writing'],syn:['combination','integration','fusion']},
+  {id:'w038',word:'validity',phonetic:'/vəˈlɪd.ə.ti/',pos:'noun',def:'The quality of being logically or factually sound',level:'B2',freq:7,sent:'Several experts have questioned the validity of the research methodology.',tags:['academic','research'],syn:['soundness','legitimacy','credibility']},
+  {id:'w039',word:'intrinsic',phonetic:'/ɪnˈtrɪn.zɪk/',pos:'adjective',def:'Belonging naturally; essential',level:'C1',freq:6,sent:'The intrinsic value of education extends far beyond employment opportunities.',tags:['academic','philosophy'],syn:['inherent','innate','essential']},
+  {id:'w040',word:'coherent',phonetic:'/kəʊˈhɪə.rənt/',pos:'adjective',def:'Logical and consistent; easy to understand',level:'C1',freq:7,sent:'Students are expected to present a coherent argument in their final essays.',tags:['academic','writing'],syn:['logical','consistent','clear']},
+  {id:'w041',word:'discretion',phonetic:'/dɪˈskreʃ.ən/',pos:'noun',def:'The freedom to decide what should be done in a particular situation',level:'C1',freq:5,sent:'The manager used her discretion to approve the request without going through standard procedures.',tags:['business','society'],syn:['judgment','prudence','choice']},
+  {id:'w042',word:'empirical',phonetic:'/ɪmˈpɪr.ɪ.kəl/',pos:'adjective',def:'Based on observation or experience rather than theory or pure logic',level:'C1',freq:6,sent:'The theory is supported by empirical evidence gathered over decades of research.',tags:['academic','science'],syn:['observational','experimental','practical']},
+  {id:'w043',word:'rigorous',phonetic:'/ˈrɪɡ.ər.əs/',pos:'adjective',def:'Extremely thorough, exhaustive, or accurate',level:'C1',freq:7,sent:'The admission process is rigorous and only the top candidates are selected.',tags:['academic','education'],syn:['strict','thorough','meticulous']},
+  {id:'w044',word:'ascertain',phonetic:'/ˌæs.əˈteɪn/',pos:'verb',def:'To find out something for certain; to make sure of',level:'C2',freq:5,sent:'The investigation aims to ascertain the exact cause of the accident.',tags:['academic','research'],syn:['determine','establish','verify']},
+  {id:'w045',word:'rationale',phonetic:'/ˌræʃ.əˈnɑːl/',pos:'noun',def:'A set of reasons or a logical basis for a course of action',level:'C2',freq:5,sent:'The CEO explained the rationale behind the company\'s decision to relocate.',tags:['business','academic'],syn:['reasoning','logic','justification']},
+  {id:'w046',word:'augment',phonetic:'/ɔːɡˈment/',pos:'verb',def:'To make something greater by adding to it; to increase',level:'C2',freq:5,sent:'The university decided to augment its library collection with more digital resources.',tags:['academic','education'],syn:['increase','enhance','supplement']},
+  {id:'w047',word:'detrimental',phonetic:'/ˌdet.rɪˈmen.təl/',pos:'adjective',def:'Tending to cause harm',level:'C1',freq:6,sent:'Lack of sleep can be detrimental to both physical and mental health.',tags:['health','academic'],syn:['harmful','damaging','adverse']},
+  {id:'w048',word:'elicit',phonetic:'/ɪˈlɪs.ɪt/',pos:'verb',def:'To draw out a response, answer, or fact from someone',level:'C2',freq:5,sent:'The teacher used thought-provoking questions to elicit discussion among students.',tags:['education','communication'],syn:['draw out','extract','evoke']},
+  {id:'w049',word:'extrapolate',phonetic:'/ɪkˈstræp.ə.leɪt/',pos:'verb',def:'To extend the application of findings beyond the observed range',level:'C2',freq:5,sent:'We cannot extrapolate these results to the entire population without further study.',tags:['academic','research'],syn:['infer','project','extend']},
+  {id:'w050',word:'constitute',phonetic:'/ˈkɒn.stɪ.tjuːt/',pos:'verb',def:'To be or form a part of a whole; to make up',level:'C1',freq:7,sent:'International students constitute approximately twenty percent of the university\'s enrollment.',tags:['academic','society'],syn:['comprise','make up','represent']},
+  {id:'w051',word:'conform',phonetic:'/kənˈfɔːm/',pos:'verb',def:'To comply with rules, standards, or laws',level:'B2',freq:7,sent:'All new buildings must conform to the latest safety regulations.',tags:['society','academic'],syn:['comply','adhere','follow']},
+  {id:'w052',word:'diminish',phonetic:'/dɪˈmɪn.ɪʃ/',pos:'verb',def:'To make or become less; to decrease in size, extent, or importance',level:'C1',freq:7,sent:'The medication helped diminish the severity of her symptoms over time.',tags:['academic','health'],syn:['reduce','decrease','lessen']},
+  {id:'w053',word:'framework',phonetic:'/ˈfreɪm.wɜːk/',pos:'noun',def:'A basic structure underlying a system, concept, or text',level:'B2',freq:9,sent:'The research was conducted within a theoretical framework based on social learning theory.',tags:['academic','research'],syn:['structure','system']},
+  {id:'w054',word:'initiative',phonetic:'/ɪˈnɪʃ.ə.tɪv/',pos:'noun',def:'The ability to assess and begin things independently; a new plan or process',level:'B2',freq:8,sent:'The government launched a new initiative to promote renewable energy adoption.',tags:['politics','business'],syn:['project','plan','enterprise']},
+  {id:'w055',word:'justify',phonetic:'/ˈdʒʌs.tɪ.faɪ/',pos:'verb',def:'To show or prove to be right or reasonable',level:'B2',freq:8,sent:'How can you justify spending so much money on a single project?',tags:['academic','writing'],syn:['defend','validate','warrant']},
+  {id:'w056',word:'legislation',phonetic:'/ˌledʒ.ɪˈsleɪ.ʃən/',pos:'noun',def:'Laws, considered collectively',level:'B2',freq:8,sent:'New legislation was introduced to protect consumers from unfair business practices.',tags:['politics','law'],syn:['laws','statutes','regulations']},
+  {id:'w057',word:'mechanism',phonetic:'/ˈmek.ə.nɪ.zəm/',pos:'noun',def:'A system of parts working together in a machine; a natural or established process',level:'B2',freq:7,sent:'The researchers identified the biological mechanism responsible for the disease.',tags:['science','academic'],syn:['system','process','apparatus']},
+  {id:'w058',word:'nonetheless',phonetic:'/ˌnʌn.ðəˈles/',pos:'adverb',def:'In spite of that; nevertheless',level:'B2',freq:7,sent:'The journey was long and tiring; nonetheless, they arrived in good spirits.',tags:['academic','writing'],syn:['nevertheless','however','still']},
+  {id:'w059',word:'ongoing',phonetic:'/ˈɒŋ.ɡəʊ.ɪŋ/',pos:'adjective',def:'Continuing; still in progress',level:'B2',freq:7,sent:'The investigation into the cause of the fire is still ongoing.',tags:['general','academic'],syn:['continuing','current','unfolding']},
+  {id:'w060',word:'perspective',phonetic:'/pəˈspek.tɪv/',pos:'noun',def:'A particular attitude toward or way of regarding something; a point of view',level:'B2',freq:9,sent:'The documentary presents the conflict from the perspective of local residents.',tags:['academic','communication'],syn:['viewpoint','angle','standpoint']},
+  {id:'w061',word:'proportion',phonetic:'/prəˈpɔː.ʃən/',pos:'noun',def:'A part, share, or number considered in comparative relation to a whole',level:'B2',freq:7,sent:'A significant proportion of the budget is allocated to education and healthcare.',tags:['academic','economics'],syn:['percentage','fraction','ratio']},
+  {id:'w062',word:'reinforce',phonetic:'/ˌriː.ɪnˈfɔːs/',pos:'verb',def:'To strengthen or support, especially with additional personnel or material',level:'B2',freq:7,sent:'Teachers use repetition to reinforce key concepts in the classroom.',tags:['education','academic'],syn:['strengthen','bolster','support']},
+  {id:'w063',word:'revenue',phonetic:'/ˈrev.ən.juː/',pos:'noun',def:'Income, especially when of a company or organization and of a substantial nature',level:'B2',freq:8,sent:'The company reported record revenue of over ten billion dollars last year.',tags:['business','economics'],syn:['income','earnings','proceeds']},
+  {id:'w064',word:'sustain',phonetic:'/səˈsteɪn/',pos:'verb',def:'To strengthen or support physically or mentally; to cause to continue for an extended period',level:'C1',freq:8,sent:'Can the planet sustain its current rate of population growth?',tags:['environment','academic'],syn:['maintain','support','uphold']},
+  {id:'w065',word:'transition',phonetic:'/trænˈzɪʃ.ən/',pos:'noun',def:'The process or a period of changing from one state or condition to another',level:'B2',freq:8,sent:'The country is undergoing a difficult transition from a fossil fuel economy to renewable energy.',tags:['society','environment'],syn:['change','shift','transformation']},
+{id:'w066',word:'access',phonetic:'/ˈæk.ses/',pos:'verb',def:'To be able to enter, reach, approach, or use something',level:'B2',freq:7,sent:'He couldn\'t access his email account because someone had changed his password.',tags:['academic'],syn:[]},
+  {id:'w067',word:'achieve',phonetic:'/əˈtʃiːv/',pos:'verb',def:'To accomplish; to reach a certain standard or goal',level:'B2',freq:7,sent:'As a result of her hard work, she achieved an excellent score on her final exam.',tags:['academic'],syn:[]},
+  {id:'w068',word:'acquire',phonetic:'/əˈkwaɪ.ər/',pos:'verb',def:'To get or come into possession of something; to accumulate or collect',level:'B2',freq:7,sent:'Over 20 years of collecting stamps, I\'ve acquired over 4,000 of them.',tags:['academic'],syn:[]},
+  {id:'w069',word:'aspect',phonetic:'/ˈæs.pekt/',pos:'noun',def:'A part or an element of something',level:'B2',freq:7,sent:'Flexibility is just one aspect of being a successful gymnast.',tags:['academic'],syn:[]},
+  {id:'w070',word:'assist',phonetic:'/əˈsɪst/',pos:'verb',def:'To help or aid someone',level:'B2',freq:7,sent:'They were assisted by an outside company when designing the program.',tags:['academic'],syn:[]},
+  {id:'w071',word:'available',phonetic:'/əˈveɪ.lə.bəl/',pos:'adjective',def:'Free to help; present or in stock; ready for use',level:'B2',freq:7,sent:'We do not have enough resources available to complete the project.',tags:['academic'],syn:[]},
+  {id:'w072',word:'aware',phonetic:'/əˈweər/',pos:'adjective',def:'Having knowledge of something; being conscious or cognizant',level:'B2',freq:7,sent:'I wasn\'t aware of the problem. Thank you for informing me.',tags:['academic'],syn:[]},
+  {id:'w073',word:'benefit',phonetic:'/ˈben.ɪ.fɪt/',pos:'verb',def:'To receive an advantage or make an improvement',level:'B2',freq:7,sent:'Society has greatly benefited from technological advancements.',tags:['academic'],syn:[]},
+  {id:'w074',word:'component',phonetic:'/kəmˈpəʊ.nənt/',pos:'noun',def:'A part or element of a larger whole',level:'B2',freq:7,sent:'To understand the whole problem, you must look at all of its separate components.',tags:['academic'],syn:[]},
+  {id:'w075',word:'concentrate',phonetic:'/ˈkɒn.sən.treɪt/',pos:'verb',def:'To focus your attention on something',level:'B2',freq:7,sent:'In order to move forward, we must concentrate on finding realistic solutions.',tags:['academic'],syn:[]},
+  {id:'w076',word:'consist',phonetic:'/kənˈsɪst/',pos:'verb',def:'To be made of something; to be composed of something',level:'B2',freq:7,sent:'A healthy relationship must consist of trust and mutual respect.',tags:['academic'],syn:[]},
+  {id:'w077',word:'constant',phonetic:'/ˈkɒn.stənt/',pos:'adjective',def:'Regular and seemingly permanent; occurring continuously',level:'B2',freq:7,sent:'It is difficult to deal with constant disagreement when working in a group.',tags:['academic'],syn:[]},
+  {id:'w078',word:'construct',phonetic:'/kənˈstrʌkt/',pos:'verb',def:'To develop or build; to make something',level:'B2',freq:7,sent:'Numerous condos are currently being constructed in the downtown core.',tags:['academic'],syn:[]},
+  {id:'w079',word:'contribute',phonetic:'/kənˈtrɪb.juːt/',pos:'verb',def:'To give to a common cause, supply, or fund',level:'B2',freq:7,sent:'I contributed over $300 to charity last year.',tags:['academic'],syn:[]},
+  {id:'w080',word:'convert',phonetic:'/kənˈvɜːt/',pos:'verb',def:'To change or transform into something different',level:'B2',freq:7,sent:'That building was recently converted into a restaurant.',tags:['academic'],syn:[]},
+  {id:'w081',word:'correspond',phonetic:'/ˌkɒr.ɪˈspɒnd/',pos:'verb',def:'To be similar to something; to be in agreement',level:'B2',freq:7,sent:'The words of politicians often don\'t correspond with their actions.',tags:['academic'],syn:[]},
+  {id:'w082',word:'crucial',phonetic:'/ˈkruː.ʃəl/',pos:'adjective',def:'Very important; vital; absolutely necessary',level:'B2',freq:7,sent:'The media was crucial to changing public opinion about the war.',tags:['academic'],syn:[]},
+  {id:'w083',word:'demonstrate',phonetic:'/ˈdem.ən.streɪt/',pos:'verb',def:'To show clearly how something functions or works',level:'B2',freq:7,sent:'This satellite will demonstrate the technological power of our organization.',tags:['academic'],syn:[]},
+  {id:'w084',word:'distinct',phonetic:'/dɪˈstɪŋkt/',pos:'adjective',def:'Clear with easily-identifiable characteristics',level:'B2',freq:7,sent:'Dark chocolate is known for its distinct smell and taste.',tags:['academic'],syn:[]},
+  {id:'w085',word:'erode',phonetic:'/ɪˈrəʊd/',pos:'verb',def:'To destroy slowly over time; to disintegrate gradually',level:'C1',freq:7,sent:'Many religious leaders feel that secularism has eroded traditional morality.',tags:['academic'],syn:[]},
+  {id:'w086',word:'estimate',phonetic:'/ˈes.tɪ.meɪt/',pos:'verb',def:'To make an educated guess; to give a projection',level:'B2',freq:7,sent:'Scientists have been estimating a massive population explosion over the next two decades.',tags:['academic'],syn:[]},
+  {id:'w087',word:'exclude',phonetic:'/ɪkˈskluːd/',pos:'verb',def:'To keep someone or something from entering a group',level:'B2',freq:7,sent:'When I was in high school, I was excluded from many activities due to my disability.',tags:['academic'],syn:[]},
+  {id:'w088',word:'extract',phonetic:'/ɪkˈstrækt/',pos:'verb',def:'To get or obtain something from something else',level:'C1',freq:7,sent:'Physical torture is not an effective means of extracting information.',tags:['academic'],syn:[]},
+  {id:'w089',word:'flexible',phonetic:'/ˈflek.sɪ.bəl/',pos:'adjective',def:'Not rigid; able to be shaped or adapted easily',level:'B2',freq:7,sent:'Employers need to be flexible to the needs of their employees.',tags:['academic'],syn:[]},
+  {id:'w090',word:'function',phonetic:'/ˈfʌŋk.ʃən/',pos:'noun',def:'The working purpose of something; its role or ability',level:'B2',freq:7,sent:'Cell phones are useful because they can serve multiple useful functions.',tags:['academic'],syn:[]},
+  {id:'w091',word:'identical',phonetic:'/aɪˈden.tɪ.kəl/',pos:'adjective',def:'The same or alike in appearance and/or character',level:'B2',freq:7,sent:'The problem with suburban neighbourhoods is that all houses look identical.',tags:['academic'],syn:[]},
+  {id:'w092',word:'identify',phonetic:'/aɪˈden.tɪ.faɪ/',pos:'verb',def:'To recognise or verify the identity of someone or something',level:'B2',freq:7,sent:'Even today, scientists continue to identify new types of plants and animals.',tags:['academic'],syn:[]},
+  {id:'w093',word:'indicate',phonetic:'/ˈɪn.dɪ.keɪt/',pos:'verb',def:'To show or give evidence of something',level:'B2',freq:7,sent:'Research indicates that cell phones can cause serious health problems.',tags:['academic'],syn:[]},
+  {id:'w094',word:'interpretation',phonetic:'/ɪnˌtɜː.prɪˈteɪ.ʃən/',pos:'noun',def:'An explanation or perception of the meaning of something',level:'C1',freq:7,sent:'Religious writings can have multiple interpretations depending on one\'s perspective.',tags:['academic'],syn:[]},
+  {id:'w095',word:'logical',phonetic:'/ˈlɒdʒ.ɪ.kəl/',pos:'adjective',def:'Able to be explained or understood clearly and rationally',level:'B2',freq:7,sent:'The CEO has promised to take logical steps to ensure the company\'s future success.',tags:['academic'],syn:[]},
+  {id:'w096',word:'majority',phonetic:'/məˈdʒɒr.ə.ti/',pos:'noun',def:'The greater part or number; over 50 percent',level:'B2',freq:7,sent:'The majority of citizens oppose the government\'s proposed budget.',tags:['academic'],syn:[]},
+  {id:'w097',word:'maximise',phonetic:'/ˈmæk.sɪ.maɪz/',pos:'verb',def:'To use to maximum effect or potential',level:'C1',freq:7,sent:'The goal of any business is to maximise its profits while minimising costs.',tags:['academic'],syn:[]},
+  {id:'w098',word:'minimise',phonetic:'/ˈmɪn.ɪ.maɪz/',pos:'verb',def:'To reduce as much as possible',level:'C1',freq:7,sent:'In any war, one primary objective should be to minimise civilian casualties.',tags:['academic'],syn:[]},
+  {id:'w099',word:'monitor',phonetic:'/ˈmɒn.ɪ.tər/',pos:'verb',def:'To watch and give attention to something over time',level:'B2',freq:7,sent:'Companies have numerous ways to monitor employee behaviour in the workplace.',tags:['academic'],syn:[]},
+  {id:'w100',word:'obtain',phonetic:'/əbˈteɪn/',pos:'verb',def:'To get or receive something, especially through effort',level:'B2',freq:7,sent:'In order to obtain respect, a person has to earn it through their actions.',tags:['academic'],syn:[]},
+  {id:'w101',word:'option',phonetic:'/ˈɒp.ʃən/',pos:'noun',def:'A choice; one of several possibilities',level:'B2',freq:7,sent:'When our options are limited, we are more likely to act decisively.',tags:['academic'],syn:[]},
+  {id:'w102',word:'participate',phonetic:'/pɑːˈtɪs.ɪ.peɪt/',pos:'verb',def:'To take part in something; to be involved',level:'B2',freq:7,sent:'Thousands of talented athletes participate in the Olympic Games every four years.',tags:['academic'],syn:[]},
+  {id:'w103',word:'precise',phonetic:'/prɪˈsaɪs/',pos:'adjective',def:'Exact or definite; accurate in every detail',level:'B2',freq:7,sent:'It is important for a teacher to give precise instructions to students.',tags:['academic'],syn:[]},
+  {id:'w104',word:'predictable',phonetic:'/prɪˈdɪk.tə.bəl/',pos:'adjective',def:'Able to be predicted or expected in advance',level:'B2',freq:7,sent:'The goal of science is to find predictable and repeatable results.',tags:['academic'],syn:[]},
+  {id:'w105',word:'prohibited',phonetic:'/prəˈhɪb.ɪ.tɪd/',pos:'adjective',def:'Not allowed; forbidden by law or rule',level:'B2',freq:7,sent:'These days, smoking is prohibited in many public places around the world.',tags:['academic'],syn:[]},
+  {id:'w106',word:'prospect',phonetic:'/ˈprɒs.pekt/',pos:'noun',def:'A potential candidate; a possibility of success or profit',level:'C1',freq:7,sent:'I was genuinely excited by the prospect of winning the lottery.',tags:['academic'],syn:[]},
+  {id:'w107',word:'psychological',phonetic:'/ˌsaɪ.kəˈlɒdʒ.ɪ.kəl/',pos:'adjective',def:'Relating to the mind or mental and emotional processes',level:'B2',freq:7,sent:'We must pay careful attention to our psychological health and well-being.',tags:['academic'],syn:[]},
+  {id:'w108',word:'pursue',phonetic:'/pəˈsjuː/',pos:'verb',def:'To chase or follow something, especially a goal or career',level:'B2',freq:7,sent:'Acting is an incredibly difficult career to pursue successfully.',tags:['academic'],syn:[]},
+  {id:'w109',word:'relevant',phonetic:'/ˈrel.ə.vənt/',pos:'adjective',def:'Connected to the current situation; pertinent and applicable',level:'B2',freq:7,sent:'In an essay, we must only focus on relevant supporting details.',tags:['academic'],syn:[]},
+  {id:'w110',word:'reliable',phonetic:'/rɪˈlaɪ.ə.bəl/',pos:'adjective',def:'Able to be predicted or trusted; consistently dependable',level:'B2',freq:7,sent:'Finding a reliable babysitter is difficult for most working parents.',tags:['academic'],syn:[]},
+  {id:'w111',word:'require',phonetic:'/rɪˈkwaɪ.ər/',pos:'verb',def:'To have need of something; to need as essential',level:'B2',freq:7,sent:'To take a masters course, one requires an undergraduate degree first.',tags:['academic'],syn:[]},
+  {id:'w112',word:'resource',phonetic:'/rɪˈzɔːs/',pos:'noun',def:'A support, supply, or aid that can be used when needed',level:'B2',freq:7,sent:'If you want me to do this presentation, I will need more resources.',tags:['academic'],syn:[]},
+  {id:'w113',word:'respond',phonetic:'/rɪˈspɒnd/',pos:'verb',def:'To reply or react to something said or done',level:'B2',freq:7,sent:'When faced with a bully, it is important not to respond with anger.',tags:['academic'],syn:[]},
+  {id:'w114',word:'retain',phonetic:'/rɪˈteɪn/',pos:'verb',def:'To remember; to continue to use or hold onto something',level:'C1',freq:7,sent:'The most difficult part of learning a language is retaining the information long-term.',tags:['academic'],syn:[]},
+  {id:'w115',word:'sector',phonetic:'/ˈsek.tər/',pos:'noun',def:'A part or subdivision of society, the economy, or an area',level:'B2',freq:7,sent:'It is the government\'s job to protect all sectors of society equally.',tags:['academic'],syn:[]},
+  {id:'w116',word:'secure',phonetic:'/sɪˈkjʊər/',pos:'adjective',def:'Safe; protected from harm or danger',level:'B2',freq:7,sent:'Everyone wants to live in a secure neighbourhood free from crime.',tags:['academic'],syn:[]},
+  {id:'w117',word:'select',phonetic:'/sɪˈlekt/',pos:'verb',def:'To choose carefully from a group of options',level:'B2',freq:7,sent:'We selected the best candidate for the job after extensive interviews.',tags:['academic'],syn:[]},
+  {id:'w118',word:'source',phonetic:'/sɔːs/',pos:'noun',def:'Any place, person, or thing from which something originates',level:'B2',freq:7,sent:'We can\'t seem to locate the source of the persistent problem.',tags:['academic'],syn:[]},
+  {id:'w119',word:'status',phonetic:'/ˈsteɪ.təs/',pos:'noun',def:'Someone\'s position in relation to others; the state or condition',level:'B2',freq:7,sent:'His status as the top player in the game is unquestionable.',tags:['academic'],syn:[]},
+  {id:'w120',word:'structure',phonetic:'/ˈstrʌk.tʃər/',pos:'noun',def:'The organization or arrangement of parts within a whole',level:'B2',freq:7,sent:'The structure of the education system needs fundamental reform.',tags:['academic'],syn:[]},
+  {id:'w121',word:'substitute',phonetic:'/ˈsʌb.stɪ.tjuːt/',pos:'noun',def:'A replacement for someone or something else',level:'B2',freq:7,sent:'If you want to succeed, there is no substitute for consistent hard work.',tags:['academic'],syn:[]},
+  {id:'w122',word:'technique',phonetic:'/tekˈniːk/',pos:'noun',def:'A specific way of doing something; a particular method or skill',level:'B2',freq:7,sent:'Most people don\'t know that cooking requires hundreds of difficult techniques.',tags:['academic'],syn:[]},
+  {id:'w123',word:'transform',phonetic:'/trænsˈfɔːm/',pos:'verb',def:'To change completely into a different form or appearance',level:'B2',freq:7,sent:'The internet has fundamentally transformed the way we communicate.',tags:['academic'],syn:[]},
+  {id:'w124',word:'trend',phonetic:'/trend/',pos:'noun',def:'A style that is currently popular; the general direction of change',level:'B2',freq:7,sent:'Fashion trends are always changing from one season to the next.',tags:['academic'],syn:[]},
+  {id:'w125',word:'vary',phonetic:'/ˈveə.ri/',pos:'verb',def:'To be different; to change or alter; to diversify',level:'B2',freq:7,sent:'To write a good essay, you need to vary your vocabulary and sentence structure.',tags:['academic'],syn:[]},
+  {id:'w126',word:'visible',phonetic:'/ˈvɪz.ɪ.bəl/',pos:'adjective',def:'Able to be seen; clearly apparent or noticeable',level:'B2',freq:7,sent:'There has been a visible shift in public opinion towards environmental issues.',tags:['academic'],syn:[]},
+];
+// Build index
+const wById={},wByWord={};
+WORDS.forEach(w=>{wById[w.id]=w;wByWord[w.word.toLowerCase()]=w});
+
+function getSessionWords(n=40){
+  const pool=WORDS.map(w=>{
+    const p=S.progress[w.id];let wt=3;
+    if(p){if(p.status==='unknown'||p.status==='reviewed_unknown')wt=8;else if(p.status==='reviewed_known')wt=1;else wt=2}
+    return{w,wt};
+  });
+  const sel=[],used=new Set();
+  while(sel.length<Math.min(n,pool.length)){
+    const total=pool.reduce((s,i)=>used.has(i.w.id)?s:s+i.wt,0);
+    if(total<=0)break;
+    let r=Math.random()*total;
+    for(let i=0;i<pool.length;i++){if(used.has(pool[i].w.id))continue;r-=pool[i].wt;if(r<=0){sel.push(pool[i].w);used.add(pool[i].w.id);break}}
+  }
+  for(let i=sel.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[sel[i],sel[j]]=[sel[j],sel[i]]}
+  return sel;
+}
+
+function highlight(s,w){
+  const r=new RegExp(`\\b(${w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})\\b`,'i');
+  return s.replace(r,'<span class="hl">$1</span>');
+}
+
+// === SCREENS ===
+function show(id){
+  document.querySelectorAll('.screen').forEach(s=>{
+    s.classList.remove('on');s.classList.add('off');
+  });
+  const el=document.getElementById(id);
+  if(el){el.classList.remove('off');el.classList.add('on')}
+  S.screen=id;
+  if(id==='favs') renderFavs();
+  if(id==='wordbank') renderWB();
+  if(id==='settings') renderSet();
+  if(id==='menu') updateMenuStats();
+}
+
+// === AUTH ===
+function initPad(){
+  const pd=document.getElementById('pd'),pi=document.getElementById('auth-pin')||{value:''};
+  let pin='';
+  document.getElementById('pad').innerHTML='';
+  for(let i=1;i<=9;i++){
+    const b=document.createElement('button');b.textContent=i;
+    b.onclick=()=>{if(pin.length<4){pin+=i;pd.textContent=(pin+'___').slice(0,4).split('').join(' ')}}
+    document.getElementById('pad').appendChild(b);
+  }
+  const bk=document.createElement('button');bk.textContent='⌫';
+  bk.onclick=()=>{pin=pin.slice(0,-1);pd.textContent=(pin+'___').slice(0,4).split('').join(' ')}
+  document.getElementById('pad').appendChild(bk);
+  const z=document.createElement('button');z.textContent='0';
+  z.onclick=()=>{if(pin.length<4){pin+='0';pd.textContent=(pin+'___').slice(0,4).split('').join(' ')}}
+  document.getElementById('pad').appendChild(z);
+  const go=document.createElement('button');go.textContent='✓';go.className='go';
+  go.onclick=()=>doAuth();
+  document.getElementById('pad').appendChild(go);
+  // Store pin for retrieval
+  document.getElementById('pad')._getPin=()=>pin;
+}
+
+function doAuth(){
+  const u=document.getElementById('au').value.trim();
+  const p=document.getElementById('pad')._getPin();
+  const st=document.getElementById('auth-status');
+  if(!u||u.length<3){st.textContent='Username must be 3+ characters';return}
+  if(!p||p.length<4){st.textContent='Enter a 4-digit PIN';return}
+  st.textContent='';
+  S.user={id:'u'+Date.now(),username:u,token:'t'+Date.now()};
+  save('user',S.user);
+  show('menu');
+  document.getElementById('suser').textContent=u;
+}
+
+// === MENU ===
+function updateMenuStats(){
+  let k=0,u=0;
+  Object.values(S.progress).forEach(p=>{
+    if(p.status==='known'||p.status==='reviewed_known')k++;
+    if(p.status==='unknown'||p.status==='reviewed_unknown')u++;
+  });
+  document.getElementById('sk').textContent=k;
+  document.getElementById('su').textContent=u;
+}
+
+// === GAME ===
+let timerInt=null,toastTimer=null,paused=false;
+
+function togglePause(){
+  paused=!paused;
+  const ov=document.getElementById('pause-ov');
+  if(paused){
+    clearInterval(timerInt);timerInt=null;
+    ov.style.display='flex';
+    document.getElementById('bgpause').textContent='▶';
+  }else{
+    ov.style.display='none';
+    document.getElementById('bgpause').textContent='⏸';
+    // Resume timer
+    timerInt=setInterval(()=>{
+      const g=S.game;g.timer--;
+      document.getElementById('rtxt').textContent=g.timer;
+      updateRing(g.timer,S.settings.timer);
+      if(g.timer<=0){clearInterval(timerInt);autoUnknown();}
+    },1000);
+  }
+}
+
+function startGame(){
+  S.game={words:getSessionWords(40),idx:0,known:0,unknown:0,history:[],status:'playing'};
+  S.game.timer=S.settings.timer;
+  show('game');
+  showSentence();
+}
+
+function showSentence(){
+  const g=S.game;
+  if(g.idx>=g.words.length){endGame();return}
+  const w=g.words[g.idx];
+  document.getElementById('sent').innerHTML=highlight(w.sent,w.word);
+  document.getElementById('badge').textContent=w.word+' · '+w.pos+' · '+w.level;
+  document.getElementById('toast').className='toasty';
+  document.getElementById('hints').style.opacity=S.game.idx<3?'0.6':'0';
+  g.timer=S.settings.timer;
+  g.running=true;
+  document.getElementById('rtxt').textContent=g.timer;
+  updateRing(g.timer,S.settings.timer);
+  clearInterval(timerInt);
+  timerInt=setInterval(()=>{
+    g.timer--;
+    document.getElementById('rtxt').textContent=g.timer;
+    updateRing(g.timer,S.settings.timer);
+    if(g.timer<=0){clearInterval(timerInt);autoUnknown();}
+  },1000);
+  // Animate card in
+  const card=document.getElementById('card');
+  card.classList.remove('fly-in');void card.offsetWidth;card.classList.add('fly-in');
+}
+
+function updateRing(rem,total){
+  const r=document.getElementById('ring');
+  const circ=2*Math.PI*26;
+  r.style.strokeDashoffset=circ*(1-rem/total);
+  r.style.stroke=rem/total<=0.1?'#E74C3C':rem/total<=0.25?'#F39C12':rem/total<=0.5?'#FFD700':'#27AE60';
+}
+
+function autoUnknown(){processSwipe('down',true)}
+function processSwipe(dir,auto=false){
+  if(paused)return;
+  const g=S.game;
+  if(g.status!=='playing')return;
+  const w=g.words[g.idx];
+  if(!w)return;
+  const card=document.getElementById('card');
+
+  if(dir==='up'){
+    g.history.push({type:'known',word:w,idx:g.idx,prev:S.progress[w.id]});
+    g.known++;S.progress[w.id]={status:'known',ts:new Date().toISOString()};
+    save('prog',S.progress);
+    toast('✓ Got it!','#27AE60');
+    card.classList.remove('fly-in');void card.offsetWidth;card.classList.add('fly-up');
+    g.idx++;updateScores();setTimeout(showSentence,350);
+  }else if(dir==='down'){
+    g.history.push({type:'unknown',word:w,idx:g.idx,prev:S.progress[w.id]});
+    g.unknown++;S.progress[w.id]={status:'unknown',ts:new Date().toISOString()};
+    save('prog',S.progress);
+    toast(auto?'Time\'s up! Review needed':'Added to review','#F39C12');
+    card.classList.remove('fly-in');void card.offsetWidth;card.classList.add('fly-down');
+    g.idx++;updateScores();
+    if(g.unknown>=S.settings.limit){clearInterval(timerInt);setTimeout(startReview,600)}
+    else setTimeout(showSentence,350);
+  }else if(dir==='left'){
+    if(g.history.length===0){toast('Nothing to undo','#8B9DAF');return}
+    const a=g.history.pop();
+    if(a.type==='known')g.known=Math.max(0,g.known-1);
+    else g.unknown=Math.max(0,g.unknown-1);
+    S.progress[a.word.id]=a.prev||undefined;
+    if(!a.prev)delete S.progress[a.word.id];
+    save('prog',S.progress);
+    g.idx=a.idx;
+    card.classList.remove('fly-in');void card.offsetWidth;card.classList.add('fly-left');
+    toast('↶ Undone!','#3498DB');
+    updateScores();
+    setTimeout(showSentence,350);
+  }
+}
+
+function updateScores(){
+  document.getElementById('gk').textContent=S.game.known;
+  document.getElementById('gu').textContent=S.game.unknown;
+  document.getElementById('gulim').textContent=S.settings.limit;
+  const pct=Math.min(100,(S.game.unknown/S.settings.limit)*100);
+  document.getElementById('gfill').style.width=pct+'%';
+}
+
+function doFavorite(){
+  if(S.screen!=='game')return;
+  const w=S.game.words[S.game.idx];
+  if(!w)return;
+  const exists=S.favs.find(f=>f.word===w.word&&f.sent===w.sent);
+  if(exists){toast('Already saved ♥','#E91E63');return}
+  S.favs.push({id:'f'+Date.now(),word:w.word,sent:w.sent,def:w.def,pos:w.pos,phon:w.phonetic||'',saved:new Date().toISOString()});
+  save('favs',S.favs);
+  // Hearts
+  const hc=document.getElementById('hearts');
+  for(let i=0;i<5;i++){
+    const h=document.createElement('span');h.className='fh';h.textContent='♥';
+    h.style.left=(30+Math.random()*40)+'%';h.style.animationDelay=(i*0.1)+'s';
+    h.style.fontSize=(16+Math.random()*20)+'px';hc.appendChild(h);
+    setTimeout(()=>h.remove(),1200);
+  }
+  toast('♥ Saved!','#E91E63');
+}
+
+function toast(msg,color='var(--text)'){
+  const t=document.getElementById('toast');
+  t.textContent=msg;t.style.color=color;
+  t.className='toasty show';
+  clearTimeout(toastTimer);
+  toastTimer=setTimeout(()=>{t.className='toasty'},1500);
+}
+
+function endGame(){
+  clearInterval(timerInt);
+  S.game.status='idle';
+  toast('Session complete!','var(--success)');
+  setTimeout(()=>{show('menu');updateMenuStats()},600);
+}
+
+// === REVIEW ===
+function startReview(){
+  const g=S.game;
+  const seen=new Set(),cards=[];
+  g.history.forEach(a=>{
+    if(a.type==='unknown'&&!seen.has(a.word.id)){
+      seen.add(a.word.id);
+      cards.push({word:a.word.word,sent:a.word.sent,def:a.word.def,pos:a.word.pos,phon:a.word.phonetic||'',flipped:false,reviewed:false});
+    }
+  });
+  S.review={cards,idx:0,flipped:false};
+  show('review');
+  renderReviewCard();
+}
+
+function renderReviewCard(){
+  const r=S.review,c=r.cards[r.idx];
+  if(!c)return;
+  document.getElementById('fsent').innerHTML=highlight(c.sent,c.word);
+  document.getElementById('fword').textContent=c.word;
+  document.getElementById('fphon').textContent=c.phon;
+  document.getElementById('fpos2').textContent=c.pos;
+  document.getElementById('fdef').textContent=c.def;
+  document.getElementById('flipinner').classList.remove('f');
+  document.getElementById('rprog').textContent=(r.idx+1)+'/'+r.cards.length;
+  renderDots();
+}
+
+function toggleFlip(){
+  const inner=document.getElementById('flipinner');
+  inner.classList.toggle('f');
+  S.review.flipped=inner.classList.contains('f');
+  if(S.review.flipped){S.review.cards[S.review.idx].reviewed=true}
+}
+
+function renderDots(){
+  const dc=document.getElementById('rdots');dc.innerHTML='';
+  S.review.cards.forEach((c,i)=>{
+    const d=document.createElement('span');d.className='dot';
+    if(i===S.review.idx)d.classList.add('a');
+    if(c.reviewed)d.classList.add('ok');
+    d.onclick=()=>{S.review.idx=i;S.review.flipped=false;renderReviewCard()}
+    dc.appendChild(d);
+  });
+}
+
+function prevCard(){
+  if(S.review.idx>0){S.review.idx--;S.review.flipped=false;renderReviewCard()}
+}
+function nextCard(){
+  if(S.review.idx<S.review.cards.length-1){S.review.idx++;S.review.flipped=false;renderReviewCard()}
+}
+function doneReview(){
+  S.review.cards.forEach(c=>{if(c.reviewed)S.progress[c.word]={status:'reviewed_known',ts:new Date().toISOString()}});
+  save('prog',S.progress);
+  S.game.unknown=0;S.game.status='playing';S.review={cards:[],idx:0,flipped:false};
+  show('game');updateScores();showSentence();
+}
+
+// === FAVORITES ===
+function renderFavs(){
+  const list=document.getElementById('flist');
+  const empty=document.getElementById('fempty');
+  if(S.favs.length===0){
+    list.innerHTML='';empty.style.display='block';return;
+  }
+  empty.style.display='none';
+  list.innerHTML=S.favs.map((f,i)=>`
+    <div class="fitem">
+      <div class="fcont">
+        <p class="fsent">"${highlight(f.sent,f.word)}"</p>
+        <span class="fword">${f.word}</span><span class="fpos">${f.pos}</span>
+        <p class="fdef">${f.def}</p>
+        <span class="fdate">${new Date(f.saved).toLocaleDateString()}</span>
+      </div>
+      <button class="fdel" data-i="${i}">✕</button>
+    </div>`).join('');
+  list.querySelectorAll('.fdel').forEach(b=>{b.onclick=function(e){e.stopPropagation();S.favs.splice(parseInt(this.dataset.i),1);save('favs',S.favs);renderFavs()}});
+}
+
+async function exportPDF(){
+  if(S.favs.length===0){alert('No favorites to export!');return}
+  // Load jsPDF dynamically
+  if(!window.jspdf){
+    await new Promise((resolve,reject)=>{
+      const s=document.createElement('script');
+      s.src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js';
+      s.onload=resolve;s.onerror=reject;document.head.appendChild(s);
+    });
+  }
+  const{jsPDF}=window.jspdf;
+  const doc=new jsPDF({unit:'mm',format:'a4'});
+  const pw=doc.internal.pageSize.getWidth(),ph=doc.internal.pageSize.getHeight();
+  const m=20,cw=pw-m*2;
+
+  // Cover
+  doc.setFillColor('#4A90D9');doc.rect(0,0,pw,ph*0.25,'F');
+  doc.setFillColor('#87CEEB');doc.rect(0,ph*0.25,pw,ph*0.15,'F');
+  doc.setFillColor('#F4D9A0');doc.rect(0,ph*0.4,pw,ph*0.6,'F');
+  doc.setFont('helvetica','bold');doc.setFontSize(22);doc.setTextColor('#2C3E50');
+  doc.text('My IELTS Beach',pw/2,ph/2-20,{align:'center'});
+  doc.setFontSize(12);doc.setTextColor('#5A6A7E');
+  doc.text('Favorite Sentences',pw/2,ph/2-5,{align:'center'});
+  doc.setFontSize(9);
+  doc.text(`Exported: ${new Date().toLocaleDateString()}  |  ${S.favs.length} sentences`,pw/2,ph/2+10,{align:'center'});
+  doc.setFontSize(7);doc.setTextColor('#8B9DAF');
+  doc.setGState(new doc.GState({opacity:.2}));
+  doc.text('~ IELTS Beach ~',pw/2,ph-10,{align:'center'});
+  doc.setGState(new doc.GState({opacity:1}));
+
+  // Cards
+  S.favs.forEach((f,i)=>{
+    doc.addPage();
+    let y=m+10;
+    doc.setFillColor('#FFFFFF');doc.setDrawColor('#FF6B35');doc.setLineWidth(.5);
+    doc.roundedRect(m,y,cw,110,3,3,'FD');
+    y+=10;
+    doc.setFontSize(10);doc.setTextColor('#FF6B35');doc.text(`#${i+1}`,m+5,y);
+    y+=10;
+    doc.setFontSize(11);doc.setTextColor('#2C3E50');
+    const sl=doc.splitTextToSize(`"${f.sent}"`,cw-20);
+    doc.text(sl,m+10,y);y+=sl.length*6+6;
+    doc.setDrawColor('#8B9DAF');doc.line(m+10,y,pw-m-10,y);y+=6;
+    doc.setFont('helvetica','bold');doc.setFontSize(14);doc.setTextColor('#FF6B35');
+    doc.text(f.word,m+10,y);y+=7;
+    doc.setFont('helvetica','normal');doc.setFontSize(9);doc.setTextColor('#8B9DAF');
+    if(f.phon)doc.text(f.phon,m+10,y);y+=5;
+    doc.setFontSize(10);doc.text(f.pos,m+10,y);y+=6;
+    doc.setFontSize(10);doc.setTextColor('#2C3E50');
+    const dl=doc.splitTextToSize(f.def,cw-20);doc.text(dl,m+10,y);
+    doc.setFontSize(6);doc.setTextColor('#8B9DAF');
+    doc.setGState(new doc.GState({opacity:.2}));
+    doc.text('~ IELTS Beach ~',pw/2,ph-8,{align:'center'});
+    doc.setGState(new doc.GState({opacity:1}));
+  });
+  doc.save(`ielts-beach-favorites-${new Date().toISOString().split('T')[0]}.pdf`);
+}
+
+// === WORD BANK ===
+function renderWB(){
+  const filters=document.getElementById('wbfilters');
+  filters.innerHTML=['B1','B2','C1','C2'].map(l=>`<span class="chip on" data-l="${l}">${l}</span>`).join('');
+  filters.querySelectorAll('.chip').forEach(c=>{c.onclick=function(){this.classList.toggle('on');doWBFilter()}});
+  doWBFilter();
+}
+
+function doWBFilter(){
+  const levels=[...document.querySelectorAll('#wbfilters .chip.on')].map(c=>c.dataset.l);
+  const q=(document.getElementById('wbs').value||'').toLowerCase();
+  let ws=WORDS.filter(w=>levels.includes(w.level));
+  if(q)ws=ws.filter(w=>w.word.toLowerCase().includes(q)||w.def.toLowerCase().includes(q));
+  const list=document.getElementById('wblist');
+  list.innerHTML=ws.slice(0,80).map(w=>`<div class="wbitem"><div class="wbm"><span class="wbw">${w.word}</span><span class="chip on">${w.level}</span></div><p class="wbdef">${w.def}</p></div>`).join('')||'<p style="text-align:center;color:var(--muted);padding:24px">No words found</p>';
+}
+
+// === SETTINGS ===
+function renderSet(){
+  document.getElementById('stim').value=S.settings.timer;
+  document.getElementById('slim').value=S.settings.limit;
+  document.getElementById('stv').textContent=S.settings.timer+'s';
+  document.getElementById('slv').textContent=S.settings.limit;
+  document.getElementById('suser').textContent=S.user?S.user.username:'Not logged in';
+}
+
+// === SWIPE ===
+function initSwipe(el){
+  let sx=0,sy=0,st=0,dx=0,dy=0,touching=false;
+  let lastTap=0,lx=0,ly=0;
+  const TH=40;
+
+  el.addEventListener('touchstart',e=>{
+    if(e.touches.length>1)return;
+    sx=e.touches[0].clientX;sy=e.touches[0].clientY;st=Date.now();touching=true;
+  },{passive:false});
+  el.addEventListener('touchmove',e=>{if(touching)e.preventDefault()},{passive:false});
+  el.addEventListener('touchend',e=>{
+    if(!touching)return;touching=false;
+    dx=e.changedTouches[0].clientX-sx;dy=e.changedTouches[0].clientY-sy;
+    const dt=Date.now()-st,adx=Math.abs(dx),ady=Math.abs(dy);
+    // Double tap
+    if(adx<15&&ady<15&&dt<400){
+      const n=Date.now();
+      if(n-lastTap<400&&Math.abs(e.changedTouches[0].clientX-lx)+Math.abs(e.changedTouches[0].clientY-ly)<25){
+        doFavorite();lastTap=0;return;
+      }
+      lastTap=n;lx=e.changedTouches[0].clientX;ly=e.changedTouches[0].clientY;
+      if(S.screen==='review')toggleFlip();
+      return;
+    }
+    if(adx<TH&&ady<TH)return;
+    const dir=ady>adx?(dy<-TH?'up':dy>TH?'down':null):(dx<-TH?'left':dx>TH?'right':null);
+    if(!dir)return;
+    if(S.screen==='game')processSwipe(dir);
+    else if(S.screen==='review'){if(dir==='left')nextCard();else if(dir==='right')prevCard();else if(dir==='down')doneReview();}
+  },{passive:false});
+
+  // Mouse drag
+  let md=false,mx=0,my=0;
+  el.addEventListener('mousedown',e=>{md=true;mx=e.clientX;my=e.clientY});
+  window.addEventListener('mouseup',e=>{
+    if(!md)return;md=false;
+    dx=e.clientX-mx;dy=e.clientY-my;
+    const adx=Math.abs(dx),ady=Math.abs(dy);
+    if(adx<TH&&ady<TH){
+      const n=Date.now();
+      if(n-lastTap<400&&Math.abs(e.clientX-lx)+Math.abs(e.clientY-ly)<20){doFavorite();lastTap=0;return}
+      lastTap=n;lx=e.clientX;ly=e.clientY;
+      if(S.screen==='review')toggleFlip();
+      return;
+    }
+    const dir=ady>adx?(dy<-TH?'up':dy>TH?'down':null):(dx<-TH?'left':dx>TH?'right':null);
+    if(!dir)return;
+    if(S.screen==='game')processSwipe(dir);
+    else if(S.screen==='review'){if(dir==='left')nextCard();else if(dir==='right')prevCard();else if(dir==='down')doneReview();}
+  });
+
+  // Keyboard
+  window.addEventListener('keydown',e=>{
+    if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;
+    if(S.screen==='game'){
+      if(e.key===' '||e.key==='Escape'){e.preventDefault();togglePause();}
+      else if(e.key==='ArrowUp'||e.key==='w'||e.key==='W')processSwipe('up');
+      else if(e.key==='ArrowDown'||e.key==='s'||e.key==='S')processSwipe('down');
+      else if(e.key==='ArrowLeft'||e.key==='a'||e.key==='A')processSwipe('left');
+      else if(e.key==='f'||e.key==='F'){e.preventDefault();doFavorite();}
+    }else if(S.screen==='review'){
+      if(e.key==='ArrowLeft')prevCard();
+      else if(e.key==='ArrowRight')nextCard();
+      else if(e.key==='Enter'||e.key===' ')toggleFlip();
+    }
+  });
+}
+
+// === INIT ===
+// === TIME-BASED SCENE ===
+function setSceneByTime(){
+  const h=new Date().getHours();
+  const r=document.documentElement.style;
+  let period;
+  if(h>=5&&h<8){period='dawn';r.setProperty('--sky-top','#FF7E67');r.setProperty('--sky-mid','#F5A27A');r.setProperty('--sky-bottom','#FFD4A8');r.setProperty('--sky-horizon','#FFF8DC');r.setProperty('--sun-color','#FF8C42');r.setProperty('--sun-glow','rgba(255,140,66,0.7)');r.setProperty('--sun-size','50px');r.setProperty('--sun-top','20%');r.setProperty('--sun-left','72%');r.setProperty('--ocean-top','#6BA4C8');r.setProperty('--ocean-bottom','#4A8AAA');r.setProperty('--sand','#F0D8A0');r.setProperty('--sand-dark','#E0C888');r.setProperty('--star-opacity','0.2');r.setProperty('--moon-opacity','0');r.setProperty('--cloud-opacity','0.3');r.setProperty('--gull-opacity','0.5');}
+  else if(h>=8&&h<12){period='morning';r.setProperty('--sky-top','#5BA4E6');r.setProperty('--sky-mid','#87CEEB');r.setProperty('--sky-bottom','#B8E4F0');r.setProperty('--sky-horizon','#FFF8DC');r.setProperty('--sun-color','#FFD700');r.setProperty('--sun-glow','rgba(255,215,0,0.5)');r.setProperty('--sun-size','44px');r.setProperty('--sun-top','12%');r.setProperty('--sun-left','68%');r.setProperty('--ocean-top','#5BA4CF');r.setProperty('--ocean-bottom','#3A8AAA');r.setProperty('--sand','#F4D9A0');r.setProperty('--sand-dark','#E8C878');r.setProperty('--star-opacity','0');r.setProperty('--moon-opacity','0');r.setProperty('--cloud-opacity','0.3');r.setProperty('--gull-opacity','1');}
+  else if(h>=12&&h<17){period='afternoon';r.setProperty('--sky-top','#4A90D9');r.setProperty('--sky-mid','#7EC8E3');r.setProperty('--sky-bottom','#B0E0E6');r.setProperty('--sky-horizon','#FFF8DC');r.setProperty('--sun-color','#FFD700');r.setProperty('--sun-glow','rgba(255,215,0,0.6)');r.setProperty('--sun-size','46px');r.setProperty('--sun-top','8%');r.setProperty('--sun-left','65%');r.setProperty('--ocean-top','#5BA4CF');r.setProperty('--ocean-bottom','#3A7CA5');r.setProperty('--sand','#F4D9A0');r.setProperty('--sand-dark','#E8C878');r.setProperty('--star-opacity','0');r.setProperty('--moon-opacity','0');r.setProperty('--cloud-opacity','0.25');r.setProperty('--gull-opacity','1');}
+  else if(h>=17&&h<20){period='dusk';r.setProperty('--sky-top','#8B5E83');r.setProperty('--sky-mid','#C06C84');r.setProperty('--sky-bottom','#F67280');r.setProperty('--sky-horizon','#FFD4B8');r.setProperty('--sun-color','#FF6B6B');r.setProperty('--sun-glow','rgba(255,107,107,0.6)');r.setProperty('--sun-size','54px');r.setProperty('--sun-top','30%');r.setProperty('--sun-left','60%');r.setProperty('--ocean-top','#6B7B9A');r.setProperty('--ocean-bottom','#4A5A7A');r.setProperty('--sand','#E8D0A0');r.setProperty('--sand-dark','#D4B888');r.setProperty('--star-opacity','0.15');r.setProperty('--moon-opacity','0');r.setProperty('--cloud-opacity','0.35');r.setProperty('--gull-opacity','0.8');}
+  else{period='night';r.setProperty('--sky-top','#0D1B2A');r.setProperty('--sky-mid','#1B2838');r.setProperty('--sky-bottom','#2C3E50');r.setProperty('--sky-horizon','#3D5A80');r.setProperty('--sun-color','#E8E8E8');r.setProperty('--sun-glow','rgba(192,192,192,0.3)');r.setProperty('--sun-size','0px');r.setProperty('--sun-top','0%');r.setProperty('--ocean-top','#1B3A5C');r.setProperty('--ocean-bottom','#0F2440');r.setProperty('--sand','#B8A088');r.setProperty('--sand-dark','#A09078');r.setProperty('--star-opacity','0.9');r.setProperty('--moon-opacity','1');r.setProperty('--cloud-opacity','0.06');}
+  console.log('Beach scene:',period);
+}
+
+function init(){
+  // Settings & scene
+  S.settings=S.settings||{timer:10,limit:10,theme:'day'};
+  setSceneByTime();
+  // Update scene every 10 minutes
+  setInterval(setSceneByTime,600000);
+
+  // Auth
+  initPad();
+  document.getElementById('bsub').onclick=doAuth;
+  if(S.user){document.getElementById('au').value=S.user.username||'';show('menu');updateMenuStats()}
+
+  // Menu
+  document.getElementById('bstart').onclick=startGame;
+  document.getElementById('bfav').onclick=()=>show('favs');
+  document.getElementById('bwb').onclick=()=>show('wordbank');
+  document.getElementById('bset').onclick=()=>show('settings');
+  document.getElementById('bgback').onclick=()=>{clearInterval(timerInt);paused=false;show('menu');updateMenuStats()};
+  document.getElementById('bgpause').onclick=togglePause;
+  document.getElementById('pause-ov').onclick=togglePause;
+  // Also listen for Space globally for pause
+  document.addEventListener('keydown',function(e){
+    if(e.key===' '&&S.screen==='game'&&e.target.tagName!=='INPUT'&&e.target.tagName!=='TEXTAREA'){
+      e.preventDefault();togglePause();
+    }
+  });
+
+  // Review
+  document.getElementById('flipcard').onclick=toggleFlip;
+  document.getElementById('rbprev').onclick=prevCard;
+  document.getElementById('rbnext').onclick=nextCard;
+  document.getElementById('rbdone').onclick=doneReview;
+  document.getElementById('rbback').onclick=doneReview;
+
+  // Favs
+  document.getElementById('fbback').onclick=()=>show('menu');
+  document.getElementById('fexport').onclick=exportPDF;
+
+  // WB
+  document.getElementById('wbbback').onclick=()=>show('menu');
+  document.getElementById('wbs').oninput=doWBFilter;
+
+  // Settings
+  document.getElementById('sbback').onclick=()=>{show('menu');updateMenuStats()}
+  document.getElementById('stim').oninput=function(){S.settings.timer=parseInt(this.value);document.getElementById('stv').textContent=this.value+'s';save('set',S.settings)}
+  document.getElementById('slim').oninput=function(){S.settings.limit=parseInt(this.value);document.getElementById('slv').textContent=this.value;save('set',S.settings)}
+  document.getElementById('stheme').onclick=function(){
+    S.settings.theme=S.settings.theme==='day'?'night':'day';
+    document.body.setAttribute('data-theme',S.settings.theme);
+    save('set',S.settings);
+  }
+  document.getElementById('blogout').onclick=function(){localStorage.removeItem('buser');S.user=null;show('auth')}
+
+  // Swipe
+  initSwipe(document.getElementById('garea'));
+
+  // Hide loading
+  document.getElementById('loading').classList.add('off');
+  setTimeout(()=>{const l=document.getElementById('loading');if(l)l.remove()},600);
+}
+
+// Go!
+document.addEventListener('DOMContentLoaded',init);
+</script>
+</body>
+</html>
